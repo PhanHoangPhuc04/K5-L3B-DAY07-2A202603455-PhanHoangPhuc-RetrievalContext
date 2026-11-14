@@ -1,0 +1,29 @@
+{
+  "note": "Corpus config. effective_date is checked against the law text at ingest; is_current comes from Điều 79 khoản 2 of Luật 19/2023/QH15 (Luật 59/2010/QH12 hết hiệu lực khi luật 2023 có hiệu lực).",
+  "sources": [
+    {
+      "document_id": "luat-59-2010-QH12",
+      "title": "Luật Bảo vệ quyền lợi người tiêu dùng 2010 (số 59/2010/QH12)",
+      "law_number": "59/2010/QH12",
+      "version_year": 2010,
+      "effective_date": "2011-07-01",
+      "is_current": false,
+      "expected_articles": 51,
+      "url": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+      "raw_path": "data/raw/luat-59-2010-QH12.html",
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "document_id": "luat-19-2023-QH15",
+      "title": "Luật Bảo vệ quyền lợi người tiêu dùng 2023 (số 19/2023/QH15)",
+      "law_number": "19/2023/QH15",
+      "version_year": 2023,
+      "effective_date": "2024-07-01",
+      "is_current": true,
+      "expected_articles": 80,
+      "url": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+      "raw_path": "data/raw/luat-19-2023-QH15.html",
+      "accessed_at": "2026-11-13"
+    }
+  ]
+}

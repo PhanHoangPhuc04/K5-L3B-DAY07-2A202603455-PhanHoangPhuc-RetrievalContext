@@ -1,0 +1,26 @@
+{
+  "chunks": 213,
+  "units": 131,
+  "max_size": 1000,
+  "collection": "strategy_B",
+  "store": "store/chroma",
+  "embedding_model": "intfloat/multilingual-e5-base",
+  "dimensions": 768,
+  "max_seq_length": 512,
+  "query_prefix": "query: ",
+  "document_prefix": "passage: ",
+  "normalized": true,
+  "space": "cosine",
+  "chromadb": "1.5.9",
+  "sentence_transformers": "6.3.0",
+  "upsert": {
+    "before": 213,
+    "after": 213,
+    "deleted_stale": 0
+  },
+  "duplicates_after_upsert": 0,
+  "seconds": 16.6,
+  "cost_usd": 0,
+  "units_sha256": "ccb052064df0f2513345628fd4259164648f25bbd407dfef27b7088c5f5b1229",
+  "chunks_sha256": "3a47fc105781532889c1b010b2c8c0808c066bb71b51da43e9d73c3c1bd0bac6"
+}

@@ -1,0 +1,1264 @@
+[
+  {
+    "query_id": "d01",
+    "question": "Ngày Quyền của người tiêu dùng Việt Nam là ngày nào?",
+    "query_used": "Ngày Quyền của người tiêu dùng Việt Nam là ngày nào?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:13:0",
+        "rank": 1,
+        "score": 23.9355,
+        "source_id": "luat-19-2023-QH15",
+        "page": 13,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:41:0",
+        "rank": 2,
+        "score": 15.8326,
+        "source_id": "luat-19-2023-QH15",
+        "page": 41,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:12:0",
+        "rank": 3,
+        "score": 13.6964,
+        "source_id": "luat-19-2023-QH15",
+        "page": 12,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:12:1",
+        "rank": 4,
+        "score": 12.4631,
+        "source_id": "luat-19-2023-QH15",
+        "page": 12,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:42:1",
+        "rank": 5,
+        "score": 11.7362,
+        "source_id": "luat-19-2023-QH15",
+        "page": 42,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        13
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d02",
+    "question": "Mua hàng trên mạng thì người bán có phải cho tôi tải và in hóa đơn không?",
+    "query_used": "Mua hàng trên mạng thì người bán có phải cho tôi tải và in hóa đơn không?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:29:0",
+        "rank": 1,
+        "score": 22.8921,
+        "source_id": "luat-19-2023-QH15",
+        "page": 29,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:39:3",
+        "rank": 2,
+        "score": 18.5204,
+        "source_id": "luat-19-2023-QH15",
+        "page": 39,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:20:0",
+        "rank": 3,
+        "score": 18.1701,
+        "source_id": "luat-59-2010-QH12",
+        "page": 20,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:10:4",
+        "rank": 4,
+        "score": 15.1752,
+        "source_id": "luat-19-2023-QH15",
+        "page": 10,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:47:1",
+        "rank": 5,
+        "score": 13.4837,
+        "source_id": "luat-19-2023-QH15",
+        "page": 47,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        29
+      ],
+      [
+        "luat-59-2010-QH12",
+        20
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d03",
+    "question": "Nếu trong thời gian bảo hành tôi được đổi sang sản phẩm mới thì thời hạn bảo hành tính thế nào?",
+    "query_used": "Nếu trong thời gian bảo hành tôi được đổi sang sản phẩm mới thì thời hạn bảo hành tính thế nào?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:30:1",
+        "rank": 1,
+        "score": 39.3309,
+        "source_id": "luat-19-2023-QH15",
+        "page": 30,
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:21:0",
+        "rank": 2,
+        "score": 32.8435,
+        "source_id": "luat-59-2010-QH12",
+        "page": 21,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:30:2",
+        "rank": 3,
+        "score": 23.7025,
+        "source_id": "luat-19-2023-QH15",
+        "page": 30,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:30:0",
+        "rank": 4,
+        "score": 22.7146,
+        "source_id": "luat-19-2023-QH15",
+        "page": 30,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:21:1",
+        "rank": 5,
+        "score": 22.0161,
+        "source_id": "luat-59-2010-QH12",
+        "page": 21,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        30
+      ],
+      [
+        "luat-59-2010-QH12",
+        21
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d04",
+    "question": "Mua hàng của người bán đến tận nhà, tôi có bao nhiêu ngày để suy nghĩ lại và hủy hợp đồng?",
+    "query_used": "Mua hàng của người bán đến tận nhà, tôi có bao nhiêu ngày để suy nghĩ lại và hủy hợp đồng?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:44:0",
+        "rank": 1,
+        "score": 23.5392,
+        "source_id": "luat-19-2023-QH15",
+        "page": 44,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:47:1",
+        "rank": 2,
+        "score": 17.207,
+        "source_id": "luat-19-2023-QH15",
+        "page": 47,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:45:0",
+        "rank": 3,
+        "score": 14.2856,
+        "source_id": "luat-19-2023-QH15",
+        "page": 45,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:43:0",
+        "rank": 4,
+        "score": 13.8599,
+        "source_id": "luat-19-2023-QH15",
+        "page": 43,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:10:3",
+        "rank": 5,
+        "score": 13.5324,
+        "source_id": "luat-19-2023-QH15",
+        "page": 10,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        44
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d05",
+    "question": "Thế nào là người tiêu dùng dễ bị tổn thương?",
+    "query_used": "Thế nào là người tiêu dùng dễ bị tổn thương?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:8:1",
+        "rank": 1,
+        "score": 19.954,
+        "source_id": "luat-19-2023-QH15",
+        "page": 8,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:8:3",
+        "rank": 2,
+        "score": 19.8654,
+        "source_id": "luat-19-2023-QH15",
+        "page": 8,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:8:0",
+        "rank": 3,
+        "score": 17.4922,
+        "source_id": "luat-19-2023-QH15",
+        "page": 8,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:8:2",
+        "rank": 4,
+        "score": 17.3513,
+        "source_id": "luat-19-2023-QH15",
+        "page": 8,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:8:4",
+        "rank": 5,
+        "score": 17.3218,
+        "source_id": "luat-19-2023-QH15",
+        "page": 8,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        8
+      ]
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d06",
+    "question": "Tranh chấp tiêu dùng có người dân tộc thiểu số thì việc hòa giải phải đáp ứng yêu cầu gì về hòa giải viên?",
+    "query_used": "Tranh chấp tiêu dùng có người dân tộc thiểu số thì việc hòa giải phải đáp ứng yêu cầu gì về hòa giải viên?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:64:1",
+        "rank": 1,
+        "score": 57.0344,
+        "source_id": "luat-19-2023-QH15",
+        "page": 64,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:64:0",
+        "rank": 2,
+        "score": 33.2352,
+        "source_id": "luat-19-2023-QH15",
+        "page": 64,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:63:0",
+        "rank": 3,
+        "score": 30.1189,
+        "source_id": "luat-19-2023-QH15",
+        "page": 63,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:54:0",
+        "rank": 4,
+        "score": 24.7336,
+        "source_id": "luat-19-2023-QH15",
+        "page": 54,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:8:0",
+        "rank": 5,
+        "score": 23.3658,
+        "source_id": "luat-19-2023-QH15",
+        "page": 8,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        64
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d07",
+    "question": "Nhà cung cấp dịch vụ liên tục phải báo cho khách về việc nộp phí gia hạn trước bao lâu?",
+    "query_used": "Nhà cung cấp dịch vụ liên tục phải báo cho khách về việc nộp phí gia hạn trước bao lâu?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:42:0",
+        "rank": 1,
+        "score": 27.6033,
+        "source_id": "luat-19-2023-QH15",
+        "page": 42,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:42:1",
+        "rank": 2,
+        "score": 17.2872,
+        "source_id": "luat-19-2023-QH15",
+        "page": 42,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:41:1",
+        "rank": 3,
+        "score": 16.9128,
+        "source_id": "luat-19-2023-QH15",
+        "page": 41,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:71:0",
+        "rank": 4,
+        "score": 16.531,
+        "source_id": "luat-19-2023-QH15",
+        "page": 71,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:3:2",
+        "rank": 5,
+        "score": 15.7429,
+        "source_id": "luat-19-2023-QH15",
+        "page": 3,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        42
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d08",
+    "question": "Biên bản kết quả thương lượng giữa tôi và cửa hàng cần có chữ ký của ai?",
+    "query_used": "Biên bản kết quả thương lượng giữa tôi và cửa hàng cần có chữ ký của ai?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:36:0",
+        "rank": 1,
+        "score": 26.7711,
+        "source_id": "luat-59-2010-QH12",
+        "page": 36,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:60:0",
+        "rank": 2,
+        "score": 25.3565,
+        "source_id": "luat-19-2023-QH15",
+        "page": 60,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:65:0",
+        "rank": 3,
+        "score": 18.9979,
+        "source_id": "luat-19-2023-QH15",
+        "page": 65,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:32:0",
+        "rank": 4,
+        "score": 17.4575,
+        "source_id": "luat-59-2010-QH12",
+        "page": 32,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:44:0",
+        "rank": 5,
+        "score": 16.5933,
+        "source_id": "luat-19-2023-QH15",
+        "page": 44,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        60
+      ]
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d09",
+    "question": "Trong vụ kiện vì lợi ích công cộng, nếu không xác định được ai được hưởng tiền bồi thường thì tiền đó dùng vào việc gì?",
+    "query_used": "Trong vụ kiện vì lợi ích công cộng, nếu không xác định được ai được hưởng tiền bồi thường thì tiền đó dùng vào việc gì?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:73:0",
+        "rank": 1,
+        "score": 43.1109,
+        "source_id": "luat-19-2023-QH15",
+        "page": 73,
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:46:0",
+        "rank": 2,
+        "score": 37.1049,
+        "source_id": "luat-59-2010-QH12",
+        "page": 46,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:71:0",
+        "rank": 3,
+        "score": 23.1224,
+        "source_id": "luat-19-2023-QH15",
+        "page": 71,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:72:0",
+        "rank": 4,
+        "score": 20.2613,
+        "source_id": "luat-19-2023-QH15",
+        "page": 72,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:3:2",
+        "rank": 5,
+        "score": 20.1074,
+        "source_id": "luat-19-2023-QH15",
+        "page": 3,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        73
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d10",
+    "question": "Theo Luật 2010, khi thu hồi hàng hóa có khuyết tật phải thông báo trên báo ngày bao nhiêu số liên tiếp?",
+    "query_used": "Theo Luật 2010, khi thu hồi hàng hóa có khuyết tật phải thông báo trên báo ngày bao nhiêu số liên tiếp?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:22:0",
+        "rank": 1,
+        "score": 40.3555,
+        "source_id": "luat-59-2010-QH12",
+        "page": 22,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:33:1",
+        "rank": 2,
+        "score": 36.9476,
+        "source_id": "luat-19-2023-QH15",
+        "page": 33,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:32:0",
+        "rank": 3,
+        "score": 30.5221,
+        "source_id": "luat-19-2023-QH15",
+        "page": 32,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:22:1",
+        "rank": 4,
+        "score": 29.9288,
+        "source_id": "luat-59-2010-QH12",
+        "page": 22,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:33:2",
+        "rank": 5,
+        "score": 27.5481,
+        "source_id": "luat-19-2023-QH15",
+        "page": 33,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-59-2010-QH12",
+        22
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d11",
+    "question": "Theo Luật 2010, người tiêu dùng khởi kiện vụ án dân sự có phải nộp tạm ứng án phí không?",
+    "query_used": "Theo Luật 2010, người tiêu dùng khởi kiện vụ án dân sự có phải nộp tạm ứng án phí không?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:71:0",
+        "rank": 1,
+        "score": 45.002,
+        "source_id": "luat-19-2023-QH15",
+        "page": 71,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:43:0",
+        "rank": 2,
+        "score": 43.9961,
+        "source_id": "luat-59-2010-QH12",
+        "page": 43,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:70:0",
+        "rank": 3,
+        "score": 26.5022,
+        "source_id": "luat-19-2023-QH15",
+        "page": 70,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:41:0",
+        "rank": 4,
+        "score": 23.3619,
+        "source_id": "luat-59-2010-QH12",
+        "page": 41,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:45:0",
+        "rank": 5,
+        "score": 23.0751,
+        "source_id": "luat-59-2010-QH12",
+        "page": 45,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-59-2010-QH12",
+        43
+      ]
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d12",
+    "question": "Theo luật hiện hành năm 2023, những tổ chức nào được hòa giải tranh chấp giữa người tiêu dùng và doanh nghiệp?",
+    "query_used": "Theo luật hiện hành năm 2023, những tổ chức nào được hòa giải tranh chấp giữa người tiêu dùng và doanh nghiệp?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:63:0",
+        "rank": 1,
+        "score": 20.8827,
+        "source_id": "luat-19-2023-QH15",
+        "page": 63,
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:30:0",
+        "rank": 2,
+        "score": 20.7283,
+        "source_id": "luat-59-2010-QH12",
+        "page": 30,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:54:0",
+        "rank": 3,
+        "score": 20.576,
+        "source_id": "luat-19-2023-QH15",
+        "page": 54,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:35:0",
+        "rank": 4,
+        "score": 19.5497,
+        "source_id": "luat-59-2010-QH12",
+        "page": 35,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:64:0",
+        "rank": 5,
+        "score": 18.2796,
+        "source_id": "luat-19-2023-QH15",
+        "page": 64,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        63
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d13",
+    "question": "Theo Luật 2010, doanh nghiệp được miễn bồi thường thiệt hại do hàng hóa có khuyết tật trong trường hợp nào?",
+    "query_used": "Theo Luật 2010, doanh nghiệp được miễn bồi thường thiệt hại do hàng hóa có khuyết tật trong trường hợp nào?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:24:0",
+        "rank": 1,
+        "score": 36.3098,
+        "source_id": "luat-59-2010-QH12",
+        "page": 24,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:35:0",
+        "rank": 2,
+        "score": 35.7789,
+        "source_id": "luat-19-2023-QH15",
+        "page": 35,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:23:0",
+        "rank": 3,
+        "score": 30.3783,
+        "source_id": "luat-59-2010-QH12",
+        "page": 23,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:23:1",
+        "rank": 4,
+        "score": 30.1859,
+        "source_id": "luat-59-2010-QH12",
+        "page": 23,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:34:0",
+        "rank": 5,
+        "score": 28.4528,
+        "source_id": "luat-19-2023-QH15",
+        "page": 34,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-59-2010-QH12",
+        24
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d14",
+    "question": "Luật bảo vệ quyền lợi người tiêu dùng bản năm 2010 bắt đầu có hiệu lực từ ngày nào?",
+    "query_used": "Luật bảo vệ quyền lợi người tiêu dùng bản năm 2010 bắt đầu có hiệu lực từ ngày nào?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:79:0",
+        "rank": 1,
+        "score": 28.9501,
+        "source_id": "luat-19-2023-QH15",
+        "page": 79,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:50:0",
+        "rank": 2,
+        "score": 25.951,
+        "source_id": "luat-59-2010-QH12",
+        "page": 50,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:80:0",
+        "rank": 3,
+        "score": 18.6452,
+        "source_id": "luat-19-2023-QH15",
+        "page": 80,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:80:1",
+        "rank": 4,
+        "score": 14.343,
+        "source_id": "luat-19-2023-QH15",
+        "page": 80,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:50:2",
+        "rank": 5,
+        "score": 13.8712,
+        "source_id": "luat-19-2023-QH15",
+        "page": 50,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-59-2010-QH12",
+        50
+      ]
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d15",
+    "question": "Luật Bảo vệ quyền lợi người tiêu dùng số 59/2010/QH12 hết hiệu lực khi nào?",
+    "query_used": "Luật Bảo vệ quyền lợi người tiêu dùng số 59/2010/QH12 hết hiệu lực khi nào?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:79:0",
+        "rank": 1,
+        "score": 35.1307,
+        "source_id": "luat-19-2023-QH15",
+        "page": 79,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:80:0",
+        "rank": 2,
+        "score": 23.9938,
+        "source_id": "luat-19-2023-QH15",
+        "page": 80,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:80:1",
+        "rank": 3,
+        "score": 22.0464,
+        "source_id": "luat-19-2023-QH15",
+        "page": 80,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:50:0",
+        "rank": 4,
+        "score": 21.1716,
+        "source_id": "luat-59-2010-QH12",
+        "page": 50,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:17:0",
+        "rank": 5,
+        "score": 11.3236,
+        "source_id": "luat-59-2010-QH12",
+        "page": 17,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        79
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d16",
+    "question": "Theo luật hiện hành năm 2023, người tiêu dùng được định nghĩa là ai?",
+    "query_used": "Theo luật hiện hành năm 2023, người tiêu dùng được định nghĩa là ai?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:13:0",
+        "rank": 1,
+        "score": 8.9812,
+        "source_id": "luat-19-2023-QH15",
+        "page": 13,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:79:0",
+        "rank": 2,
+        "score": 8.9725,
+        "source_id": "luat-19-2023-QH15",
+        "page": 79,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:12:0",
+        "rank": 3,
+        "score": 8.79,
+        "source_id": "luat-19-2023-QH15",
+        "page": 12,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:12:1",
+        "rank": 4,
+        "score": 8.0197,
+        "source_id": "luat-19-2023-QH15",
+        "page": 12,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:50:0",
+        "rank": 5,
+        "score": 7.982,
+        "source_id": "luat-59-2010-QH12",
+        "page": 50,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        3
+      ]
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d17",
+    "question": "Cửa hàng từ chối thương lượng với tôi mà không có lý do chính đáng thì tôi có thể làm gì?",
+    "query_used": "Cửa hàng từ chối thương lượng với tôi mà không có lý do chính đáng thì tôi có thể làm gì?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:56:0",
+        "rank": 1,
+        "score": 24.2487,
+        "source_id": "luat-19-2023-QH15",
+        "page": 56,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:57:1",
+        "rank": 2,
+        "score": 20.5015,
+        "source_id": "luat-19-2023-QH15",
+        "page": 57,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:9:0",
+        "rank": 3,
+        "score": 15.463,
+        "source_id": "luat-19-2023-QH15",
+        "page": 9,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:31:0",
+        "rank": 4,
+        "score": 15.3312,
+        "source_id": "luat-59-2010-QH12",
+        "page": 31,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:43:0",
+        "rank": 5,
+        "score": 15.1647,
+        "source_id": "luat-19-2023-QH15",
+        "page": 43,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        56
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d18",
+    "question": "Tổ chức xã hội khởi kiện vì lợi ích công cộng về quyền lợi người tiêu dùng có phải chịu án phí không?",
+    "query_used": "Tổ chức xã hội khởi kiện vì lợi ích công cộng về quyền lợi người tiêu dùng có phải chịu án phí không?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:71:0",
+        "rank": 1,
+        "score": 38.4275,
+        "source_id": "luat-19-2023-QH15",
+        "page": 71,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:73:0",
+        "rank": 2,
+        "score": 33.81,
+        "source_id": "luat-19-2023-QH15",
+        "page": 73,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:46:0",
+        "rank": 3,
+        "score": 33.6911,
+        "source_id": "luat-59-2010-QH12",
+        "page": 46,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:50:2",
+        "rank": 4,
+        "score": 30.3855,
+        "source_id": "luat-19-2023-QH15",
+        "page": 50,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:72:0",
+        "rank": 5,
+        "score": 30.2836,
+        "source_id": "luat-19-2023-QH15",
+        "page": 72,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        71
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d19",
+    "question": "Thông tin cảnh báo về người bán online vi phạm được công khai gồm những danh sách nào?",
+    "query_used": "Thông tin cảnh báo về người bán online vi phạm được công khai gồm những danh sách nào?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:40:0",
+        "rank": 1,
+        "score": 29.2111,
+        "source_id": "luat-19-2023-QH15",
+        "page": 40,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:18:0",
+        "rank": 2,
+        "score": 19.464,
+        "source_id": "luat-19-2023-QH15",
+        "page": 18,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:40:1",
+        "rank": 3,
+        "score": 18.2401,
+        "source_id": "luat-19-2023-QH15",
+        "page": 40,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:28:0",
+        "rank": 4,
+        "score": 16.1214,
+        "source_id": "luat-59-2010-QH12",
+        "page": 28,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:17:0",
+        "rank": 5,
+        "score": 14.0476,
+        "source_id": "luat-19-2023-QH15",
+        "page": 17,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        40
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d20",
+    "question": "Theo luật năm 2023, doanh nghiệp phải tiến hành thương lượng với người tiêu dùng trong thời hạn bao lâu kể từ khi nhận yêu cầu?",
+    "query_used": "Theo luật năm 2023, doanh nghiệp phải tiến hành thương lượng với người tiêu dùng trong thời hạn bao lâu kể từ khi nhận yêu cầu?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:57:1",
+        "rank": 1,
+        "score": 31.1839,
+        "source_id": "luat-19-2023-QH15",
+        "page": 57,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:31:0",
+        "rank": 2,
+        "score": 29.9862,
+        "source_id": "luat-59-2010-QH12",
+        "page": 31,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:57:0",
+        "rank": 3,
+        "score": 23.9175,
+        "source_id": "luat-19-2023-QH15",
+        "page": 57,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:56:0",
+        "rank": 4,
+        "score": 19.8995,
+        "source_id": "luat-19-2023-QH15",
+        "page": 56,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:59:0",
+        "rank": 5,
+        "score": 19.3741,
+        "source_id": "luat-19-2023-QH15",
+        "page": 59,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        57
+      ]
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d21",
+    "question": "Theo Luật 2010, trong vụ án dân sự về bảo vệ người tiêu dùng, ai quyết định bên nào có lỗi?",
+    "query_used": "Theo Luật 2010, trong vụ án dân sự về bảo vệ người tiêu dùng, ai quyết định bên nào có lỗi?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:42:0",
+        "rank": 1,
+        "score": 26.6573,
+        "source_id": "luat-59-2010-QH12",
+        "page": 42,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:70:0",
+        "rank": 2,
+        "score": 20.9957,
+        "source_id": "luat-19-2023-QH15",
+        "page": 70,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:41:0",
+        "rank": 3,
+        "score": 19.992,
+        "source_id": "luat-59-2010-QH12",
+        "page": 41,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:46:0",
+        "rank": 4,
+        "score": 17.6476,
+        "source_id": "luat-59-2010-QH12",
+        "page": 46,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:45:0",
+        "rank": 5,
+        "score": 17.2942,
+        "source_id": "luat-59-2010-QH12",
+        "page": 45,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-59-2010-QH12",
+        42
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d22",
+    "question": "Nếu tôi đã được cảnh báo đầy đủ mà vẫn cố tình dùng sản phẩm bị lỗi rồi bị thiệt hại, doanh nghiệp có phải bồi thường không?",
+    "query_used": "Nếu tôi đã được cảnh báo đầy đủ mà vẫn cố tình dùng sản phẩm bị lỗi rồi bị thiệt hại, doanh nghiệp có phải bồi thường không?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:35:0",
+        "rank": 1,
+        "score": 35.591,
+        "source_id": "luat-19-2023-QH15",
+        "page": 35,
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:11:0",
+        "rank": 2,
+        "score": 28.1104,
+        "source_id": "luat-59-2010-QH12",
+        "page": 11,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:34:0",
+        "rank": 3,
+        "score": 22.9457,
+        "source_id": "luat-19-2023-QH15",
+        "page": 34,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:36:1",
+        "rank": 4,
+        "score": 22.307,
+        "source_id": "luat-19-2023-QH15",
+        "page": 36,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:34:1",
+        "rank": 5,
+        "score": 22.0415,
+        "source_id": "luat-19-2023-QH15",
+        "page": 34,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        35
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

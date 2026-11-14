@@ -9,3 +9,6 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Day 7: vector store dựng lại bằng `python -m src.build_index`
+store/

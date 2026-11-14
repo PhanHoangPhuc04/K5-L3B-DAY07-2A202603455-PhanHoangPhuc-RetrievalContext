@@ -1,0 +1,178 @@
+[
+  {
+    "config": "A_dense",
+    "query_id": "t01",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:31:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-59-2010-QH12:31:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "A_dense",
+    "query_id": "t02",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:31:1"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-59-2010-QH12:26:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "A_dense",
+    "query_id": "t03",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:58:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-59-2010-QH12:31:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "A_dense",
+    "query_id": "t04",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-59-2010-QH12:36:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-19-2023-QH15:65:0, luat-19-2023-QH15:66:0, luat-19-2023-QH15:61:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "A_dense",
+    "query_id": "t05",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:69:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-59-2010-QH12:42:0, luat-59-2010-QH12:30:0, luat-59-2010-QH12:41:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "A_dense",
+    "query_id": "t06",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:66:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-59-2010-QH12:37:0, luat-59-2010-QH12:34:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "A_dense",
+    "query_id": "t07",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-59-2010-QH12:37:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-19-2023-QH15:66:0, luat-19-2023-QH15:65:0, luat-19-2023-QH15:62:0, luat-19-2023-QH15:61:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "A_dense",
+    "query_id": "t08",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:46:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời.",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "D_dense_year",
+    "query_id": "t01",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:31:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-59-2010-QH12:31:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "D_dense_year",
+    "query_id": "t02",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:31:1"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-59-2010-QH12:26:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "D_dense_year",
+    "query_id": "t03",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:58:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-59-2010-QH12:31:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "D_dense_year",
+    "query_id": "t04",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-59-2010-QH12:36:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời.",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "D_dense_year",
+    "query_id": "t05",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:69:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời.",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "D_dense_year",
+    "query_id": "t06",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:66:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời. Context còn lẫn đoạn của bản luật khác: luat-59-2010-QH12:37:0, luat-59-2010-QH12:34:0",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "D_dense_year",
+    "query_id": "t07",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-59-2010-QH12:37:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời.",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  },
+  {
+    "config": "D_dense_year",
+    "query_id": "t08",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "luat-19-2023-QH15:46:0"
+    ],
+    "reason": "Context có đoạn chứa trọn evidence kèm nhãn nguồn (số hiệu luật, Điều); đủ điều kiện để trả lời.",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk."
+  }
+]

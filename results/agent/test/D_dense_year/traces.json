@@ -1,0 +1,1483 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Sau khi nhận được khiếu nại của người tiêu dùng, doanh nghiệp phải thông báo việc tiếp nhận trong thời hạn bao lâu?",
+    "status": "answered",
+    "answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản đang hiện hành), tổ chức, cá nhân kinh doanh phải thông báo cho người tiêu dùng về việc tiếp nhận phản ánh, yêu cầu, khiếu nại trong thời hạn **03 ngày làm việc** kể từ ngày nhận được khiếu nại đó [luat-19-2023-QH15:31:0].",
+    "raw_answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản đang hiện hành), tổ chức, cá nhân kinh doanh phải thông báo cho người tiêu dùng về việc tiếp nhận phản ánh, yêu cầu, khiếu nại trong thời hạn **03 ngày làm việc** kể từ ngày nhận được khiếu nại đó [luat-19-2023-QH15:31:0].",
+    "citations": [
+      "luat-19-2023-QH15:31:0"
+    ],
+    "filter": null,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "doanh nghiệp tiếp nhận khiếu nại của người tiêu dùng thông báo thời hạn",
+        "query_used": "doanh nghiệp tiếp nhận khiếu nại của người tiêu dùng thông báo thời hạn",
+        "method": "dense",
+        "filter": null,
+        "top_k": 5,
+        "retrieval_ms": 50.8,
+        "results": [
+          {
+            "id": "luat-19-2023-QH15:31:0",
+            "rank": 1,
+            "score": 0.872,
+            "source_id": "luat-19-2023-QH15",
+            "page": 31
+          },
+          {
+            "id": "luat-19-2023-QH15:72:0",
+            "rank": 2,
+            "score": 0.8502,
+            "source_id": "luat-19-2023-QH15",
+            "page": 72
+          },
+          {
+            "id": "luat-59-2010-QH12:31:0",
+            "rank": 3,
+            "score": 0.8498,
+            "source_id": "luat-59-2010-QH12",
+            "page": 31
+          },
+          {
+            "id": "luat-19-2023-QH15:31:1",
+            "rank": 4,
+            "score": 0.8488,
+            "source_id": "luat-19-2023-QH15",
+            "page": 31
+          },
+          {
+            "id": "luat-19-2023-QH15:57:1",
+            "rank": 5,
+            "score": 0.8442,
+            "source_id": "luat-19-2023-QH15",
+            "page": 57
+          }
+        ],
+        "added_ids": [
+          "luat-19-2023-QH15:31:0",
+          "luat-19-2023-QH15:72:0",
+          "luat-59-2010-QH12:31:0",
+          "luat-19-2023-QH15:31:1",
+          "luat-19-2023-QH15:57:1"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "trách nhiệm tiếp nhận và giải quyết khiếu nại người tiêu dùng của tổ chức kinh doanh"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 918,
+          "completion_tokens": 118,
+          "total_tokens": 1036,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 150
+        },
+        "latency_s": 0.997,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 2399,
+          "completion_tokens": 124,
+          "total_tokens": 2523,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 2015
+        },
+        "latency_s": 1.461,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3317,
+      "completion_tokens": 242,
+      "prompt_cache_hit_tokens": 1152
+    },
+    "context": "[luat-19-2023-QH15:31:0 | Luật 2023 số 19/2023/QH15 | Điều 31]\nĐiều 31. Trách nhiệm tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng\n1. Tổ chức, cá nhân kinh doanh có trách nhiệm tổ chức tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng.\n2. Tổ chức, cá nhân kinh doanh có trách nhiệm thông báo cho người tiêu dùng về việc tiếp nhận phản ánh, yêu cầu, khiếu nại của người tiêu dùng trong thời hạn 03 ngày làm việc kể từ ngày nhận được phản ánh, yêu cầu, khiếu nại đó.\n3. Tổ chức, cá nhân sản xuất, nhập khẩu sản phẩm, hàng hóa hoặc trực tiếp bán, cung cấp sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng có trách nhiệm xây dựng, công khai quy trình tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng theo hình thức niêm yết ở vị trí dễ nhìn thấy tại trụ sở, địa điểm kinh doanh và đăng tải trên trang thông tin điện tử, phần mềm ứng dụng (nếu có).\n\n[luat-19-2023-QH15:72:0 | Luật 2023 số 19/2023/QH15 | Điều 72]\nĐiều 72. Công khai thông tin về vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện\n1. Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng có trách nhiệm công khai thông báo thụ lý vụ án của Tòa án về việc khởi kiện trong thời hạn 07 ngày làm việc kể từ ngày Tòa án thụ lý.\n2. Việc công khai thông báo thụ lý vụ án được thực hiện bằng hình thức niêm yết tại trụ sở và đăng tải trên trang thông tin điện tử, phần mềm ứng dụng (nếu có) của tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng tối thiểu 15 ngày kể từ ngày niêm yết, đăng tải.\n3. Trong thời hạn 07 ngày làm việc kể từ ngày kết thúc vụ án, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có trách nhiệm công khai kết quả giải quyết vụ án theo hình thức, thời hạn quy định tại khoản 2 Điều này.\n\n[luat-59-2010-QH12:31:0 | Luật 2010 số 59/2010/QH12 | Điều 31]\nĐiều 31. Thương lượng\n1. Người tiêu dùng có quyền gửi yêu cầu đến tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ để thương lượng khi cho rằng quyền, lợi ích hợp pháp của mình bị xâm phạm.\n2. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được yêu cầu.\n\n[luat-19-2023-QH15:31:1 | Luật 2023 số 19/2023/QH15 | Điều 31]\nĐiều 31. Trách nhiệm tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng\nQuy định tại khoản này không bắt buộc áp dụng đối với cá nhân hoạt động thương mại độc lập, thường xuyên, không phải đăng ký kinh doanh, tất cả doanh nghiệp siêu nhỏ theo quy định của pháp luật.\n\n[luat-19-2023-QH15:57:1 | Luật 2023 số 19/2023/QH15 | Điều 57]\nĐiều 57. Trình tự, thủ tục thương lượng\n4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu của người tiêu dùng, cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có trách nhiệm chuyển yêu cầu của người tiêu dùng đến tổ chức, cá nhân kinh doanh được yêu cầu thương lượng.\n5. Tổ chức, cá nhân kinh doanh có trách nhiệm tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu và thông báo bằng văn bản kết quả thương lượng đến cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng trong thời hạn 05 ngày làm việc kể từ ngày kết thúc thương lượng.\n6. Trường hợp từ chối yêu cầu thương lượng của người tiêu dùng, trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu thương lượng, tổ chức, cá nhân kinh doanh phải trả lời bằng văn bản và nêu rõ lý do.",
+    "context_ids": [
+      "luat-19-2023-QH15:31:0",
+      "luat-19-2023-QH15:72:0",
+      "luat-59-2010-QH12:31:0",
+      "luat-19-2023-QH15:31:1",
+      "luat-19-2023-QH15:57:1"
+    ],
+    "context_chars": 3731,
+    "elapsed_s": 2.51,
+    "error": null,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Doanh nghiệp siêu nhỏ có bắt buộc phải niêm yết, công khai quy trình tiếp nhận và giải quyết khiếu nại của người tiêu dùng không?",
+    "status": "answered",
+    "answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản hiện hành): không, doanh nghiệp siêu nhỏ không bắt buộc phải thực hiện nghĩa vụ này. Điều 31 quy định tổ chức, cá nhân sản xuất, nhập khẩu hoặc trực tiếp bán, cung cấp hàng hóa, dịch vụ phải xây dựng, công khai quy trình tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng bằng niêm yết tại trụ sở, địa điểm kinh doanh và đăng tải trên trang thông tin điện tử, phần mềm ứng dụng (nếu có) [luat-19-2023-QH15:31:0]. Tuy nhiên, quy định tại khoản này không bắt buộc áp dụng đối với cá nhân hoạt động thương mại độc lập, thường xuyên, không phải đăng ký kinh doanh và tất cả doanh nghiệp siêu nhỏ theo quy định của pháp luật [luat-19-2023-QH15:31:1].",
+    "raw_answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản hiện hành): không, doanh nghiệp siêu nhỏ không bắt buộc phải thực hiện nghĩa vụ này. Điều 31 quy định tổ chức, cá nhân sản xuất, nhập khẩu hoặc trực tiếp bán, cung cấp hàng hóa, dịch vụ phải xây dựng, công khai quy trình tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng bằng niêm yết tại trụ sở, địa điểm kinh doanh và đăng tải trên trang thông tin điện tử, phần mềm ứng dụng (nếu có) [luat-19-2023-QH15:31:0]. Tuy nhiên, quy định tại khoản này không bắt buộc áp dụng đối với cá nhân hoạt động thương mại độc lập, thường xuyên, không phải đăng ký kinh doanh và tất cả doanh nghiệp siêu nhỏ theo quy định của pháp luật [luat-19-2023-QH15:31:1].",
+    "citations": [
+      "luat-19-2023-QH15:31:0",
+      "luat-19-2023-QH15:31:1"
+    ],
+    "filter": null,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "doanh nghiệp siêu nhỏ niêm yết công khai quy trình tiếp nhận giải quyết khiếu nại người tiêu dùng",
+        "query_used": "doanh nghiệp siêu nhỏ niêm yết công khai quy trình tiếp nhận giải quyết khiếu nại người tiêu dùng",
+        "method": "dense",
+        "filter": null,
+        "top_k": 5,
+        "retrieval_ms": 45.5,
+        "results": [
+          {
+            "id": "luat-19-2023-QH15:31:1",
+            "rank": 1,
+            "score": 0.869,
+            "source_id": "luat-19-2023-QH15",
+            "page": 31
+          },
+          {
+            "id": "luat-19-2023-QH15:31:0",
+            "rank": 2,
+            "score": 0.8591,
+            "source_id": "luat-19-2023-QH15",
+            "page": 31
+          },
+          {
+            "id": "luat-59-2010-QH12:26:0",
+            "rank": 3,
+            "score": 0.8373,
+            "source_id": "luat-59-2010-QH12",
+            "page": 26
+          },
+          {
+            "id": "luat-19-2023-QH15:4:1",
+            "rank": 4,
+            "score": 0.8337,
+            "source_id": "luat-19-2023-QH15",
+            "page": 4
+          },
+          {
+            "id": "luat-19-2023-QH15:72:0",
+            "rank": 5,
+            "score": 0.8325,
+            "source_id": "luat-19-2023-QH15",
+            "page": 72
+          }
+        ],
+        "added_ids": [
+          "luat-19-2023-QH15:31:1",
+          "luat-19-2023-QH15:31:0",
+          "luat-59-2010-QH12:26:0",
+          "luat-19-2023-QH15:4:1",
+          "luat-19-2023-QH15:72:0"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "trách nhiệm tiếp nhận giải quyết khiếu nại của người tiêu dùng của tổ chức kinh doanh"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 923,
+          "completion_tokens": 127,
+          "total_tokens": 1050,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 155
+        },
+        "latency_s": 1.193,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 2658,
+          "completion_tokens": 306,
+          "total_tokens": 2964,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 2146
+        },
+        "latency_s": 1.838,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3581,
+      "completion_tokens": 433,
+      "prompt_cache_hit_tokens": 1280
+    },
+    "context": "[luat-19-2023-QH15:31:1 | Luật 2023 số 19/2023/QH15 | Điều 31]\nĐiều 31. Trách nhiệm tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng\nQuy định tại khoản này không bắt buộc áp dụng đối với cá nhân hoạt động thương mại độc lập, thường xuyên, không phải đăng ký kinh doanh, tất cả doanh nghiệp siêu nhỏ theo quy định của pháp luật.\n\n[luat-19-2023-QH15:31:0 | Luật 2023 số 19/2023/QH15 | Điều 31]\nĐiều 31. Trách nhiệm tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng\n1. Tổ chức, cá nhân kinh doanh có trách nhiệm tổ chức tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng.\n2. Tổ chức, cá nhân kinh doanh có trách nhiệm thông báo cho người tiêu dùng về việc tiếp nhận phản ánh, yêu cầu, khiếu nại của người tiêu dùng trong thời hạn 03 ngày làm việc kể từ ngày nhận được phản ánh, yêu cầu, khiếu nại đó.\n3. Tổ chức, cá nhân sản xuất, nhập khẩu sản phẩm, hàng hóa hoặc trực tiếp bán, cung cấp sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng có trách nhiệm xây dựng, công khai quy trình tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng theo hình thức niêm yết ở vị trí dễ nhìn thấy tại trụ sở, địa điểm kinh doanh và đăng tải trên trang thông tin điện tử, phần mềm ứng dụng (nếu có).\n\n[luat-59-2010-QH12:26:0 | Luật 2010 số 59/2010/QH12 | Điều 26]\nĐiều 26. Giải quyết yêu cầu bảo vệ quyền lợi người tiêu dùng\n1. Khi nhận được yêu cầu của người tiêu dùng, cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng cấp huyện có trách nhiệm yêu cầu các bên giải trình, cung cấp thông tin, bằng chứng hoặc tự mình xác minh, thu thập thông tin, bằng chứng để xử lý theo quy định của pháp luật.\n2. Cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng cấp huyện có trách nhiệm trả lời bằng văn bản việc giải quyết yêu cầu bảo vệ quyền lợi người tiêu dùng; trường hợp xác định tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ vi phạm quyền lợi người tiêu dùng, văn bản trả lời phải có các nội dung sau đây:\na) Nội dung vi phạm;\nb) Biện pháp khắc phục hậu quả;\nc) Thời hạn thực hiện biện pháp khắc phục hậu quả;\nd) Biện pháp xử lý vi phạm hành chính, nếu có.\n3. Biện pháp khắc phục hậu quả quy định tại điểm b khoản 2 điều này bao gồm:\n\n[luat-19-2023-QH15:4:1 | Luật 2023 số 19/2023/QH15 | Điều 4]\nĐiều 4. Quyền của người tiêu dùng\n4. Góp ý với tổ chức, cá nhân kinh doanh về giá, chất lượng sản phẩm, hàng hóa, dịch vụ, phong cách phục vụ, phương thức giao dịch và nội dung liên quan đến giao dịch giữa người tiêu dùng và tổ chức, cá nhân kinh doanh.\n5. Yêu cầu tổ chức, cá nhân kinh doanh bồi thường thiệt hại khi sản phẩm, hàng hóa có khuyết tật, sản phẩm, hàng hóa, dịch vụ không phù hợp tiêu chuẩn, quy chuẩn kỹ thuật, không bảo đảm an toàn, đo lường, số lượng, khối lượng, chất lượng, công dụng, giá, nội dung khác theo quy định của pháp luật hoặc không đúng với đăng ký, thông báo, công bố, niêm yết, quảng cáo, giới thiệu, giao kết, cam kết của tổ chức, cá nhân kinh doanh.\n6. Tham gia xây dựng chính sách, pháp luật về bảo vệ quyền lợi người tiêu dùng.\n7. Khiếu nại, tố cáo, khởi kiện hoặc đề nghị tổ chức xã hội khởi kiện để bảo vệ quyền lợi của mình theo quy định của Luật này và quy định khác của pháp luật có liên quan.\n\n[luat-19-2023-QH15:72:0 | Luật 2023 số 19/2023/QH15 | Điều 72]\nĐiều 72. Công khai thông tin về vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện\n1. Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng có trách nhiệm công khai thông báo thụ lý vụ án của Tòa án về việc khởi kiện trong thời hạn 07 ngày làm việc kể từ ngày Tòa án thụ lý.\n2. Việc công khai thông báo thụ lý vụ án được thực hiện bằng hình thức niêm yết tại trụ sở và đăng tải trên trang thông tin điện tử, phần mềm ứng dụng (nếu có) của tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng tối thiểu 15 ngày kể từ ngày niêm yết, đăng tải.\n3. Trong thời hạn 07 ngày làm việc kể từ ngày kết thúc vụ án, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có trách nhiệm công khai kết quả giải quyết vụ án theo hình thức, thời hạn quy định tại khoản 2 Điều này.",
+    "context_ids": [
+      "luat-19-2023-QH15:31:1",
+      "luat-19-2023-QH15:31:0",
+      "luat-59-2010-QH12:26:0",
+      "luat-19-2023-QH15:4:1",
+      "luat-19-2023-QH15:72:0"
+    ],
+    "context_chars": 4224,
+    "elapsed_s": 3.08,
+    "error": null,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Một người chưa thành niên tự gửi yêu cầu hỗ trợ thương lượng mà không có người đại diện hợp pháp thì yêu cầu đó có được tiếp nhận không?",
+    "status": "answered",
+    "answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản đang hiện hành), yêu cầu đó **không được tiếp nhận**: trường hợp người tiêu dùng là người chưa thành niên mà không có người đại diện hợp pháp thuộc các trường hợp không tiếp nhận và giải quyết yêu cầu hỗ trợ thương lượng [luat-19-2023-QH15:58:0].",
+    "raw_answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản đang hiện hành), yêu cầu đó **không được tiếp nhận**: trường hợp người tiêu dùng là người chưa thành niên mà không có người đại diện hợp pháp thuộc các trường hợp không tiếp nhận và giải quyết yêu cầu hỗ trợ thương lượng [luat-19-2023-QH15:58:0].",
+    "citations": [
+      "luat-19-2023-QH15:58:0"
+    ],
+    "filter": null,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "người chưa thành niên yêu cầu hỗ trợ thương lượng người đại diện hợp pháp",
+        "query_used": "người chưa thành niên yêu cầu hỗ trợ thương lượng người đại diện hợp pháp",
+        "method": "dense",
+        "filter": null,
+        "top_k": 5,
+        "retrieval_ms": 77.8,
+        "results": [
+          {
+            "id": "luat-19-2023-QH15:58:0",
+            "rank": 1,
+            "score": 0.8781,
+            "source_id": "luat-19-2023-QH15",
+            "page": 58
+          },
+          {
+            "id": "luat-19-2023-QH15:57:0",
+            "rank": 2,
+            "score": 0.8464,
+            "source_id": "luat-19-2023-QH15",
+            "page": 57
+          },
+          {
+            "id": "luat-59-2010-QH12:31:0",
+            "rank": 3,
+            "score": 0.8448,
+            "source_id": "luat-59-2010-QH12",
+            "page": 31
+          },
+          {
+            "id": "luat-19-2023-QH15:56:0",
+            "rank": 4,
+            "score": 0.8435,
+            "source_id": "luat-19-2023-QH15",
+            "page": 56
+          },
+          {
+            "id": "luat-19-2023-QH15:57:1",
+            "rank": 5,
+            "score": 0.8394,
+            "source_id": "luat-19-2023-QH15",
+            "page": 57
+          }
+        ],
+        "added_ids": [
+          "luat-19-2023-QH15:58:0",
+          "luat-19-2023-QH15:57:0",
+          "luat-59-2010-QH12:31:0",
+          "luat-19-2023-QH15:56:0",
+          "luat-19-2023-QH15:57:1"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "yêu cầu hỗ trợ thương lượng tiếp nhận, từ chối tiếp nhận yêu cầu"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 925,
+          "completion_tokens": 115,
+          "total_tokens": 1040,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 157
+        },
+        "latency_s": 0.845,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 2517,
+          "completion_tokens": 122,
+          "total_tokens": 2639,
+          "prompt_tokens_details": {
+            "cached_tokens": 2304
+          },
+          "prompt_cache_hit_tokens": 2304,
+          "prompt_cache_miss_tokens": 213
+        },
+        "latency_s": 0.865,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3442,
+      "completion_tokens": 237,
+      "prompt_cache_hit_tokens": 3072
+    },
+    "context": "[luat-19-2023-QH15:58:0 | Luật 2023 số 19/2023/QH15 | Điều 58]\nĐiều 58. Trường hợp không tiếp nhận và giải quyết yêu cầu hỗ trợ thương lượng\n1. Người tiêu dùng là người chưa thành niên, người mất năng lực hành vi dân sự hoặc hạn chế năng lực hành vi dân sự hoặc có khó khăn trong nhận thức, làm chủ hành vi mà không có người đại diện hợp pháp.\n2. Người yêu cầu hỗ trợ thương lượng không phải là người tiêu dùng hoặc người đại diện hợp pháp của người tiêu dùng.\n3. Người tiêu dùng không cung cấp đầy đủ thông tin, tài liệu để xác định chính xác tổ chức, cá nhân có liên quan hoặc bằng chứng liên quan đến giao dịch.\n4. Nội dung yêu cầu hỗ trợ thương lượng không thuộc thẩm quyền của cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng hoặc mục đích, phạm vi, lĩnh vực hoạt động của tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng.\n5. Yêu cầu hỗ trợ thương lượng đã được cơ quan nhà nước có thẩm quyền, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng giải quyết.\n\n[luat-19-2023-QH15:57:0 | Luật 2023 số 19/2023/QH15 | Điều 57]\nĐiều 57. Trình tự, thủ tục thương lượng\n1. Người tiêu dùng gửi yêu cầu thương lượng và thông tin, tài liệu liên quan (nếu có) đến tổ chức, cá nhân kinh doanh tại trụ sở chính, chi nhánh, văn phòng đại diện, địa điểm kinh doanh, trang thông tin điện tử hoặc thông qua phương thức liên lạc khác do tổ chức, cá nhân kinh doanh đã công khai hoặc đang áp dụng.\n2. Tổ chức, cá nhân kinh doanh có trách nhiệm tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu.\n3. Trong trường hợp quy định tại khoản 3 Điều 56 của Luật này, người tiêu dùng gửi yêu cầu hỗ trợ thương lượng và thông tin, tài liệu liên quan bằng hình thức trực tiếp hoặc qua đường bưu điện hoặc trực tuyến đến cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng.\n\n[luat-59-2010-QH12:31:0 | Luật 2010 số 59/2010/QH12 | Điều 31]\nĐiều 31. Thương lượng\n1. Người tiêu dùng có quyền gửi yêu cầu đến tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ để thương lượng khi cho rằng quyền, lợi ích hợp pháp của mình bị xâm phạm.\n2. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được yêu cầu.\n\n[luat-19-2023-QH15:56:0 | Luật 2023 số 19/2023/QH15 | Điều 56]\nĐiều 56. Yêu cầu và tiếp nhận thương lượng\n1. Người tiêu dùng có quyền yêu cầu tổ chức, cá nhân kinh doanh thương lượng.\n2. Tổ chức, cá nhân kinh doanh phải tiếp nhận yêu cầu thương lượng của người tiêu dùng theo quy định tại Điều 57 của Luật này.\n3. Trường hợp tổ chức, cá nhân kinh doanh không trả lời yêu cầu thương lượng của người tiêu dùng theo quy định tại Điều 57 của Luật này hoặc từ chối thương lượng mà không có lý do chính đáng, người tiêu dùng có quyền yêu cầu cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng hỗ trợ thương lượng khi quyền, lợi ích hợp pháp của mình bị xâm phạm.\n\n[luat-19-2023-QH15:57:1 | Luật 2023 số 19/2023/QH15 | Điều 57]\nĐiều 57. Trình tự, thủ tục thương lượng\n4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu của người tiêu dùng, cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có trách nhiệm chuyển yêu cầu của người tiêu dùng đến tổ chức, cá nhân kinh doanh được yêu cầu thương lượng.\n5. Tổ chức, cá nhân kinh doanh có trách nhiệm tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu và thông báo bằng văn bản kết quả thương lượng đến cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng trong thời hạn 05 ngày làm việc kể từ ngày kết thúc thương lượng.\n6. Trường hợp từ chối yêu cầu thương lượng của người tiêu dùng, trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu thương lượng, tổ chức, cá nhân kinh doanh phải trả lời bằng văn bản và nêu rõ lý do.",
+    "context_ids": [
+      "luat-19-2023-QH15:58:0",
+      "luat-19-2023-QH15:57:0",
+      "luat-59-2010-QH12:31:0",
+      "luat-19-2023-QH15:56:0",
+      "luat-19-2023-QH15:57:1"
+    ],
+    "context_chars": 4085,
+    "elapsed_s": 1.79,
+    "error": null,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Theo Luật 2010, biên bản hòa giải phải có chữ ký của những ai?",
+    "status": "answered",
+    "answer": "Theo Luật 2010 (số 59/2010/QH12), biên bản hòa giải phải có chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải [luat-59-2010-QH12:36:0].",
+    "raw_answer": "Theo Luật 2010 (số 59/2010/QH12), biên bản hòa giải phải có chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải [luat-59-2010-QH12:36:0].",
+    "citations": [
+      "luat-59-2010-QH12:36:0"
+    ],
+    "filter": {
+      "version_year": 2010
+    },
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "biên bản hòa giải chữ ký các bên",
+        "query_used": "biên bản hòa giải chữ ký các bên",
+        "method": "dense",
+        "filter": {
+          "version_year": 2010
+        },
+        "top_k": 5,
+        "retrieval_ms": 82.6,
+        "results": [
+          {
+            "id": "luat-59-2010-QH12:36:0",
+            "rank": 1,
+            "score": 0.8827,
+            "source_id": "luat-59-2010-QH12",
+            "page": 36
+          },
+          {
+            "id": "luat-59-2010-QH12:37:0",
+            "rank": 2,
+            "score": 0.8548,
+            "source_id": "luat-59-2010-QH12",
+            "page": 37
+          },
+          {
+            "id": "luat-59-2010-QH12:34:0",
+            "rank": 3,
+            "score": 0.8453,
+            "source_id": "luat-59-2010-QH12",
+            "page": 34
+          },
+          {
+            "id": "luat-59-2010-QH12:33:0",
+            "rank": 4,
+            "score": 0.833,
+            "source_id": "luat-59-2010-QH12",
+            "page": 33
+          },
+          {
+            "id": "luat-59-2010-QH12:32:0",
+            "rank": 5,
+            "score": 0.8328,
+            "source_id": "luat-59-2010-QH12",
+            "page": 32
+          }
+        ],
+        "added_ids": [
+          "luat-59-2010-QH12:36:0",
+          "luat-59-2010-QH12:37:0",
+          "luat-59-2010-QH12:34:0",
+          "luat-59-2010-QH12:33:0",
+          "luat-59-2010-QH12:32:0"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "hòa giải tranh chấp người tiêu dùng biên bản"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 901,
+          "completion_tokens": 94,
+          "total_tokens": 995,
+          "prompt_tokens_details": {
+            "cached_tokens": 767
+          },
+          "prompt_cache_hit_tokens": 767,
+          "prompt_cache_miss_tokens": 134
+        },
+        "latency_s": 1.071,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 1518,
+          "completion_tokens": 87,
+          "total_tokens": 1605,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 750
+        },
+        "latency_s": 1.302,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2419,
+      "completion_tokens": 181,
+      "prompt_cache_hit_tokens": 1535
+    },
+    "context": "[luat-59-2010-QH12:36:0 | Luật 2010 số 59/2010/QH12 | Điều 36]\nĐiều 36. Biên bản hòa giải\n1. Biên bản hòa giải phải có các nội dung chính sau đây:\na) Tổ chức, cá nhân tiến hành hòa giải;\nb) Các bên tham gia hòa giải;\nc) Nội dung hòa giải;\nd) Thời gian, địa điểm tiến hành hòa giải;\nđ) Ý kiến của các bên tham gia hòa giải;\ne) Kết quả hòa giải;\ng) Thời hạn thực hiện kết quả hòa giải thành.\n2. Biên bản hòa giải phải có chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải.\n\n[luat-59-2010-QH12:37:0 | Luật 2010 số 59/2010/QH12 | Điều 37]\nĐiều 37. Thực hiện kết quả hòa giải thành\nCác bên có trách nhiệm thực hiện kết quả hòa giải thành trong thời hạn đã thỏa thuận trong biên bản hòa giải; trường hợp một bên không tự nguyện thực hiện thì bên kia có quyền khởi kiện ra Tòa án để yêu cầu giải quyết theo quy định của pháp luật.\n\n[luat-59-2010-QH12:34:0 | Luật 2010 số 59/2010/QH12 | Điều 34]\nĐiều 34. Nguyên tắc thực hiện hòa giải\n1. Bảo đảm khách quan, trung thực, thiện chí, không được ép buộc, lừa dối.\n2. Tổ chức, cá nhân tiến hành hòa giải, các bên tham gia hòa giải phải bảo đảm bí mật thông tin liên quan đến việc hòa giải, trừ trường hợp các bên có thỏa thuận khác hoặc pháp luật có quy định khác.\n\n[luat-59-2010-QH12:33:0 | Luật 2010 số 59/2010/QH12 | Điều 33]\nĐiều 33. Hòa giải\nTổ chức, cá nhân kinh doanh hàng hóa, dịch vụ và người tiêu dùng có quyền thỏa thuận lựa chọn bên thứ ba là cá nhân hoặc tổ chức hòa giải để thực hiện việc hòa giải.\n\n[luat-59-2010-QH12:32:0 | Luật 2010 số 59/2010/QH12 | Điều 32]\nĐiều 32. Kết quả thương lượng\nKết quả thương lượng thành của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ với người tiêu dùng được lập thành văn bản, trừ trường hợp các bên có thỏa thuận khác.",
+    "context_ids": [
+      "luat-59-2010-QH12:36:0",
+      "luat-59-2010-QH12:37:0",
+      "luat-59-2010-QH12:34:0",
+      "luat-59-2010-QH12:33:0",
+      "luat-59-2010-QH12:32:0"
+    ],
+    "context_chars": 1754,
+    "elapsed_s": 2.46,
+    "error": null,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Theo luật năm 2023, khi tranh chấp với doanh nghiệp, người tiêu dùng có phải tự chứng minh lỗi của doanh nghiệp không?",
+    "status": "answered",
+    "answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản đang hiện hành), người tiêu dùng **không phải** tự chứng minh lỗi của doanh nghiệp.\n\n- Người tiêu dùng có nghĩa vụ cung cấp chứng cứ và chứng minh để bảo vệ quyền, lợi ích hợp pháp của mình, **trừ việc chứng minh lỗi của tổ chức, cá nhân kinh doanh** [luat-19-2023-QH15:69:0].\n- Ngược lại, tổ chức, cá nhân kinh doanh có nghĩa vụ chứng minh mình không có lỗi gây ra thiệt hại [luat-19-2023-QH15:69:0].",
+    "raw_answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản đang hiện hành), người tiêu dùng **không phải** tự chứng minh lỗi của doanh nghiệp.\n\n- Người tiêu dùng có nghĩa vụ cung cấp chứng cứ và chứng minh để bảo vệ quyền, lợi ích hợp pháp của mình, **trừ việc chứng minh lỗi của tổ chức, cá nhân kinh doanh** [luat-19-2023-QH15:69:0].\n- Ngược lại, tổ chức, cá nhân kinh doanh có nghĩa vụ chứng minh mình không có lỗi gây ra thiệt hại [luat-19-2023-QH15:69:0].",
+    "citations": [
+      "luat-19-2023-QH15:69:0"
+    ],
+    "filter": {
+      "version_year": 2023
+    },
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "người tiêu dùng không phải chứng minh lỗi của doanh nghiệp tranh chấp",
+        "query_used": "người tiêu dùng không phải chứng minh lỗi của doanh nghiệp tranh chấp",
+        "method": "dense",
+        "filter": {
+          "version_year": 2023
+        },
+        "top_k": 5,
+        "retrieval_ms": 111.0,
+        "results": [
+          {
+            "id": "luat-19-2023-QH15:69:0",
+            "rank": 1,
+            "score": 0.8836,
+            "source_id": "luat-19-2023-QH15",
+            "page": 69
+          },
+          {
+            "id": "luat-19-2023-QH15:31:1",
+            "rank": 2,
+            "score": 0.8608,
+            "source_id": "luat-19-2023-QH15",
+            "page": 31
+          },
+          {
+            "id": "luat-19-2023-QH15:54:0",
+            "rank": 3,
+            "score": 0.8601,
+            "source_id": "luat-19-2023-QH15",
+            "page": 54
+          },
+          {
+            "id": "luat-19-2023-QH15:11:1",
+            "rank": 4,
+            "score": 0.8594,
+            "source_id": "luat-19-2023-QH15",
+            "page": 11
+          },
+          {
+            "id": "luat-19-2023-QH15:70:0",
+            "rank": 5,
+            "score": 0.859,
+            "source_id": "luat-19-2023-QH15",
+            "page": 70
+          }
+        ],
+        "added_ids": [
+          "luat-19-2023-QH15:69:0",
+          "luat-19-2023-QH15:31:1",
+          "luat-19-2023-QH15:54:0",
+          "luat-19-2023-QH15:11:1",
+          "luat-19-2023-QH15:70:0"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "nghĩa vụ chứng minh của người tiêu dùng khi khởi kiện"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 921,
+          "completion_tokens": 110,
+          "total_tokens": 1031,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 153
+        },
+        "latency_s": 1.092,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 2011,
+          "completion_tokens": 212,
+          "total_tokens": 2223,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 1499
+        },
+        "latency_s": 1.239,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2932,
+      "completion_tokens": 322,
+      "prompt_cache_hit_tokens": 1280
+    },
+    "context": "[luat-19-2023-QH15:69:0 | Luật 2023 số 19/2023/QH15 | Điều 69]\nĐiều 69. Nghĩa vụ chứng minh\n1. Người tiêu dùng có nghĩa vụ cung cấp chứng cứ và chứng minh để bảo vệ quyền, lợi ích hợp pháp của mình theo quy định của pháp luật, trừ việc chứng minh lỗi của tổ chức, cá nhân kinh doanh.\n2. Tổ chức, cá nhân kinh doanh có nghĩa vụ chứng minh mình không có lỗi gây ra thiệt hại theo quy định của pháp luật.\n\n[luat-19-2023-QH15:31:1 | Luật 2023 số 19/2023/QH15 | Điều 31]\nĐiều 31. Trách nhiệm tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng\nQuy định tại khoản này không bắt buộc áp dụng đối với cá nhân hoạt động thương mại độc lập, thường xuyên, không phải đăng ký kinh doanh, tất cả doanh nghiệp siêu nhỏ theo quy định của pháp luật.\n\n[luat-19-2023-QH15:54:0 | Luật 2023 số 19/2023/QH15 | Điều 54]\nĐiều 54. Phương thức giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh\n1. Tranh chấp phát sinh giữa người tiêu dùng và tổ chức, cá nhân kinh doanh được giải quyết thông qua các phương thức sau đây:\na) Thương lượng;\nb) Hòa giải;\nc) Trọng tài;\nd) Tòa án.\n2. Không được thương lượng, hòa giải trong các trường hợp sau đây:\na) Xâm phạm đến lợi ích quốc gia, dân tộc, lợi ích công cộng;\nb) Vi phạm điều cấm của luật hoặc trái đạo đức xã hội;\nc) Gây thiệt hại đến lợi ích của nhiều người tiêu dùng, trừ trường hợp xác định đầy đủ số lượng người tiêu dùng bị thiệt hại.\n3. Phương thức giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh được thực hiện theo hình thức trực tiếp, trực tuyến hoặc hình thức khác theo quy định của pháp luật có liên quan.\n\n[luat-19-2023-QH15:11:1 | Luật 2023 số 19/2023/QH15 | Điều 11]\nĐiều 11. Yêu cầu cơ quan nhà nước xử lý vi phạm pháp luật có liên quan đến quyền lợi người tiêu dùng\n4. Người tiêu dùng, tổ chức, cá nhân có liên quan có trách nhiệm cung cấp thông tin, bằng chứng về hành vi vi phạm pháp luật của tổ chức, cá nhân kinh doanh.\n\n[luat-19-2023-QH15:70:0 | Luật 2023 số 19/2023/QH15 | Điều 70]\nĐiều 70. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng là vụ án mà bên khởi kiện là người tiêu dùng hoặc tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng theo quy định tại Luật này. Tòa án giải quyết vụ án dân sự về bảo vệ quyền lợi người tiêu dùng theo trình tự, thủ tục quy định tại Bộ luật Tố tụng dân sự.\n2. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng có giá trị giao dịch dưới 100 triệu đồng thì được giải quyết theo thủ tục rút gọn mà không phải đáp ứng các điều kiện quy định tại khoản 1 Điều 317 của Bộ luật Tố tụng Dân sự.\n3. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng không thuộc trường hợp quy định tại khoản 2 Điều này được giải quyết theo thủ tục rút gọn khi đáp ứng đủ các điều kiện quy định tại khoản 1 Điều 317 của Bộ luật Tố tụng dân sự.",
+    "context_ids": [
+      "luat-19-2023-QH15:69:0",
+      "luat-19-2023-QH15:31:1",
+      "luat-19-2023-QH15:54:0",
+      "luat-19-2023-QH15:11:1",
+      "luat-19-2023-QH15:70:0"
+    ],
+    "context_chars": 2826,
+    "elapsed_s": 2.44,
+    "error": null,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Hai bên đã hòa giải thành, một bên muốn kết quả đó được công nhận chính thức thì có thể yêu cầu cơ quan nào?",
+    "status": "answered",
+    "answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản hiện hành): một trong các bên tham gia hòa giải có quyền yêu cầu Tòa án ra quyết định công nhận kết quả hòa giải thành [luat-19-2023-QH15:66:0]. Việc yêu cầu và công nhận này thực hiện theo quy định của pháp luật về tố tụng dân sự [luat-19-2023-QH15:66:0]. Các bên có trách nhiệm thực hiện kết quả hòa giải thành trong thời hạn đã thỏa thuận [luat-19-2023-QH15:66:0].",
+    "raw_answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản hiện hành): một trong các bên tham gia hòa giải có quyền yêu cầu Tòa án ra quyết định công nhận kết quả hòa giải thành [luat-19-2023-QH15:66:0]. Việc yêu cầu và công nhận này thực hiện theo quy định của pháp luật về tố tụng dân sự [luat-19-2023-QH15:66:0]. Các bên có trách nhiệm thực hiện kết quả hòa giải thành trong thời hạn đã thỏa thuận [luat-19-2023-QH15:66:0].",
+    "citations": [
+      "luat-19-2023-QH15:66:0"
+    ],
+    "filter": null,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "hòa giải thành yêu cầu công nhận kết quả hòa giải cơ quan",
+        "query_used": "hòa giải thành yêu cầu công nhận kết quả hòa giải cơ quan",
+        "method": "dense",
+        "filter": null,
+        "top_k": 5,
+        "retrieval_ms": 38.7,
+        "results": [
+          {
+            "id": "luat-19-2023-QH15:66:0",
+            "rank": 1,
+            "score": 0.8926,
+            "source_id": "luat-19-2023-QH15",
+            "page": 66
+          },
+          {
+            "id": "luat-19-2023-QH15:65:0",
+            "rank": 2,
+            "score": 0.8685,
+            "source_id": "luat-19-2023-QH15",
+            "page": 65
+          },
+          {
+            "id": "luat-59-2010-QH12:37:0",
+            "rank": 3,
+            "score": 0.8649,
+            "source_id": "luat-59-2010-QH12",
+            "page": 37
+          },
+          {
+            "id": "luat-19-2023-QH15:62:0",
+            "rank": 4,
+            "score": 0.8639,
+            "source_id": "luat-19-2023-QH15",
+            "page": 62
+          },
+          {
+            "id": "luat-59-2010-QH12:34:0",
+            "rank": 5,
+            "score": 0.8613,
+            "source_id": "luat-59-2010-QH12",
+            "page": 34
+          }
+        ],
+        "added_ids": [
+          "luat-19-2023-QH15:66:0",
+          "luat-19-2023-QH15:65:0",
+          "luat-59-2010-QH12:37:0",
+          "luat-19-2023-QH15:62:0",
+          "luat-59-2010-QH12:34:0"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "thủ tục hòa giải tranh chấp người tiêu dùng tổ chức hòa giải"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 915,
+          "completion_tokens": 110,
+          "total_tokens": 1025,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 147
+        },
+        "latency_s": 1.069,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 1853,
+          "completion_tokens": 190,
+          "total_tokens": 2043,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 1469
+        },
+        "latency_s": 1.338,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2768,
+      "completion_tokens": 300,
+      "prompt_cache_hit_tokens": 1152
+    },
+    "context": "[luat-19-2023-QH15:66:0 | Luật 2023 số 19/2023/QH15 | Điều 66]\nĐiều 66. Thực hiện và công nhận kết quả hòa giải thành\n1. Các bên tham gia hòa giải có trách nhiệm thực hiện kết quả hòa giải thành trong thời hạn đã thỏa thuận trong văn bản về kết quả hòa giải thành.\n2. Một trong các bên tham gia hòa giải có quyền yêu cầu Tòa án ra quyết định công nhận kết quả hòa giải thành.\n3. Việc yêu cầu và công nhận kết quả hòa giải thành thực hiện theo quy định của pháp luật về tố tụng dân sự.\n\n[luat-19-2023-QH15:65:0 | Luật 2023 số 19/2023/QH15 | Điều 65]\nĐiều 65. Kết quả hòa giải\n1. Khi đạt được kết quả hòa giải thành, các bên lập văn bản về kết quả hòa giải thành.\n2. Văn bản về kết quả hòa giải thành đối với trường hợp quy định tại điểm a và điểm c khoản 1 Điều 63 của Luật này phải có các nội dung sau đây:\na) Tổ chức, cá nhân tiến hành hòa giải;\nb) Các bên tham gia hòa giải;\nc) Thời gian, địa điểm tiến hành hòa giải;\nd) Nội dung hòa giải;\nđ) Ý kiến của các bên tham gia hòa giải;\ne) Kết quả hòa giải và giải pháp thực hiện;\ng) Thời hạn thực hiện kết quả hòa giải thành;\nh) Nội dung khác theo thỏa thuận của các bên phù hợp với quy định của pháp luật.\n3. Văn bản về kết quả hòa giải phải có chữ ký hoặc điểm chỉ của các bên tham gia hòa giải, có chữ ký xác nhận của cá nhân tiến hành hòa giải và đóng dấu xác nhận của tổ chức tiến hành hòa giải (nếu có).\n\n[luat-59-2010-QH12:37:0 | Luật 2010 số 59/2010/QH12 | Điều 37]\nĐiều 37. Thực hiện kết quả hòa giải thành\nCác bên có trách nhiệm thực hiện kết quả hòa giải thành trong thời hạn đã thỏa thuận trong biên bản hòa giải; trường hợp một bên không tự nguyện thực hiện thì bên kia có quyền khởi kiện ra Tòa án để yêu cầu giải quyết theo quy định của pháp luật.\n\n[luat-19-2023-QH15:62:0 | Luật 2023 số 19/2023/QH15 | Điều 62]\nĐiều 62. Nguyên tắc thực hiện hòa giải\n1. Bảo đảm khách quan, trung thực, thiện chí, bình đẳng, công bằng, tự nguyện; không được ép buộc, lừa dối.\n2. Tổ chức, cá nhân tiến hành hòa giải, các bên tham gia hòa giải phải bảo đảm bí mật thông tin liên quan đến việc hòa giải, trừ trường hợp các bên có thỏa thuận khác hoặc pháp luật có quy định khác.\n\n[luat-59-2010-QH12:34:0 | Luật 2010 số 59/2010/QH12 | Điều 34]\nĐiều 34. Nguyên tắc thực hiện hòa giải\n1. Bảo đảm khách quan, trung thực, thiện chí, không được ép buộc, lừa dối.\n2. Tổ chức, cá nhân tiến hành hòa giải, các bên tham gia hòa giải phải bảo đảm bí mật thông tin liên quan đến việc hòa giải, trừ trường hợp các bên có thỏa thuận khác hoặc pháp luật có quy định khác.",
+    "context_ids": [
+      "luat-19-2023-QH15:66:0",
+      "luat-19-2023-QH15:65:0",
+      "luat-59-2010-QH12:37:0",
+      "luat-19-2023-QH15:62:0",
+      "luat-59-2010-QH12:34:0"
+    ],
+    "context_chars": 2500,
+    "elapsed_s": 2.45,
+    "error": null,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t07",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Theo Luật 2010, nếu một bên không tự nguyện thực hiện kết quả hòa giải thành thì bên kia có quyền làm gì?",
+    "status": "answered",
+    "answer": "Theo Luật 2010, các bên có trách nhiệm thực hiện kết quả hòa giải thành trong thời hạn đã thỏa thuận trong biên bản hòa giải [luat-59-2010-QH12:37:0]. Trường hợp một bên không tự nguyện thực hiện thì bên kia có quyền khởi kiện ra Tòa án để yêu cầu giải quyết theo quy định của pháp luật [luat-59-2010-QH12:37:0].",
+    "raw_answer": "Theo Luật 2010, các bên có trách nhiệm thực hiện kết quả hòa giải thành trong thời hạn đã thỏa thuận trong biên bản hòa giải [luat-59-2010-QH12:37:0]. Trường hợp một bên không tự nguyện thực hiện thì bên kia có quyền khởi kiện ra Tòa án để yêu cầu giải quyết theo quy định của pháp luật [luat-59-2010-QH12:37:0].",
+    "citations": [
+      "luat-59-2010-QH12:37:0"
+    ],
+    "filter": {
+      "version_year": 2010
+    },
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "hòa giải thành không tự nguyện thực hiện kết quả hòa giải quyền khởi kiện",
+        "query_used": "hòa giải thành không tự nguyện thực hiện kết quả hòa giải quyền khởi kiện",
+        "method": "dense",
+        "filter": {
+          "version_year": 2010
+        },
+        "top_k": 5,
+        "retrieval_ms": 64.7,
+        "results": [
+          {
+            "id": "luat-59-2010-QH12:37:0",
+            "rank": 1,
+            "score": 0.8783,
+            "source_id": "luat-59-2010-QH12",
+            "page": 37
+          },
+          {
+            "id": "luat-59-2010-QH12:34:0",
+            "rank": 2,
+            "score": 0.8461,
+            "source_id": "luat-59-2010-QH12",
+            "page": 34
+          },
+          {
+            "id": "luat-59-2010-QH12:35:0",
+            "rank": 3,
+            "score": 0.8458,
+            "source_id": "luat-59-2010-QH12",
+            "page": 35
+          },
+          {
+            "id": "luat-59-2010-QH12:36:0",
+            "rank": 4,
+            "score": 0.8381,
+            "source_id": "luat-59-2010-QH12",
+            "page": 36
+          },
+          {
+            "id": "luat-59-2010-QH12:33:0",
+            "rank": 5,
+            "score": 0.8373,
+            "source_id": "luat-59-2010-QH12",
+            "page": 33
+          }
+        ],
+        "added_ids": [
+          "luat-59-2010-QH12:37:0",
+          "luat-59-2010-QH12:34:0",
+          "luat-59-2010-QH12:35:0",
+          "luat-59-2010-QH12:36:0",
+          "luat-59-2010-QH12:33:0"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "Luật 2010 hòa giải tranh chấp người tiêu dùng kết quả hòa giải thành"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 918,
+          "completion_tokens": 119,
+          "total_tokens": 1037,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 150
+        },
+        "latency_s": 1.092,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 1575,
+          "completion_tokens": 134,
+          "total_tokens": 1709,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 1191
+        },
+        "latency_s": 0.988,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2493,
+      "completion_tokens": 253,
+      "prompt_cache_hit_tokens": 1152
+    },
+    "context": "[luat-59-2010-QH12:37:0 | Luật 2010 số 59/2010/QH12 | Điều 37]\nĐiều 37. Thực hiện kết quả hòa giải thành\nCác bên có trách nhiệm thực hiện kết quả hòa giải thành trong thời hạn đã thỏa thuận trong biên bản hòa giải; trường hợp một bên không tự nguyện thực hiện thì bên kia có quyền khởi kiện ra Tòa án để yêu cầu giải quyết theo quy định của pháp luật.\n\n[luat-59-2010-QH12:34:0 | Luật 2010 số 59/2010/QH12 | Điều 34]\nĐiều 34. Nguyên tắc thực hiện hòa giải\n1. Bảo đảm khách quan, trung thực, thiện chí, không được ép buộc, lừa dối.\n2. Tổ chức, cá nhân tiến hành hòa giải, các bên tham gia hòa giải phải bảo đảm bí mật thông tin liên quan đến việc hòa giải, trừ trường hợp các bên có thỏa thuận khác hoặc pháp luật có quy định khác.\n\n[luat-59-2010-QH12:35:0 | Luật 2010 số 59/2010/QH12 | Điều 35]\nĐiều 35. Tổ chức hòa giải\nTổ chức, cá nhân có đủ điều kiện theo quy định của Chính phủ được thành lập tổ chức hòa giải để giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ.\n\n[luat-59-2010-QH12:36:0 | Luật 2010 số 59/2010/QH12 | Điều 36]\nĐiều 36. Biên bản hòa giải\n1. Biên bản hòa giải phải có các nội dung chính sau đây:\na) Tổ chức, cá nhân tiến hành hòa giải;\nb) Các bên tham gia hòa giải;\nc) Nội dung hòa giải;\nd) Thời gian, địa điểm tiến hành hòa giải;\nđ) Ý kiến của các bên tham gia hòa giải;\ne) Kết quả hòa giải;\ng) Thời hạn thực hiện kết quả hòa giải thành.\n2. Biên bản hòa giải phải có chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải.\n\n[luat-59-2010-QH12:33:0 | Luật 2010 số 59/2010/QH12 | Điều 33]\nĐiều 33. Hòa giải\nTổ chức, cá nhân kinh doanh hàng hóa, dịch vụ và người tiêu dùng có quyền thỏa thuận lựa chọn bên thứ ba là cá nhân hoặc tổ chức hòa giải để thực hiện việc hòa giải.",
+    "context_ids": [
+      "luat-59-2010-QH12:37:0",
+      "luat-59-2010-QH12:34:0",
+      "luat-59-2010-QH12:35:0",
+      "luat-59-2010-QH12:36:0",
+      "luat-59-2010-QH12:33:0"
+    ],
+    "context_chars": 1775,
+    "elapsed_s": 2.15,
+    "error": null,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t08",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Hợp đồng tham gia bán hàng đa cấp phải được giao kết dưới hình thức nào?",
+    "status": "answered",
+    "answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản hiện hành), tổ chức bán hàng đa cấp và cá nhân tham gia bán hàng đa cấp **phải giao kết hợp đồng tham gia bán hàng đa cấp bằng văn bản** [luat-19-2023-QH15:46:0]. Hợp đồng này còn phải đáp ứng các điều kiện về ngôn ngữ, hình thức theo quy định của Luật và pháp luật về quản lý bán hàng đa cấp [luat-19-2023-QH15:46:0].",
+    "raw_answer": "Theo Luật Bảo vệ quyền lợi người tiêu dùng 2023 (bản hiện hành), tổ chức bán hàng đa cấp và cá nhân tham gia bán hàng đa cấp **phải giao kết hợp đồng tham gia bán hàng đa cấp bằng văn bản** [luat-19-2023-QH15:46:0]. Hợp đồng này còn phải đáp ứng các điều kiện về ngôn ngữ, hình thức theo quy định của Luật và pháp luật về quản lý bán hàng đa cấp [luat-19-2023-QH15:46:0].",
+    "citations": [
+      "luat-19-2023-QH15:46:0"
+    ],
+    "filter": null,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "hợp đồng tham gia bán hàng đa cấp hình thức giao kết",
+        "query_used": "hợp đồng tham gia bán hàng đa cấp hình thức giao kết",
+        "method": "dense",
+        "filter": null,
+        "top_k": 5,
+        "retrieval_ms": 56.8,
+        "results": [
+          {
+            "id": "luat-19-2023-QH15:46:0",
+            "rank": 1,
+            "score": 0.8983,
+            "source_id": "luat-19-2023-QH15",
+            "page": 46
+          },
+          {
+            "id": "luat-19-2023-QH15:45:1",
+            "rank": 2,
+            "score": 0.8508,
+            "source_id": "luat-19-2023-QH15",
+            "page": 45
+          },
+          {
+            "id": "luat-19-2023-QH15:24:0",
+            "rank": 3,
+            "score": 0.8496,
+            "source_id": "luat-19-2023-QH15",
+            "page": 24
+          },
+          {
+            "id": "luat-19-2023-QH15:23:2",
+            "rank": 4,
+            "score": 0.8493,
+            "source_id": "luat-19-2023-QH15",
+            "page": 23
+          },
+          {
+            "id": "luat-19-2023-QH15:23:0",
+            "rank": 5,
+            "score": 0.8486,
+            "source_id": "luat-19-2023-QH15",
+            "page": 23
+          }
+        ],
+        "added_ids": [
+          "luat-19-2023-QH15:46:0",
+          "luat-19-2023-QH15:45:1",
+          "luat-19-2023-QH15:24:0",
+          "luat-19-2023-QH15:23:2",
+          "luat-19-2023-QH15:23:0"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "bán hàng đa cấp hợp đồng bằng văn bản"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 905,
+          "completion_tokens": 101,
+          "total_tokens": 1006,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 137
+        },
+        "latency_s": 0.676,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 1908,
+          "completion_tokens": 175,
+          "total_tokens": 2083,
+          "prompt_tokens_details": {
+            "cached_tokens": 1664
+          },
+          "prompt_cache_hit_tokens": 1664,
+          "prompt_cache_miss_tokens": 244
+        },
+        "latency_s": 1.141,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2813,
+      "completion_tokens": 276,
+      "prompt_cache_hit_tokens": 2432
+    },
+    "context": "[luat-19-2023-QH15:46:0 | Luật 2023 số 19/2023/QH15 | Điều 46]\nĐiều 46. Hợp đồng tham gia bán hàng đa cấp\n1. Tổ chức bán hàng đa cấp và cá nhân tham gia bán hàng đa cấp phải giao kết hợp đồng tham gia bán hàng đa cấp bằng văn bản.\n2. Hợp đồng tham gia bán hàng đa cấp phải đáp ứng các điều kiện về ngôn ngữ, hình thức theo quy định của Luật này và pháp luật về quản lý bán hàng đa cấp.\n\n[luat-19-2023-QH15:45:1 | Luật 2023 số 19/2023/QH15 | Điều 45]\nĐiều 45. Trách nhiệm của tổ chức, cá nhân bán hàng đa cấp\na) Xuất trình thẻ thành viên trước khi giới thiệu hoặc tiếp thị, bán hàng;\nb) Tuân thủ hợp đồng tham gia bán hàng đa cấp và quy tắc hoạt động;\nc) Không được lợi dụng chức vụ, quyền hạn, địa vị xã hội, nghề nghiệp để khuyến khích, yêu cầu, lôi kéo, dụ dỗ người khác tham gia vào mạng lưới bán hàng đa cấp hoặc mua hàng hóa kinh doanh theo phương thức đa cấp.\n3. Chính phủ quy định chi tiết Điều này.\n\n[luat-19-2023-QH15:24:0 | Luật 2023 số 19/2023/QH15 | Điều 24]\nĐiều 24. Giải thích hợp đồng giao kết với người tiêu dùng, hợp đồng theo mẫu, điều kiện giao dịch chung\nTrong trường hợp hiểu khác nhau về nội dung hợp đồng giao kết với người tiêu dùng, hợp đồng theo mẫu, điều kiện giao dịch chung thì việc giải thích được thực hiện theo hướng có lợi cho người tiêu dùng.\n\n[luat-19-2023-QH15:23:2 | Luật 2023 số 19/2023/QH15 | Điều 23]\nĐiều 23. Hợp đồng giao kết với người tiêu dùng, hợp đồng theo mẫu, điều kiện giao dịch chung\nk) Phương thức giải quyết tranh chấp;\nl) Thời điểm giao kết hợp đồng, thời hạn của hợp đồng.\n4. Ngoài các nội dung cơ bản quy định tại khoản 3 Điều này, hợp đồng theo mẫu phải tuân thủ quy định của pháp luật khác có liên quan,\n5. Chính phủ quy định chi tiết khoản 2 Điều này.\n\n[luat-19-2023-QH15:23:0 | Luật 2023 số 19/2023/QH15 | Điều 23]\nĐiều 23. Hợp đồng giao kết với người tiêu dùng, hợp đồng theo mẫu, điều kiện giao dịch chung\n1. Hình thức hợp đồng giao kết với người tiêu dùng, hợp đồng theo mẫu, điều kiện giao dịch chung được thực hiện theo quy định của pháp luật về dân sự và quy định khác của pháp luật có liên quan.\n2. Ngôn ngữ, hình thức của hợp đồng giao kết với người tiêu dùng, hợp đồng theo mẫu, điều kiện giao dịch chung trong trường hợp bằng văn bản phải được thể hiện rõ ràng, dễ hiểu.\nNgôn ngữ sử dụng trong hợp đồng giao kết với người tiêu dùng, hợp đồng theo mẫu, điều kiện giao dịch chung là tiếng Việt. Các bên có thể thỏa thuận sử dụng thêm tiếng dân tộc khác của Việt Nam hoặc tiếng nước ngoài. Trong trường hợp có sự khác biệt giữa bản tiếng Việt với bản tiếng dân tộc khác của Việt Nam hoặc bản tiếng nước ngoài, bản có lợi hơn cho người tiêu dùng được ưu tiên áp dụng.\n3. Hợp đồng theo mẫu phải có các nội dung cơ bản sau đây:",
+    "context_ids": [
+      "luat-19-2023-QH15:46:0",
+      "luat-19-2023-QH15:45:1",
+      "luat-19-2023-QH15:24:0",
+      "luat-19-2023-QH15:23:2",
+      "luat-19-2023-QH15:23:0"
+    ],
+    "context_chars": 2692,
+    "elapsed_s": 1.87,
+    "error": null,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "tu1",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Phí hòa giải tranh chấp tiêu dùng tại tổ chức hòa giải là bao nhiêu tiền?",
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các đoạn luật tìm được (Điều 63 Luật 2023 [luat-19-2023-QH15:63:0], Điều 35 và Điều 33 Luật 2010 [luat-59-2010-QH12:35:0], [luat-59-2010-QH12:33:0]) chỉ quy định về tổ chức hòa giải, không nêu mức phí hòa giải cụ thể.",
+    "raw_answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các đoạn luật tìm được (Điều 63 Luật 2023 [luat-19-2023-QH15:63:0], Điều 35 và Điều 33 Luật 2010 [luat-59-2010-QH12:35:0], [luat-59-2010-QH12:33:0]) chỉ quy định về tổ chức hòa giải, không nêu mức phí hòa giải cụ thể.",
+    "citations": [],
+    "filter": null,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "phí hòa giải tranh chấp người tiêu dùng tại tổ chức hòa giải",
+        "query_used": "phí hòa giải tranh chấp người tiêu dùng tại tổ chức hòa giải",
+        "method": "dense",
+        "filter": null,
+        "top_k": 5,
+        "retrieval_ms": 51.3,
+        "results": [
+          {
+            "id": "luat-19-2023-QH15:63:0",
+            "rank": 1,
+            "score": 0.8808,
+            "source_id": "luat-19-2023-QH15",
+            "page": 63
+          },
+          {
+            "id": "luat-59-2010-QH12:35:0",
+            "rank": 2,
+            "score": 0.8763,
+            "source_id": "luat-59-2010-QH12",
+            "page": 35
+          },
+          {
+            "id": "luat-59-2010-QH12:30:0",
+            "rank": 3,
+            "score": 0.869,
+            "source_id": "luat-59-2010-QH12",
+            "page": 30
+          },
+          {
+            "id": "luat-59-2010-QH12:3:2",
+            "rank": 4,
+            "score": 0.8647,
+            "source_id": "luat-59-2010-QH12",
+            "page": 3
+          },
+          {
+            "id": "luat-59-2010-QH12:33:0",
+            "rank": 5,
+            "score": 0.8637,
+            "source_id": "luat-59-2010-QH12",
+            "page": 33
+          }
+        ],
+        "added_ids": [
+          "luat-19-2023-QH15:63:0",
+          "luat-59-2010-QH12:35:0",
+          "luat-59-2010-QH12:30:0",
+          "luat-59-2010-QH12:3:2",
+          "luat-59-2010-QH12:33:0"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "hòa giải tranh chấp giữa người tiêu dùng và tổ chức kinh doanh chi phí"
+      },
+      {
+        "event": "model_abstained"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 905,
+          "completion_tokens": 116,
+          "total_tokens": 1021,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 137
+        },
+        "latency_s": 1.045,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 1668,
+          "completion_tokens": 128,
+          "total_tokens": 1796,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 1284
+        },
+        "latency_s": 1.098,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2573,
+      "completion_tokens": 244,
+      "prompt_cache_hit_tokens": 1152
+    },
+    "context": "[luat-19-2023-QH15:63:0 | Luật 2023 số 19/2023/QH15 | Điều 63]\nĐiều 63. Tổ chức hòa giải\n1. Tổ chức hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh bao gồm:\na) Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng;\nb) Tổ chức hòa giải theo quy định của pháp luật về hòa giải thương mại, pháp luật về hòa giải tại cơ sở, pháp luật về hòa giải tại tòa án;\nc) Tổ chức khác có chức năng hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh theo quy định của pháp luật.\n2. Tổ chức hòa giải theo quy định tại điểm a và điểm c khoản 1 Điều này có trách nhiệm công nhận, công bố Danh sách hòa giải viên đủ điều kiện theo quy định của Luật này và chỉ định các hòa giải viên tham gia thực hiện việc hòa giải theo yêu cầu của các bên.\n\n[luat-59-2010-QH12:35:0 | Luật 2010 số 59/2010/QH12 | Điều 35]\nĐiều 35. Tổ chức hòa giải\nTổ chức, cá nhân có đủ điều kiện theo quy định của Chính phủ được thành lập tổ chức hòa giải để giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ.\n\n[luat-59-2010-QH12:30:0 | Luật 2010 số 59/2010/QH12 | Điều 30]\nĐiều 30. Phương thức giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ\n1. Tranh chấp phát sinh giữa người tiêu dùng và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ được giải quyết thông qua:\na) Thương lượng;\nb) Hòa giải;\nc) Trọng tài;\nd) Tòa án.\n2. Không được thương lượng, hòa giải trong trường hợp tranh chấp gây thiệt hại đến lợi ích của Nhà nước, lợi ích của nhiều người tiêu dùng, lợi ích công cộng.\n\n[luat-59-2010-QH12:3:2 | Luật 2010 số 59/2010/QH12 | Điều 3]\nĐiều 3. Giải thích từ ngữ\n7. Hòa giải là việc giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ thông qua bên thứ ba.\n\n[luat-59-2010-QH12:33:0 | Luật 2010 số 59/2010/QH12 | Điều 33]\nĐiều 33. Hòa giải\nTổ chức, cá nhân kinh doanh hàng hóa, dịch vụ và người tiêu dùng có quyền thỏa thuận lựa chọn bên thứ ba là cá nhân hoặc tổ chức hòa giải để thực hiện việc hòa giải.",
+    "context_ids": [
+      "luat-19-2023-QH15:63:0",
+      "luat-59-2010-QH12:35:0",
+      "luat-59-2010-QH12:30:0",
+      "luat-59-2010-QH12:3:2",
+      "luat-59-2010-QH12:33:0"
+    ],
+    "context_chars": 2032,
+    "elapsed_s": 2.2,
+    "error": null,
+    "context_has_evidence": null
+  },
+  {
+    "query_id": "tu2",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Người tham gia bán hàng đa cấp được hưởng hoa hồng tối đa bao nhiêu phần trăm doanh số?",
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các đoạn luật tìm được (Điều 3, 10, 45, 46 Luật 19/2023/QH15) chỉ định nghĩa bán hàng đa cấp và nêu hành vi bị cấm, không quy định mức hoa hồng tối đa theo phần trăm doanh số [luat-19-2023-QH15:3:2][luat-19-2023-QH15:10:3][luat-19-2023-QH15:45:1][luat-19-2023-QH15:46:0].",
+    "raw_answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các đoạn luật tìm được (Điều 3, 10, 45, 46 Luật 19/2023/QH15) chỉ định nghĩa bán hàng đa cấp và nêu hành vi bị cấm, không quy định mức hoa hồng tối đa theo phần trăm doanh số [luat-19-2023-QH15:3:2][luat-19-2023-QH15:10:3][luat-19-2023-QH15:45:1][luat-19-2023-QH15:46:0].",
+    "citations": [],
+    "filter": null,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "bán hàng đa cấp hoa hồng doanh số",
+        "query_used": "bán hàng đa cấp hoa hồng doanh số",
+        "method": "dense",
+        "filter": null,
+        "top_k": 5,
+        "retrieval_ms": 57.1,
+        "results": [
+          {
+            "id": "luat-19-2023-QH15:3:2",
+            "rank": 1,
+            "score": 0.8189,
+            "source_id": "luat-19-2023-QH15",
+            "page": 3
+          },
+          {
+            "id": "luat-19-2023-QH15:10:3",
+            "rank": 2,
+            "score": 0.8155,
+            "source_id": "luat-19-2023-QH15",
+            "page": 10
+          },
+          {
+            "id": "luat-19-2023-QH15:45:1",
+            "rank": 3,
+            "score": 0.8127,
+            "source_id": "luat-19-2023-QH15",
+            "page": 45
+          },
+          {
+            "id": "luat-19-2023-QH15:10:4",
+            "rank": 4,
+            "score": 0.8122,
+            "source_id": "luat-19-2023-QH15",
+            "page": 10
+          },
+          {
+            "id": "luat-19-2023-QH15:46:0",
+            "rank": 5,
+            "score": 0.8113,
+            "source_id": "luat-19-2023-QH15",
+            "page": 46
+          }
+        ],
+        "added_ids": [
+          "luat-19-2023-QH15:3:2",
+          "luat-19-2023-QH15:10:3",
+          "luat-19-2023-QH15:45:1",
+          "luat-19-2023-QH15:10:4",
+          "luat-19-2023-QH15:46:0"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "người tham gia bán hàng đa cấp quyền lợi hoa hồng tiền thưởng"
+      },
+      {
+        "event": "model_abstained"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 911,
+          "completion_tokens": 109,
+          "total_tokens": 1020,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 143
+        },
+        "latency_s": 0.869,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 2446,
+          "completion_tokens": 158,
+          "total_tokens": 2604,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 1934
+        },
+        "latency_s": 1.161,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3357,
+      "completion_tokens": 267,
+      "prompt_cache_hit_tokens": 1280
+    },
+    "context": "[luat-19-2023-QH15:3:2 | Luật 2023 số 19/2023/QH15 | Điều 3]\nĐiều 3. Giải thích từ ngữ\n6. Cung cấp dịch vụ liên tục là việc cung cấp dịch vụ có thời hạn từ 03 tháng trở lên hoặc không xác định thời hạn.\n7. Bán hàng trực tiếp là việc tổ chức, cá nhân kinh doanh chủ động tiếp cận người tiêu dùng, giới thiệu sản phẩm, hàng hóa, dịch vụ để bán, cung cấp cho người tiêu dùng, bao gồm các hình thức sau đây:\na) Bán hàng tận cửa là hoạt động bán sản phẩm, hàng hóa, cung cấp dịch vụ tại nơi ở, nơi làm việc của người tiêu dùng;\nb) Bán hàng đa cấp là hoạt động bán hàng hóa thông qua mạng lưới cá nhân tham gia gồm nhiều cấp, nhiều nhánh, trong đó cá nhân tham gia được hưởng hoa hồng, tiền thưởng và lợi ích kinh tế khác từ kết quả bán hàng hóa của mình và của cá nhân khác trong mạng lưới;\nc) Bán hàng không tại địa điểm giao dịch thường xuyên là hoạt động giới thiệu, bán sản phẩm, hàng hóa, cung cấp dịch vụ tại các địa điểm không phải là địa điểm bán lẻ sản phẩm, hàng hóa cố định, giới thiệu, cung cấp dịch vụ thường xuyên.\n\n[luat-19-2023-QH15:10:3 | Luật 2023 số 19/2023/QH15 | Điều 10]\nĐiều 10. Các hành vi bị nghiêm cấm trong bảo vệ quyền lợi người tiêu dùng\nl) Quy định điều khoản không được phép tại Điều 25 của Luật này trong hợp đồng giao kết với người tiêu dùng, hợp đồng theo mẫu, điều kiện giao dịch chung;\nm) Thu thập, lưu trữ, sử dụng, chỉnh sửa, cập nhật, hủy bỏ thông tin của người tiêu dùng trái quy định của pháp luật.\n2. Tổ chức, cá nhân bán hàng đa cấp bị nghiêm cấm thực hiện các hành vi sau đây:\na) Yêu cầu người khác phải đặt cọc, nộp một khoản tiền hoặc mua một số lượng hàng hóa nhất định để tham gia bán hàng đa cấp;\nb) Cung cấp thông tin gian dối, gây nhầm lẫn cho người tiêu dùng, cá nhân tham gia bán hàng đa cấp;\nc) Kinh doanh theo phương thức đa cấp không có giấy chứng nhận đăng ký hoạt động bán hàng đa cấp; tổ chức hoạt động giới thiệu về hoạt động kinh doanh theo phương thức đa cấp không có giấy chứng nhận đăng ký hoạt động bán hàng đa cấp;\n\n[luat-19-2023-QH15:45:1 | Luật 2023 số 19/2023/QH15 | Điều 45]\nĐiều 45. Trách nhiệm của tổ chức, cá nhân bán hàng đa cấp\na) Xuất trình thẻ thành viên trước khi giới thiệu hoặc tiếp thị, bán hàng;\nb) Tuân thủ hợp đồng tham gia bán hàng đa cấp và quy tắc hoạt động;\nc) Không được lợi dụng chức vụ, quyền hạn, địa vị xã hội, nghề nghiệp để khuyến khích, yêu cầu, lôi kéo, dụ dỗ người khác tham gia vào mạng lưới bán hàng đa cấp hoặc mua hàng hóa kinh doanh theo phương thức đa cấp.\n3. Chính phủ quy định chi tiết Điều này.\n\n[luat-19-2023-QH15:10:4 | Luật 2023 số 19/2023/QH15 | Điều 10]\nĐiều 10. Các hành vi bị nghiêm cấm trong bảo vệ quyền lợi người tiêu dùng\nd) Kinh doanh theo phương thức đa cấp đối với dịch vụ hoặc hình thức khác không phải là mua bán hàng hóa, trừ trường hợp pháp luật có quy định khác;\nđ) Phát triển mạng lưới bán hàng đa cấp không dựa trên giao dịch mua bán hàng hóa;\ne) Thực hiện hành vi quy định tại khoản 1 Điều này.\n3. Tổ chức, cá nhân kinh doanh thiết lập, vận hành, cung cấp dịch vụ nền tảng số bị nghiêm cấm thực hiện các hành vi sau đây:\na) Ép buộc hoặc ngăn cản người tiêu dùng đăng ký sử dụng hoặc sử dụng nền tảng số trung gian khác như là điều kiện bắt buộc để sử dụng dịch vụ;\nb) Hạn chế quyền lựa chọn của người tiêu dùng thông qua việc sắp xếp ưu tiên lựa chọn sản phẩm, hàng hóa, dịch vụ giữa các tổ chức, cá nhân kinh doanh cung cấp trên nền tảng số mà không công khai tiêu chí lựa chọn;\n\n[luat-19-2023-QH15:46:0 | Luật 2023 số 19/2023/QH15 | Điều 46]\nĐiều 46. Hợp đồng tham gia bán hàng đa cấp\n1. Tổ chức bán hàng đa cấp và cá nhân tham gia bán hàng đa cấp phải giao kết hợp đồng tham gia bán hàng đa cấp bằng văn bản.\n2. Hợp đồng tham gia bán hàng đa cấp phải đáp ứng các điều kiện về ngôn ngữ, hình thức theo quy định của Luật này và pháp luật về quản lý bán hàng đa cấp.",
+    "context_ids": [
+      "luat-19-2023-QH15:3:2",
+      "luat-19-2023-QH15:10:3",
+      "luat-19-2023-QH15:45:1",
+      "luat-19-2023-QH15:10:4",
+      "luat-19-2023-QH15:46:0"
+    ],
+    "context_chars": 3792,
+    "elapsed_s": 2.09,
+    "error": null,
+    "context_has_evidence": null
+  },
+  {
+    "query_id": "tu3",
+    "split": "test",
+    "config": "D_dense_year",
+    "model": "deepseek-flash",
+    "question": "Người tiêu dùng phải gửi khiếu nại cho doanh nghiệp trong thời hạn tối đa bao nhiêu ngày kể từ ngày mua hàng?",
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các đoạn luật tìm được chỉ quy định thời hạn doanh nghiệp phải tiếp nhận, thương lượng (07 ngày làm việc kể từ ngày nhận yêu cầu) [luat-19-2023-QH15:57:0][luat-59-2010-QH12:31:0] và thông báo tiếp nhận trong 03 ngày làm việc [luat-19-2023-QH15:31:0], không có quy định thời hạn tối đa người tiêu dùng phải gửi khiếu nại kể từ ngày mua hàng.",
+    "raw_answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các đoạn luật tìm được chỉ quy định thời hạn doanh nghiệp phải tiếp nhận, thương lượng (07 ngày làm việc kể từ ngày nhận yêu cầu) [luat-19-2023-QH15:57:0][luat-59-2010-QH12:31:0] và thông báo tiếp nhận trong 03 ngày làm việc [luat-19-2023-QH15:31:0], không có quy định thời hạn tối đa người tiêu dùng phải gửi khiếu nại kể từ ngày mua hàng.",
+    "citations": [],
+    "filter": null,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "thời hạn khiếu nại của người tiêu dùng gửi đến doanh nghiệp",
+        "query_used": "thời hạn khiếu nại của người tiêu dùng gửi đến doanh nghiệp",
+        "method": "dense",
+        "filter": null,
+        "top_k": 5,
+        "retrieval_ms": 39.2,
+        "results": [
+          {
+            "id": "luat-19-2023-QH15:31:0",
+            "rank": 1,
+            "score": 0.8756,
+            "source_id": "luat-19-2023-QH15",
+            "page": 31
+          },
+          {
+            "id": "luat-59-2010-QH12:31:0",
+            "rank": 2,
+            "score": 0.8709,
+            "source_id": "luat-59-2010-QH12",
+            "page": 31
+          },
+          {
+            "id": "luat-19-2023-QH15:31:1",
+            "rank": 3,
+            "score": 0.8625,
+            "source_id": "luat-19-2023-QH15",
+            "page": 31
+          },
+          {
+            "id": "luat-19-2023-QH15:57:1",
+            "rank": 4,
+            "score": 0.8617,
+            "source_id": "luat-19-2023-QH15",
+            "page": 57
+          },
+          {
+            "id": "luat-19-2023-QH15:57:0",
+            "rank": 5,
+            "score": 0.8594,
+            "source_id": "luat-19-2023-QH15",
+            "page": 57
+          }
+        ],
+        "added_ids": [
+          "luat-19-2023-QH15:31:0",
+          "luat-59-2010-QH12:31:0",
+          "luat-19-2023-QH15:31:1",
+          "luat-19-2023-QH15:57:1",
+          "luat-19-2023-QH15:57:0"
+        ],
+        "already_in_context": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search_limit",
+        "query": "khiếu nại, yêu cầu bồi thường thiệt hại thời hạn"
+      },
+      {
+        "event": "model_abstained"
+      }
+    ],
+    "searches": 1,
+    "model_calls": 2,
+    "calls": [
+      {
+        "tool_choice": "required",
+        "usage": {
+          "prompt_tokens": 919,
+          "completion_tokens": 107,
+          "total_tokens": 1026,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 151
+        },
+        "latency_s": 1.073,
+        "finish_reason": "tool_calls",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      },
+      {
+        "tool_choice": "none",
+        "usage": {
+          "prompt_tokens": 2303,
+          "completion_tokens": 168,
+          "total_tokens": 2471,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 1919
+        },
+        "latency_s": 1.069,
+        "finish_reason": "stop",
+        "attempts": 1,
+        "model": "deepseek-flash"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3222,
+      "completion_tokens": 275,
+      "prompt_cache_hit_tokens": 1152
+    },
+    "context": "[luat-19-2023-QH15:31:0 | Luật 2023 số 19/2023/QH15 | Điều 31]\nĐiều 31. Trách nhiệm tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng\n1. Tổ chức, cá nhân kinh doanh có trách nhiệm tổ chức tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng.\n2. Tổ chức, cá nhân kinh doanh có trách nhiệm thông báo cho người tiêu dùng về việc tiếp nhận phản ánh, yêu cầu, khiếu nại của người tiêu dùng trong thời hạn 03 ngày làm việc kể từ ngày nhận được phản ánh, yêu cầu, khiếu nại đó.\n3. Tổ chức, cá nhân sản xuất, nhập khẩu sản phẩm, hàng hóa hoặc trực tiếp bán, cung cấp sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng có trách nhiệm xây dựng, công khai quy trình tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng theo hình thức niêm yết ở vị trí dễ nhìn thấy tại trụ sở, địa điểm kinh doanh và đăng tải trên trang thông tin điện tử, phần mềm ứng dụng (nếu có).\n\n[luat-59-2010-QH12:31:0 | Luật 2010 số 59/2010/QH12 | Điều 31]\nĐiều 31. Thương lượng\n1. Người tiêu dùng có quyền gửi yêu cầu đến tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ để thương lượng khi cho rằng quyền, lợi ích hợp pháp của mình bị xâm phạm.\n2. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được yêu cầu.\n\n[luat-19-2023-QH15:31:1 | Luật 2023 số 19/2023/QH15 | Điều 31]\nĐiều 31. Trách nhiệm tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng\nQuy định tại khoản này không bắt buộc áp dụng đối với cá nhân hoạt động thương mại độc lập, thường xuyên, không phải đăng ký kinh doanh, tất cả doanh nghiệp siêu nhỏ theo quy định của pháp luật.\n\n[luat-19-2023-QH15:57:1 | Luật 2023 số 19/2023/QH15 | Điều 57]\nĐiều 57. Trình tự, thủ tục thương lượng\n4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu của người tiêu dùng, cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có trách nhiệm chuyển yêu cầu của người tiêu dùng đến tổ chức, cá nhân kinh doanh được yêu cầu thương lượng.\n5. Tổ chức, cá nhân kinh doanh có trách nhiệm tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu và thông báo bằng văn bản kết quả thương lượng đến cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng trong thời hạn 05 ngày làm việc kể từ ngày kết thúc thương lượng.\n6. Trường hợp từ chối yêu cầu thương lượng của người tiêu dùng, trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu thương lượng, tổ chức, cá nhân kinh doanh phải trả lời bằng văn bản và nêu rõ lý do.\n\n[luat-19-2023-QH15:57:0 | Luật 2023 số 19/2023/QH15 | Điều 57]\nĐiều 57. Trình tự, thủ tục thương lượng\n1. Người tiêu dùng gửi yêu cầu thương lượng và thông tin, tài liệu liên quan (nếu có) đến tổ chức, cá nhân kinh doanh tại trụ sở chính, chi nhánh, văn phòng đại diện, địa điểm kinh doanh, trang thông tin điện tử hoặc thông qua phương thức liên lạc khác do tổ chức, cá nhân kinh doanh đã công khai hoặc đang áp dụng.\n2. Tổ chức, cá nhân kinh doanh có trách nhiệm tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu.\n3. Trong trường hợp quy định tại khoản 3 Điều 56 của Luật này, người tiêu dùng gửi yêu cầu hỗ trợ thương lượng và thông tin, tài liệu liên quan bằng hình thức trực tiếp hoặc qua đường bưu điện hoặc trực tuyến đến cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng.",
+    "context_ids": [
+      "luat-19-2023-QH15:31:0",
+      "luat-59-2010-QH12:31:0",
+      "luat-19-2023-QH15:31:1",
+      "luat-19-2023-QH15:57:1",
+      "luat-19-2023-QH15:57:0"
+    ],
+    "context_chars": 3640,
+    "elapsed_s": 2.18,
+    "error": null,
+    "context_has_evidence": null
+  }
+]

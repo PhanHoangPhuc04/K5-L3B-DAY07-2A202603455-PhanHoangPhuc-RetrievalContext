@@ -1,0 +1,18 @@
+{
+  "locked_at": "2026-11-14T13:11:42+00:00",
+  "sha256": {
+    "questions.json": "3c4808fdb866c3fc16c2a375bf2a891038dc1b8397c42071d3b979e4b529c919",
+    "cases.json": "1db72a555a59e119c9ebc756c117c2ad3913908b9f10a7397e4a7998d0f97f39"
+  },
+  "counts": {
+    "dev": {
+      "answerable": 22,
+      "unanswerable": 3
+    },
+    "test": {
+      "answerable": 8,
+      "unanswerable": 3
+    }
+  },
+  "note": "Khoá trước khi chạy bất kỳ cấu hình nào trên test."
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "query_id": "t01",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; mọi citation nằm trong context và nội dung đoạn khớp câu được gắn (luat-19-2023-QH15:31:0)."
+  },
+  {
+    "query_id": "t02",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; mọi citation nằm trong context và nội dung đoạn khớp câu được gắn (luat-19-2023-QH15:31:0, luat-19-2023-QH15:31:1)."
+  },
+  {
+    "query_id": "t03",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; mọi citation nằm trong context và nội dung đoạn khớp câu được gắn (luat-19-2023-QH15:58:0)."
+  },
+  {
+    "query_id": "t04",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; mọi citation nằm trong context và nội dung đoạn khớp câu được gắn (luat-59-2010-QH12:36:0)."
+  },
+  {
+    "query_id": "t05",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; mọi citation nằm trong context và nội dung đoạn khớp câu được gắn (luat-19-2023-QH15:69:0)."
+  },
+  {
+    "query_id": "t06",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; mọi citation nằm trong context và nội dung đoạn khớp câu được gắn (luat-19-2023-QH15:66:0)."
+  },
+  {
+    "query_id": "t07",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; mọi citation nằm trong context và nội dung đoạn khớp câu được gắn (luat-59-2010-QH12:37:0)."
+  },
+  {
+    "query_id": "t08",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; mọi citation nằm trong context và nội dung đoạn khớp câu được gắn (luat-19-2023-QH15:46:0)."
+  },
+  {
+    "query_id": "tu1",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã đọc: agent tìm rồi trả lời KHÔNG ĐỦ BẰNG CHỨNG, chỉ mô tả các Điều đã thấy, không đưa con số hay khẳng định ngoài tài liệu."
+  },
+  {
+    "query_id": "tu2",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã đọc: agent tìm rồi trả lời KHÔNG ĐỦ BẰNG CHỨNG, chỉ mô tả các Điều đã thấy, không đưa con số hay khẳng định ngoài tài liệu."
+  },
+  {
+    "query_id": "tu3",
+    "reviewer": "Phan Hoàng Phúc (tác giả)",
+    "note": "Nhãn do chính tác giả hệ thống chấm, có thể thiên lệch; đã đọc đối chiếu câu trả lời và từng citation với nội dung chunk.",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã đọc: agent tìm rồi trả lời KHÔNG ĐỦ BẰNG CHỨNG, chỉ mô tả các Điều đã thấy, không đưa con số hay khẳng định ngoài tài liệu."
+  }
+]

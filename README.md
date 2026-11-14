@@ -1,3 +1,47 @@
+# Bài làm Day 07 — Phan Hoàng Phúc (2A202603455, L3A)
+
+Agentic RAG trên kho Day 6: Luật Bảo vệ quyền lợi người tiêu dùng 2010 (59/2010/QH12) và 2023 (19/2023/QH15), 131 Điều, 213 chunk theo khoản (cấu hình B của Day 6). Embedding `intfloat/multilingual-e5-base` (768 chiều) chạy local, vector store Chroma. Agent dùng model DeepSeek `deepseek-flash` qua tool calling thật. Chỉ làm phần cơ bản, không làm thử thách nâng cao.
+
+Báo cáo: [report/individual/2A202603455_PhanHoangPhuc.md](report/individual/2A202603455_PhanHoangPhuc.md)
+
+## Cách chạy (từ thư mục gốc repo, Python 3.11–3.13)
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env                      # điền DEEPSEEK_API_KEY (hoặc export biến môi trường)
+
+python -m src.build_index                 # chunk B -> data/chunks.json + Chroma store/chroma (thêm --ingest để parse lại HTML gốc)
+python -m src.check_benchmark             # kiểm evidence nằm trọn trong 1 chunk đúng nguồn/Điều, so sha256 với benchmark/lock.json
+python -m src.eval_retrieval --split dev  # dense / bm25 / bm25_unigram / hybrid / lọc năm v1, v2 (không gọi model)
+python starter/baseline.py --chunks data/chunks.json --questions benchmark/questions.json --split dev --output results/retrieval/dev/tfidf_starter
+python -m src.run_agent --split dev --configs A_dense B_bm25 C_hybrid D_dense_year E_dense_year_multi
+python -m src.select_config               # áp tiêu chí chọn đã chốt -> results/selection.json
+python -m src.eval_retrieval --split test --configs dense dense_year
+python -m src.run_agent --split test --configs A_dense D_dense_year
+python starter/agent_metrics.py --cases benchmark/cases.json --traces results/agent/test/D_dense_year/traces.json \
+  --reviews results/agent/test/D_dense_year/reviews.json --split test --output results/agent/test/D_dense_year/agent_metrics.json
+python -m unittest discover -s tests -v
+```
+
+Lần đầu `build_index` tải model nhúng (~1 GB). Lỗi model hoặc vector store được ghi vào trace với `status: "error"`, không có kết quả giả. Chạy lại `run_agent` sẽ gọi API lại và ghi đè trace (model ở temperature 0 nhưng kết quả vẫn có thể lệch đôi chút).
+
+| Thư mục / file | Nội dung |
+|---|---|
+| `src/` | `build_index`, `retrieval` (dense, BM25, RRF, suy năm), `agent` (vòng lặp tool calling), `llm` (client DeepSeek), `run_agent`, `eval_retrieval`, `check_benchmark`, `select_config`; `chunking/embeddings/store/ingestion/models` sao chép nguyên từ Day 6 |
+| `data/` | `raw/` (HTML gốc), `clean/units.jsonl`, `sources.json`, `manifest.json` (từ Day 6), `chunks.json` (213 chunk, schema Day 7) |
+| `benchmark/` | `questions.json` (30 câu có đáp án), `cases.json` (36 câu, gồm 6 câu thiếu bằng chứng), `lock.json`, `README.md` (split, định nghĩa chỉ số, tiêu chí chọn chốt trước) |
+| `results/retrieval/` | trace top-5 từng câu và `summary.json` cho từng phương pháp |
+| `results/agent/<split>/<cấu hình>/` | `traces.json`, `summary.json`, `reviews.json` (nhãn tay), `agent_metrics.json` (từ `starter/agent_metrics.py`) |
+| `results/selection.json`, `results/index_info.json` | quyết định chọn cấu hình; thông tin index |
+| `tests/test_day7.py` | test BM25, RRF, suy năm, bỏ cụm phạm vi, vòng lặp agent (model giả), citation, benchmark |
+
+`store/`, `.env` không đưa lên repo; dựng lại store bằng `python -m src.build_index`.
+
+---
+
+# Đề bài gốc
+
 # Day 7 — Agentic RAG
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**

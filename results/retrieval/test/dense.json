@@ -1,0 +1,458 @@
+[
+  {
+    "query_id": "t01",
+    "question": "Sau khi nhận được khiếu nại của người tiêu dùng, doanh nghiệp phải thông báo việc tiếp nhận trong thời hạn bao lâu?",
+    "query_used": "Sau khi nhận được khiếu nại của người tiêu dùng, doanh nghiệp phải thông báo việc tiếp nhận trong thời hạn bao lâu?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:31:0",
+        "rank": 1,
+        "score": 0.8803,
+        "source_id": "luat-19-2023-QH15",
+        "page": 31,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:57:1",
+        "rank": 2,
+        "score": 0.8518,
+        "source_id": "luat-19-2023-QH15",
+        "page": 57,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:72:0",
+        "rank": 3,
+        "score": 0.851,
+        "source_id": "luat-19-2023-QH15",
+        "page": 72,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:57:0",
+        "rank": 4,
+        "score": 0.8429,
+        "source_id": "luat-19-2023-QH15",
+        "page": 57,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:31:0",
+        "rank": 5,
+        "score": 0.8425,
+        "source_id": "luat-59-2010-QH12",
+        "page": 31,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        31
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t02",
+    "question": "Doanh nghiệp siêu nhỏ có bắt buộc phải niêm yết, công khai quy trình tiếp nhận và giải quyết khiếu nại của người tiêu dùng không?",
+    "query_used": "Doanh nghiệp siêu nhỏ có bắt buộc phải niêm yết, công khai quy trình tiếp nhận và giải quyết khiếu nại của người tiêu dùng không?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:31:1",
+        "rank": 1,
+        "score": 0.8755,
+        "source_id": "luat-19-2023-QH15",
+        "page": 31,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:31:0",
+        "rank": 2,
+        "score": 0.8629,
+        "source_id": "luat-19-2023-QH15",
+        "page": 31,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:4:1",
+        "rank": 3,
+        "score": 0.8414,
+        "source_id": "luat-19-2023-QH15",
+        "page": 4,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:72:0",
+        "rank": 4,
+        "score": 0.84,
+        "source_id": "luat-19-2023-QH15",
+        "page": 72,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:39:2",
+        "rank": 5,
+        "score": 0.839,
+        "source_id": "luat-19-2023-QH15",
+        "page": 39,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        31
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t03",
+    "question": "Một người chưa thành niên tự gửi yêu cầu hỗ trợ thương lượng mà không có người đại diện hợp pháp thì yêu cầu đó có được tiếp nhận không?",
+    "query_used": "Một người chưa thành niên tự gửi yêu cầu hỗ trợ thương lượng mà không có người đại diện hợp pháp thì yêu cầu đó có được tiếp nhận không?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:58:0",
+        "rank": 1,
+        "score": 0.8923,
+        "source_id": "luat-19-2023-QH15",
+        "page": 58,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:56:0",
+        "rank": 2,
+        "score": 0.8565,
+        "source_id": "luat-19-2023-QH15",
+        "page": 56,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:57:0",
+        "rank": 3,
+        "score": 0.85,
+        "source_id": "luat-19-2023-QH15",
+        "page": 57,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:57:1",
+        "rank": 4,
+        "score": 0.844,
+        "source_id": "luat-19-2023-QH15",
+        "page": 57,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:31:0",
+        "rank": 5,
+        "score": 0.8385,
+        "source_id": "luat-59-2010-QH12",
+        "page": 31,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        58
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t04",
+    "question": "Theo Luật 2010, biên bản hòa giải phải có chữ ký của những ai?",
+    "query_used": "Theo Luật 2010, biên bản hòa giải phải có chữ ký của những ai?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:36:0",
+        "rank": 1,
+        "score": 0.8519,
+        "source_id": "luat-59-2010-QH12",
+        "page": 36,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:65:0",
+        "rank": 2,
+        "score": 0.8427,
+        "source_id": "luat-19-2023-QH15",
+        "page": 65,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:66:0",
+        "rank": 3,
+        "score": 0.8322,
+        "source_id": "luat-19-2023-QH15",
+        "page": 66,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:37:0",
+        "rank": 4,
+        "score": 0.8298,
+        "source_id": "luat-59-2010-QH12",
+        "page": 37,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:61:0",
+        "rank": 5,
+        "score": 0.8276,
+        "source_id": "luat-19-2023-QH15",
+        "page": 61,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-59-2010-QH12",
+        36
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t05",
+    "question": "Theo luật năm 2023, khi tranh chấp với doanh nghiệp, người tiêu dùng có phải tự chứng minh lỗi của doanh nghiệp không?",
+    "query_used": "Theo luật năm 2023, khi tranh chấp với doanh nghiệp, người tiêu dùng có phải tự chứng minh lỗi của doanh nghiệp không?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:42:0",
+        "rank": 1,
+        "score": 0.8635,
+        "source_id": "luat-59-2010-QH12",
+        "page": 42,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:69:0",
+        "rank": 2,
+        "score": 0.8596,
+        "source_id": "luat-19-2023-QH15",
+        "page": 69,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:78:0",
+        "rank": 3,
+        "score": 0.8394,
+        "source_id": "luat-19-2023-QH15",
+        "page": 78,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:36:1",
+        "rank": 4,
+        "score": 0.8379,
+        "source_id": "luat-19-2023-QH15",
+        "page": 36,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:54:0",
+        "rank": 5,
+        "score": 0.8378,
+        "source_id": "luat-19-2023-QH15",
+        "page": 54,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        69
+      ]
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t06",
+    "question": "Hai bên đã hòa giải thành, một bên muốn kết quả đó được công nhận chính thức thì có thể yêu cầu cơ quan nào?",
+    "query_used": "Hai bên đã hòa giải thành, một bên muốn kết quả đó được công nhận chính thức thì có thể yêu cầu cơ quan nào?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:66:0",
+        "rank": 1,
+        "score": 0.873,
+        "source_id": "luat-19-2023-QH15",
+        "page": 66,
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:37:0",
+        "rank": 2,
+        "score": 0.8607,
+        "source_id": "luat-59-2010-QH12",
+        "page": 37,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:65:0",
+        "rank": 3,
+        "score": 0.8535,
+        "source_id": "luat-19-2023-QH15",
+        "page": 65,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:36:0",
+        "rank": 4,
+        "score": 0.8498,
+        "source_id": "luat-59-2010-QH12",
+        "page": 36,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:61:0",
+        "rank": 5,
+        "score": 0.8449,
+        "source_id": "luat-19-2023-QH15",
+        "page": 61,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        66
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t07",
+    "question": "Theo Luật 2010, nếu một bên không tự nguyện thực hiện kết quả hòa giải thành thì bên kia có quyền làm gì?",
+    "query_used": "Theo Luật 2010, nếu một bên không tự nguyện thực hiện kết quả hòa giải thành thì bên kia có quyền làm gì?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:37:0",
+        "rank": 1,
+        "score": 0.8652,
+        "source_id": "luat-59-2010-QH12",
+        "page": 37,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:66:0",
+        "rank": 2,
+        "score": 0.8558,
+        "source_id": "luat-19-2023-QH15",
+        "page": 66,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:61:0",
+        "rank": 3,
+        "score": 0.8434,
+        "source_id": "luat-19-2023-QH15",
+        "page": 61,
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:33:0",
+        "rank": 4,
+        "score": 0.8403,
+        "source_id": "luat-59-2010-QH12",
+        "page": 33,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:65:0",
+        "rank": 5,
+        "score": 0.8388,
+        "source_id": "luat-19-2023-QH15",
+        "page": 65,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-59-2010-QH12",
+        37
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t08",
+    "question": "Hợp đồng tham gia bán hàng đa cấp phải được giao kết dưới hình thức nào?",
+    "query_used": "Hợp đồng tham gia bán hàng đa cấp phải được giao kết dưới hình thức nào?",
+    "filter": null,
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:46:0",
+        "rank": 1,
+        "score": 0.9055,
+        "source_id": "luat-19-2023-QH15",
+        "page": 46,
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:45:1",
+        "rank": 2,
+        "score": 0.8574,
+        "source_id": "luat-19-2023-QH15",
+        "page": 45,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:45:0",
+        "rank": 3,
+        "score": 0.8488,
+        "source_id": "luat-19-2023-QH15",
+        "page": 45,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:10:3",
+        "rank": 4,
+        "score": 0.8472,
+        "source_id": "luat-19-2023-QH15",
+        "page": 10,
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:23:0",
+        "rank": 5,
+        "score": 0.8431,
+        "source_id": "luat-19-2023-QH15",
+        "page": 23,
+        "hit": false
+      }
+    ],
+    "gold_pages": [
+      [
+        "luat-19-2023-QH15",
+        46
+      ]
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

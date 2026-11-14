@@ -1,0 +1,33 @@
+{
+  "dense": {
+    "config": "dense",
+    "method": "dense",
+    "year": false,
+    "split": "test",
+    "N": 8,
+    "top_k_logged": 5,
+    "budget_chars": 8000,
+    "hit1": 7,
+    "hit3": 8,
+    "context_hit_top5": 8,
+    "filtered_questions": 0,
+    "median_ms": 39.7,
+    "cost_usd": 0
+  },
+  "dense_year": {
+    "config": "dense_year",
+    "method": "dense",
+    "year": "v2",
+    "strip": true,
+    "split": "test",
+    "N": 8,
+    "top_k_logged": 5,
+    "budget_chars": 8000,
+    "hit1": 8,
+    "hit3": 8,
+    "context_hit_top5": 8,
+    "filtered_questions": 3,
+    "median_ms": 34.7,
+    "cost_usd": 0
+  }
+}

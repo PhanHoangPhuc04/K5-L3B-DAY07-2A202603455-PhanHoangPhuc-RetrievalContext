@@ -1,0 +1,56 @@
+{
+  "config": "C_hybrid",
+  "top_k": 5,
+  "budget": 8000,
+  "year": null,
+  "strip": false,
+  "max_searches": 1,
+  "method": "hybrid",
+  "split": "dev",
+  "model": "deepseek-flash",
+  "run_at": "2026-11-14T13:17:40+00:00",
+  "cases": 25,
+  "errors": [],
+  "status": {
+    "answered": 21,
+    "abstain": 4
+  },
+  "tool_use": {
+    "n": 25,
+    "N": 25
+  },
+  "searches_per_case": {
+    "1": 25
+  },
+  "model_calls_per_case": {
+    "2": 25
+  },
+  "context_evidence_rate": {
+    "n": 20,
+    "N": 22
+  },
+  "answered_answerable": {
+    "n": 21,
+    "N": 22
+  },
+  "abstained_unanswerable": {
+    "n": 3,
+    "N": 3
+  },
+  "invalid_citation_abstain": 1,
+  "tokens": {
+    "prompt": 82392,
+    "completion": 7465,
+    "cache_hit": 41599,
+    "mean_per_case": 3594.3
+  },
+  "model_calls_total": 50,
+  "latency_s": {
+    "median_case": 2.73,
+    "max_case": 4.6,
+    "wall_clock": 13.4,
+    "workers": 6
+  },
+  "mean_context_chars": 3656.4,
+  "cost": "token lấy từ trường usage của API; đơn giá: xem trang giá DeepSeek"
+}

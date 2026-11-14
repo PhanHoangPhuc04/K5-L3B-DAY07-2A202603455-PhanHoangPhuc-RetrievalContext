@@ -1,0 +1,266 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "question": "Ngày Quyền của người tiêu dùng Việt Nam là ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "question": "Mua hàng trên mạng thì người bán có phải cho tôi tải và in hóa đơn không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "question": "Nếu trong thời gian bảo hành tôi được đổi sang sản phẩm mới thì thời hạn bảo hành tính thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "question": "Mua hàng của người bán đến tận nhà, tôi có bao nhiêu ngày để suy nghĩ lại và hủy hợp đồng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "question": "Thế nào là người tiêu dùng dễ bị tổn thương?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "question": "Tranh chấp tiêu dùng có người dân tộc thiểu số thì việc hòa giải phải đáp ứng yêu cầu gì về hòa giải viên?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "question": "Nhà cung cấp dịch vụ liên tục phải báo cho khách về việc nộp phí gia hạn trước bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "question": "Biên bản kết quả thương lượng giữa tôi và cửa hàng cần có chữ ký của ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "question": "Trong vụ kiện vì lợi ích công cộng, nếu không xác định được ai được hưởng tiền bồi thường thì tiền đó dùng vào việc gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "question": "Theo Luật 2010, khi thu hồi hàng hóa có khuyết tật phải thông báo trên báo ngày bao nhiêu số liên tiếp?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "question": "Theo Luật 2010, người tiêu dùng khởi kiện vụ án dân sự có phải nộp tạm ứng án phí không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "question": "Theo luật hiện hành năm 2023, những tổ chức nào được hòa giải tranh chấp giữa người tiêu dùng và doanh nghiệp?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "question": "Theo Luật 2010, doanh nghiệp được miễn bồi thường thiệt hại do hàng hóa có khuyết tật trong trường hợp nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "question": "Luật bảo vệ quyền lợi người tiêu dùng bản năm 2010 bắt đầu có hiệu lực từ ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "question": "Luật Bảo vệ quyền lợi người tiêu dùng số 59/2010/QH12 hết hiệu lực khi nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "question": "Theo luật hiện hành năm 2023, người tiêu dùng được định nghĩa là ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "question": "Cửa hàng từ chối thương lượng với tôi mà không có lý do chính đáng thì tôi có thể làm gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d18",
+    "split": "dev",
+    "question": "Tổ chức xã hội khởi kiện vì lợi ích công cộng về quyền lợi người tiêu dùng có phải chịu án phí không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d19",
+    "split": "dev",
+    "question": "Thông tin cảnh báo về người bán online vi phạm được công khai gồm những danh sách nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d20",
+    "split": "dev",
+    "question": "Theo luật năm 2023, doanh nghiệp phải tiến hành thương lượng với người tiêu dùng trong thời hạn bao lâu kể từ khi nhận yêu cầu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d21",
+    "split": "dev",
+    "question": "Theo Luật 2010, trong vụ án dân sự về bảo vệ người tiêu dùng, ai quyết định bên nào có lỗi?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d22",
+    "split": "dev",
+    "question": "Nếu tôi đã được cảnh báo đầy đủ mà vẫn cố tình dùng sản phẩm bị lỗi rồi bị thiệt hại, doanh nghiệp có phải bồi thường không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "Sau khi nhận được khiếu nại của người tiêu dùng, doanh nghiệp phải thông báo việc tiếp nhận trong thời hạn bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "Doanh nghiệp siêu nhỏ có bắt buộc phải niêm yết, công khai quy trình tiếp nhận và giải quyết khiếu nại của người tiêu dùng không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "Một người chưa thành niên tự gửi yêu cầu hỗ trợ thương lượng mà không có người đại diện hợp pháp thì yêu cầu đó có được tiếp nhận không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "Theo Luật 2010, biên bản hòa giải phải có chữ ký của những ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "Theo luật năm 2023, khi tranh chấp với doanh nghiệp, người tiêu dùng có phải tự chứng minh lỗi của doanh nghiệp không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "Hai bên đã hòa giải thành, một bên muốn kết quả đó được công nhận chính thức thì có thể yêu cầu cơ quan nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "question": "Theo Luật 2010, nếu một bên không tự nguyện thực hiện kết quả hòa giải thành thì bên kia có quyền làm gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "question": "Hợp đồng tham gia bán hàng đa cấp phải được giao kết dưới hình thức nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "du1",
+    "split": "dev",
+    "question": "Doanh nghiệp vi phạm quyền lợi người tiêu dùng bị phạt tiền tối đa bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Hai luật chỉ nói bị xử phạt vi phạm hành chính và giao Chính phủ quy định chi tiết (Luật 2010 Điều 11); không có mức tiền phạt nào.",
+    "absence_check": "Tìm chuỗi \"phạt tiền\" (0 kết quả), \"xử phạt\" (chỉ Luật 2010 Điều 11, không có số tiền); \"triệu đồng\" chỉ xuất hiện ở ngưỡng giá trị giao dịch (Điều 41/2010, 47, 70, 78/2023)."
+  },
+  {
+    "id": "du2",
+    "split": "dev",
+    "question": "Thời hạn bảo hành tối thiểu bắt buộc đối với điện thoại di động là bao lâu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Luật quy định trách nhiệm bảo hành (2010 Điều 21, 2023 Điều 30) nhưng không đặt thời hạn bảo hành tối thiểu cho loại hàng nào.",
+    "absence_check": "Đọc toàn văn 2010 Điều 21 và 2023 Điều 30; tìm \"thời hạn bảo hành\" (7 lần, đều nói cách tính, không có con số tối thiểu); \"điện thoại\" chỉ xuất hiện ở thông tin liên hệ."
+  },
+  {
+    "id": "du3",
+    "split": "dev",
+    "question": "Số điện thoại tổng đài tiếp nhận khiếu nại người tiêu dùng của Bộ Công Thương là số nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus không có số tổng đài hay đường dây nóng nào.",
+    "absence_check": "Tìm \"tổng đài\", \"đường dây nóng\" (0 kết quả); \"số điện thoại\" chỉ là trường thông tin trong hợp đồng/giao dịch từ xa (2023 Điều 23, 37, 38, 42)."
+  },
+  {
+    "id": "tu1",
+    "split": "test",
+    "question": "Phí hòa giải tranh chấp tiêu dùng tại tổ chức hòa giải là bao nhiêu tiền?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Luật quy định tổ chức hòa giải, hòa giải viên, kết quả hòa giải (2023 Điều 61–66) nhưng không quy định mức phí hòa giải.",
+    "absence_check": "Tìm \"phí hòa giải\", \"chi phí hòa giải\" (0 kết quả); đọc 2010 Điều 33–37 và 2023 Điều 61–66."
+  },
+  {
+    "id": "tu2",
+    "split": "test",
+    "question": "Người tham gia bán hàng đa cấp được hưởng hoa hồng tối đa bao nhiêu phần trăm doanh số?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Luật chỉ nhắc hoa hồng trong định nghĩa bán hàng đa cấp (2023 Điều 3), không có tỷ lệ.",
+    "absence_check": "Tìm \"hoa hồng\" (1 lần, 2023 Điều 3), \"phần trăm\" và \"%\" (0 kết quả); đọc 2023 Điều 45–46."
+  },
+  {
+    "id": "tu3",
+    "split": "test",
+    "question": "Người tiêu dùng phải gửi khiếu nại cho doanh nghiệp trong thời hạn tối đa bao nhiêu ngày kể từ ngày mua hàng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Luật quy định thời hạn doanh nghiệp phải phản hồi (03 ngày làm việc, 2023 Điều 31) và thương lượng (07 ngày, Điều 57), không đặt thời hạn khiếu nại cho người tiêu dùng.",
+    "absence_check": "Tìm \"thời hiệu\", \"kể từ ngày mua\" (0 kết quả); đọc 2023 Điều 31, 56, 57."
+  }
+]

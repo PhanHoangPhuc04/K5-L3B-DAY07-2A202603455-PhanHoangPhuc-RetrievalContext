@@ -1,0 +1,2159 @@
+[
+  {
+    "query_id": "d01",
+    "split": "dev",
+    "question": "Ngày Quyền của người tiêu dùng Việt Nam là ngày nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 13,
+        "evidence": "Ngày 15 tháng 3 hằng năm là Ngày Quyền của người tiêu dùng Việt Nam."
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:13:0",
+        "text": "Điều 13. Ngày Quyền của người tiêu dùng Việt Nam\n1. Ngày 15 tháng 3 hằng năm là Ngày Quyền của người tiêu dùng Việt Nam.\n2. Chính phủ quy định việc tổ chức thực hiện các hoạt động hưởng ứng Ngày Quyền của người tiêu dùng Việt Nam.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 13,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-13",
+          "article": 13,
+          "article_title": "Ngày Quyền của người tiêu dùng Việt Nam",
+          "chapter": "I",
+          "chapter_title": "NHỮNG QUY ĐỊNH CHUNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 49,
+          "char_end": 230
+        },
+        "score": 0.7150350588295541,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:41:0",
+        "text": "Điều 41. Trách nhiệm của tổ chức, cá nhân kinh doanh cung cấp dịch vụ liên tục\n1. Tổ chức, cá nhân kinh doanh cung cấp dịch vụ liên tục trên lãnh thổ Việt Nam có trách nhiệm thông báo công khai về đại diện theo pháp luật tại Việt Nam. Trường hợp tổ chức, cá nhân kinh doanh cung cấp dịch vụ liên tục trên lãnh thổ Việt Nam không có đại diện theo pháp luật tại Việt Nam thì phải chỉ định đại diện theo ủy quyền tại Việt Nam và thông báo công khai về đại diện theo ủy quyền tại Việt Nam. Đại diện của tổ chức, cá nhân kinh doanh có trách nhiệm thực hiện quy định của pháp luật về bảo vệ quyền lợi người tiêu dùng.\n2. Không được yêu cầu người tiêu dùng thanh toán bất kỳ khoản tiền nào trước khi dịch vụ được cung cấp đến người tiêu dùng, trừ trường hợp các bên có thỏa thuận khác.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 41,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-41",
+          "article": 41,
+          "article_title": "Trách nhiệm của tổ chức, cá nhân kinh doanh cung cấp dịch vụ liên tục",
+          "chapter": "III",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG TRONG GIAO DỊCH ĐẶC THÙ",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 79,
+          "char_end": 778
+        },
+        "score": 0.3706622230557178,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:57:1",
+        "text": "Điều 57. Trình tự, thủ tục thương lượng\n4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu của người tiêu dùng, cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có trách nhiệm chuyển yêu cầu của người tiêu dùng đến tổ chức, cá nhân kinh doanh được yêu cầu thương lượng.\n5. Tổ chức, cá nhân kinh doanh có trách nhiệm tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu và thông báo bằng văn bản kết quả thương lượng đến cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng trong thời hạn 05 ngày làm việc kể từ ngày kết thúc thương lượng.\n6. Trường hợp từ chối yêu cầu thương lượng của người tiêu dùng, trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu thương lượng, tổ chức, cá nhân kinh doanh phải trả lời bằng văn bản và nêu rõ lý do.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 57,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-57",
+          "article": 57,
+          "article_title": "Trình tự, thủ tục thương lượng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 851,
+          "char_end": 1759
+        },
+        "score": 0.2967966300578315,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-19-2023-QH15:13:0 | https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi | page 13]\nĐiều 13. Ngày Quyền của người tiêu dùng Việt Nam\n1. Ngày 15 tháng 3 hằng năm là Ngày Quyền của người tiêu dùng Việt Nam.\n2. Chính phủ quy định việc tổ chức thực hiện các hoạt động hưởng ứng Ngày Quyền của người tiêu dùng Việt Nam.",
+    "context_ids": [
+      "luat-19-2023-QH15:13:0"
+    ],
+    "context_chars": 394,
+    "elapsed_ms": 0.2515418455004692,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d02",
+    "split": "dev",
+    "question": "Mua hàng trên mạng thì người bán có phải cho tôi tải và in hóa đơn không?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 29,
+        "evidence": "Trường hợp giao dịch trên không gian mạng thì tổ chức, cá nhân kinh doanh có trách nhiệm tạo điều kiện cho người tiêu dùng truy cập, tải, lưu trữ và in hóa đơn, chứng từ, tài liệu"
+      },
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 20,
+        "evidence": "Trường hợp giao dịch bằng phương tiện điện tử thì tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm tạo điều kiện cho người tiêu dùng truy nhập, tải, lưu giữ và in hóa đơn, chứng từ, tài liệu"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:29:0",
+        "text": "Điều 29. Cung cấp bằng chứng giao dịch\n1. Tổ chức, cá nhân kinh doanh có trách nhiệm cung cấp cho người tiêu dùng hóa đơn, chứng từ, tài liệu liên quan đến giao dịch theo quy định của pháp luật hoặc theo yêu cầu của người tiêu dùng.\n2. Trường hợp giao dịch trên không gian mạng thì tổ chức, cá nhân kinh doanh có trách nhiệm tạo điều kiện cho người tiêu dùng truy cập, tải, lưu trữ và in hóa đơn, chứng từ, tài liệu theo quy định tại khoản 1 Điều này.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 29,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-29",
+          "article": 29,
+          "article_title": "Cung cấp bằng chứng giao dịch",
+          "chapter": "II",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 39,
+          "char_end": 451
+        },
+        "score": 0.3805769703427545,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:20:0",
+        "text": "Điều 20. Trách nhiệm cung cấp bằng chứng giao dịch\n1. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm cung cấp cho người tiêu dùng hóa đơn hoặc chứng từ, tài liệu liên quan đến giao dịch theo quy định của pháp luật hoặc theo yêu cầu của người tiêu dùng.\n2. Trường hợp giao dịch bằng phương tiện điện tử thì tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm tạo điều kiện cho người tiêu dùng truy nhập, tải, lưu giữ và in hóa đơn, chứng từ, tài liệu quy định tại khoản 1 Điều này.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 20,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-20",
+          "article": 20,
+          "article_title": "Trách nhiệm cung cấp bằng chứng giao dịch",
+          "chapter": "2",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 51,
+          "char_end": 503
+        },
+        "score": 0.3143283955724608,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:39:3",
+        "text": "Điều 39. Trách nhiệm của tổ chức, cá nhân kinh doanh với người tiêu dùng trong giao dịch trên không gian mạng\ng) Có biện pháp cho phép hiển thị ưu tiên đánh giá, phản ánh, kiến nghị của tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng hoặc tổ chức đánh giá tín nhiệm theo quy định của pháp luật;\nh) Trực tiếp lưu trữ thông tin hoặc cung cấp giải pháp lưu trữ thông tin về sản phẩm, hàng hóa, dịch vụ và các giao dịch liên quan, cho phép người tiêu dùng truy cập, truy vết, tải, lưu trữ và in hóa đơn, chứng từ, tài liệu liên quan đến giao dịch trên nền tảng số trung gian mà mình quản lý;\ni) Minh bạch hoạt động quảng cáo trên không gian mạng theo quy định của pháp luật trong trường hợp có hoạt động quảng cáo;\nk) Cung cấp báo cáo về các hoạt động kiểm duyệt nội dung đã thực hiện theo yêu cầu của cơ quan nhà nước có thẩm quyền;",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 39,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-39",
+          "article": 39,
+          "article_title": "Trách nhiệm của tổ chức, cá nhân kinh doanh với người tiêu dùng trong giao dịch trên không gian mạng",
+          "chapter": "III",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG TRONG GIAO DỊCH ĐẶC THÙ",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 3,
+          "char_start": 2287,
+          "char_end": 3015
+        },
+        "score": 0.2566024927512749,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-19-2023-QH15:29:0 | https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi | page 29]\nĐiều 29. Cung cấp bằng chứng giao dịch\n1. Tổ chức, cá nhân kinh doanh có trách nhiệm cung cấp cho người tiêu dùng hóa đơn, chứng từ, tài liệu liên quan đến giao dịch theo quy định của pháp luật hoặc theo yêu cầu của người tiêu dùng.\n2. Trường hợp giao dịch trên không gian mạng thì tổ chức, cá nhân kinh doanh có trách nhiệm tạo điều kiện cho người tiêu dùng truy cập, tải, lưu trữ và in hóa đơn, chứng từ, tài liệu theo quy định tại khoản 1 Điều này.",
+    "context_ids": [
+      "luat-19-2023-QH15:29:0"
+    ],
+    "context_chars": 615,
+    "elapsed_ms": 0.3012919332832098,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d03",
+    "split": "dev",
+    "question": "Nếu trong thời gian bảo hành tôi được đổi sang sản phẩm mới thì thời hạn bảo hành tính thế nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 30,
+        "evidence": "Trường hợp tổ chức, cá nhân kinh doanh đổi sản phẩm, hàng hóa mới thì thời hạn bảo hành sản phẩm, hàng hóa đó được tính lại từ thời điểm đổi mới sản phẩm, hàng hóa"
+      },
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 21,
+        "evidence": "thời hạn bảo hành linh kiện, phụ kiện hoặc hàng hóa đó được tính từ thời điểm thay thế linh kiện, phụ kiện hoặc đổi hàng hóa mới"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:30:1",
+        "text": "Điều 30. Bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện\nTrường hợp tổ chức, cá nhân kinh doanh thay thế linh kiện, phụ kiện thì thời hạn bảo hành linh kiện, phụ kiện đó được tính lại từ thời điểm thay thế linh kiện, phụ kiện.\nTrường hợp tổ chức, cá nhân kinh doanh đổi sản phẩm, hàng hóa mới thì thời hạn bảo hành sản phẩm, hàng hóa đó được tính lại từ thời điểm đổi mới sản phẩm, hàng hóa;\nd) Cung cấp cho người tiêu dùng sản phẩm, hàng hóa, linh kiện, phụ kiện tương tự để sử dụng tạm thời hoặc có hình thức giải quyết phù hợp theo thỏa thuận giữa người tiêu dùng và tổ chức, cá nhân kinh doanh trong thời gian thực hiện bảo hành;",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 30,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-30",
+          "article": 30,
+          "article_title": "Bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện",
+          "chapter": "II",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 946,
+          "char_end": 1522
+        },
+        "score": 0.4506384720867999,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:30:0",
+        "text": "Điều 30. Bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện\n1. Sản phẩm, hàng hóa, linh kiện, phụ kiện được bảo hành theo thỏa thuận của các bên hoặc bắt buộc bảo hành theo quy định của pháp luật.\n2. Trường hợp sản phẩm, hàng hóa, linh kiện, phụ kiện được bảo hành, tổ chức, cá nhân kinh doanh có trách nhiệm sau đây:\na) Công bố công khai chính sách bảo hành. Chính sách bảo hành bao gồm các nội dung chủ yếu sau đây: thời điểm, thời hạn áp dụng, nội dung, phạm vi, phương thức thực hiện bảo hành và các trường hợp loại trừ trách nhiệm bảo hành của tổ chức, cá nhân kinh doanh;\nb) Thực hiện chính xác, đầy đủ trách nhiệm bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện do mình cung cấp;\nc) Cung cấp cho người tiêu dùng văn bản tiếp nhận bảo hành hoặc hình thức tiếp nhận bảo hành tương đương khác, trong đó ghi rõ thời gian thực hiện bảo hành. Thời gian thực hiện bảo hành không tính vào thời hạn bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 30,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-30",
+          "article": 30,
+          "article_title": "Bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện",
+          "chapter": "II",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 58,
+          "char_end": 945
+        },
+        "score": 0.3838419696253134,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:21:0",
+        "text": "Điều 21. Trách nhiệm bảo hành hàng hóa, linh kiện, phụ kiện\nHàng hóa, linh kiện, phụ kiện được bảo hành theo thỏa thuận của các bên hoặc bắt buộc bảo hành theo quy định của pháp luật. Trường hợp hàng hóa, linh kiện, phụ kiện được bảo hành, tổ chức, cá nhân kinh doanh hàng hóa có trách nhiệm:\n1. Thực hiện đầy đủ nghĩa vụ bảo hành hàng hóa, linh kiện, phụ kiện do mình cung cấp;\n2. Cung cấp cho người tiêu dùng giấy tiếp nhận bảo hành, trong đó ghi rõ thời gian thực hiện bảo hành. Thời gian thực hiện bảo hành không tính vào thời hạn bảo hành hàng hóa, linh kiện, phụ kiện. Trường hợp tổ chức, cá nhân kinh doanh hàng hóa thay thế linh kiện, phụ kiện hoặc đổi hàng hóa mới thì thời hạn bảo hành linh kiện, phụ kiện hoặc hàng hóa đó được tính từ thời điểm thay thế linh kiện, phụ kiện hoặc đổi hàng hóa mới;\n3. Cung cấp cho người tiêu dùng hàng hóa, linh kiện, phụ kiện tương tự để sử dụng tạm thời hoặc có hình thức giải quyết khác được người tiêu dùng chấp nhận trong thời gian thực hiện bảo hành;",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 21,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-21",
+          "article": 21,
+          "article_title": "Trách nhiệm bảo hành hàng hóa, linh kiện, phụ kiện",
+          "chapter": "2",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 60,
+          "char_end": 999
+        },
+        "score": 0.3447153939210236,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[luat-19-2023-QH15:30:1 | https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi | page 30]\nĐiều 30. Bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện\nTrường hợp tổ chức, cá nhân kinh doanh thay thế linh kiện, phụ kiện thì thời hạn bảo hành linh kiện, phụ kiện đó được tính lại từ thời điểm thay thế linh kiện, phụ kiện.\nTrường hợp tổ chức, cá nhân kinh doanh đổi sản phẩm, hàng hóa mới thì thời hạn bảo hành sản phẩm, hàng hóa đó được tính lại từ thời điểm đổi mới sản phẩm, hàng hóa;\nd) Cung cấp cho người tiêu dùng sản phẩm, hàng hóa, linh kiện, phụ kiện tương tự để sử dụng tạm thời hoặc có hình thức giải quyết phù hợp theo thỏa thuận giữa người tiêu dùng và tổ chức, cá nhân kinh doanh trong thời gian thực hiện bảo hành;",
+    "context_ids": [
+      "luat-19-2023-QH15:30:1"
+    ],
+    "context_chars": 798,
+    "elapsed_ms": 0.2899579703807831,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d04",
+    "split": "dev",
+    "question": "Mua hàng của người bán đến tận nhà, tôi có bao nhiêu ngày để suy nghĩ lại và hủy hợp đồng?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 44,
+        "evidence": "phải dành tối thiểu 03 ngày làm việc kể từ ngày giao kết hợp đồng để người tiêu dùng cân nhắc lại việc quyết định thực hiện hợp đồng"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:44:0",
+        "text": "Điều 44. Hợp đồng bán hàng tận cửa\n1. Hợp đồng bán hàng tận cửa phải được lập thành văn bản và cung cấp cho người tiêu dùng 01 bản, trừ trường hợp các bên có thỏa thuận khác.\n2. Trường hợp hợp đồng bán hàng tận cửa được lập thành văn bản thì tổ chức, cá nhân kinh doanh phải dành tối thiểu 03 ngày làm việc kể từ ngày giao kết hợp đồng để người tiêu dùng cân nhắc lại việc quyết định thực hiện hợp đồng. Trong thời hạn này, người tiêu dùng có quyền đơn phương chấm dứt thực hiện hợp đồng đã giao kết và thông báo cho tổ chức, cá nhân kinh doanh.\n3. Trường hợp hợp đồng bán hàng tận cửa được lập thành văn bản, khi ký kết hợp đồng, người tiêu dùng phải tự ghi ngày, tháng, năm giao kết.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 44,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-44",
+          "article": 44,
+          "article_title": "Hợp đồng bán hàng tận cửa",
+          "chapter": "III",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG TRONG GIAO DỊCH ĐẶC THÙ",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 35,
+          "char_end": 685
+        },
+        "score": 0.4457502325767276,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:43:1",
+        "text": "Điều 43. Trách nhiệm của tổ chức, cá nhân kinh doanh trong hoạt động bán hàng tận cửa\n3. Tổ chức, cá nhân kinh doanh phải chịu trách nhiệm đối với hoạt động bán hàng của cá nhân bán hàng tận cửa quy định tại khoản 1 Điều này.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 43,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-43",
+          "article": 43,
+          "article_title": "Trách nhiệm của tổ chức, cá nhân kinh doanh trong hoạt động bán hàng tận cửa",
+          "chapter": "III",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG TRONG GIAO DỊCH ĐẶC THÙ",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 886,
+          "char_end": 1025
+        },
+        "score": 0.3398971202253579,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:43:0",
+        "text": "Điều 43. Trách nhiệm của tổ chức, cá nhân kinh doanh trong hoạt động bán hàng tận cửa\n1. Tổ chức, cá nhân kinh doanh thực hiện hoạt động bán hàng tận cửa thông qua các hình thức sau đây:\na) Tự mình thực hiện;\nb) Người lao động của tổ chức, cá nhân kinh doanh;\nc) Đại diện được thuê hoặc được ủy quyền.\n2. Cá nhân quy định tại khoản 1 Điều này khi bán hàng tận cửa có trách nhiệm sau đây:\na) Giới thiệu tên, số điện thoại, địa chỉ, trụ sở của tổ chức, cá nhân kinh doanh chịu trách nhiệm về hoạt động bán, cung cấp sản phẩm, hàng hóa, dịch vụ; cung cấp tài liệu chứng minh mối quan hệ với tổ chức, cá nhân kinh doanh;\nb) Không được tiếp tục đề nghị bán, cung cấp sản phẩm, hàng hóa, dịch vụ khi người tiêu dùng đã từ chối;\nc) Giải thích cho người tiêu dùng đầy đủ, chính xác, rõ ràng về nội dung hợp đồng, thông tin mà người tiêu dùng quan tâm liên quan đến sản phẩm, hàng hóa, dịch vụ.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 43,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-43",
+          "article": 43,
+          "article_title": "Trách nhiệm của tổ chức, cá nhân kinh doanh trong hoạt động bán hàng tận cửa",
+          "chapter": "III",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG TRONG GIAO DỊCH ĐẶC THÙ",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 86,
+          "char_end": 885
+        },
+        "score": 0.2851039925884721,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-19-2023-QH15:43:1 | https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi | page 43]\nĐiều 43. Trách nhiệm của tổ chức, cá nhân kinh doanh trong hoạt động bán hàng tận cửa\n3. Tổ chức, cá nhân kinh doanh phải chịu trách nhiệm đối với hoạt động bán hàng của cá nhân bán hàng tận cửa quy định tại khoản 1 Điều này.",
+    "context_ids": [
+      "luat-19-2023-QH15:43:1"
+    ],
+    "context_chars": 389,
+    "elapsed_ms": 0.30333385802805424,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d05",
+    "split": "dev",
+    "question": "Thế nào là người tiêu dùng dễ bị tổn thương?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 8,
+        "evidence": "Người tiêu dùng dễ bị tổn thương là người tiêu dùng có khả năng chịu nhiều tác động bất lợi về tiếp cận thông tin, sức khỏe, tài sản, giải quyết tranh chấp"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:8:3",
+        "text": "Điều 8. Bảo vệ quyền lợi người tiêu dùng dễ bị tổn thương\n3. Khi giao dịch với người tiêu dùng dễ bị tổn thương, tổ chức, cá nhân kinh doanh có trách nhiệm sau đây:\na) Bảo đảm việc thực hiện quyền của người tiêu dùng dễ bị tổn thương trong quá trình mua bán sản phẩm, hàng hóa, cung cấp dịch vụ theo quy định của pháp luật;\nb) Áp dụng cơ chế giải quyết khiếu nại, tranh chấp theo quy định của pháp luật phù hợp với từng đối tượng người tiêu dùng dễ bị tổn thương;\nc) Không được từ chối giải quyết yêu cầu được bảo vệ của người tiêu dùng dễ bị tổn thương quy định tại điểm c khoản 2 Điều này do khác biệt về tiếng nói, chữ viết, phong tục, tập quán;\nd) Chống kỳ thị, phân biệt đối xử, lợi dụng yếu tố dễ bị tổn thương để xâm phạm quyền, lợi ích hợp pháp của người tiêu dùng trong quá trình thực hiện giao dịch;",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 8,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-8",
+          "article": 8,
+          "article_title": "Bảo vệ quyền lợi người tiêu dùng dễ bị tổn thương",
+          "chapter": "I",
+          "chapter_title": "NHỮNG QUY ĐỊNH CHUNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 3,
+          "char_start": 2763,
+          "char_end": 3514
+        },
+        "score": 0.5624840383855672,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:8:1",
+        "text": "Điều 8. Bảo vệ quyền lợi người tiêu dùng dễ bị tổn thương\na) Người tiêu dùng dễ bị tổn thương được bảo đảm các quyền của người tiêu dùng theo quy định của Luật này và các quyền, chính sách ưu tiên theo quy định khác của pháp luật có liên quan;\nb) Tổ chức, cá nhân kinh doanh chủ động, tự chịu trách nhiệm tổ chức thực hiện quy định tại khoản 3 Điều này;\nc) Khi người tiêu dùng dễ bị tổn thương có yêu cầu được bảo vệ kèm theo chứng cứ, tài liệu chứng minh mình là người tiêu dùng dễ bị tổn thương và về việc quyền lợi của mình bị xâm phạm, tổ chức, cá nhân kinh doanh phải ưu tiên tiếp nhận, xử lý và không chuyển yêu cầu của người tiêu dùng cho bên thứ ba giải quyết, trừ trường hợp bên thứ ba đó có nghĩa vụ liên quan. Trường hợp từ chối giải quyết yêu cầu của người tiêu dùng dễ bị tổn thương, tổ chức, cá nhân kinh doanh phải trả lời bằng văn bản, trong đó nêu rõ căn cứ pháp lý và sự không phù hợp với nội dung chính sách đã công bố theo quy định tại khoản 3 Điều này;",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 8,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-8",
+          "article": 8,
+          "article_title": "Bảo vệ quyền lợi người tiêu dùng dễ bị tổn thương",
+          "chapter": "I",
+          "chapter_title": "NHỮNG QUY ĐỊNH CHUNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 946,
+          "char_end": 1861
+        },
+        "score": 0.5063046476241593,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:8:2",
+        "text": "Điều 8. Bảo vệ quyền lợi người tiêu dùng dễ bị tổn thương\nd) Tổ chức, cá nhân kinh doanh phải bồi thường thiệt hại theo quy định của pháp luật về dân sự cho người tiêu dùng dễ bị tổn thương trong trường hợp chậm, từ chối ưu tiên hoặc từ chối tiếp nhận, xử lý yêu cầu của người tiêu dùng theo quy định tại điểm c khoản này;\nđ) Cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức chính trị - xã hội, tổ chức xã hội bảo đảm ưu tiên tiếp nhận, xử lý yêu cầu của người tiêu dùng dễ bị tổn thương và hướng dẫn người tiêu dùng dễ bị tổn thương cung cấp các chứng cứ, tài liệu về việc quyền lợi của mình bị xâm phạm;\ne) Cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức chính trị - xã hội, tổ chức xã hội có trách nhiệm hướng dẫn, kiểm tra, giám sát, xử lý vi phạm đối với tổ chức, cá nhân kinh doanh trong quá trình tổ chức thực hiện trách nhiệm quy định tại khoản 3 Điều này phù hợp với thẩm quyền theo quy định của pháp luật.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 8,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-8",
+          "article": 8,
+          "article_title": "Bảo vệ quyền lợi người tiêu dùng dễ bị tổn thương",
+          "chapter": "I",
+          "chapter_title": "NHỮNG QUY ĐỊNH CHUNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 2,
+          "char_start": 1862,
+          "char_end": 2762
+        },
+        "score": 0.41844737671647375,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.20925002172589302,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d06",
+    "split": "dev",
+    "question": "Tranh chấp tiêu dùng có người dân tộc thiểu số thì việc hòa giải phải đáp ứng yêu cầu gì về hòa giải viên?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 64,
+        "evidence": "phải có ít nhất 01 hòa giải viên là người dân tộc thiểu số hoặc là người sử dụng thông thạo tiếng của dân tộc thiểu số đó"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:64:1",
+        "text": "Điều 64. Hòa giải viên\n3. Trường hợp tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh mà có người dân tộc thiểu số thì phải có ít nhất 01 hòa giải viên là người dân tộc thiểu số hoặc là người sử dụng thông thạo tiếng của dân tộc thiểu số đó. Trường hợp không có hòa giải viên đáp ứng yêu cầu tại khoản này thì các bên tham gia hòa giải tự bố trí phiên dịch hoặc đề nghị hòa giải viên bố trí phiên dịch, trừ trường hợp các bên có thỏa thuận khác.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 64,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-64",
+          "article": 64,
+          "article_title": "Hòa giải viên",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 642,
+          "char_end": 1078
+        },
+        "score": 0.7341415839179533,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:63:0",
+        "text": "Điều 63. Tổ chức hòa giải\n1. Tổ chức hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh bao gồm:\na) Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng;\nb) Tổ chức hòa giải theo quy định của pháp luật về hòa giải thương mại, pháp luật về hòa giải tại cơ sở, pháp luật về hòa giải tại tòa án;\nc) Tổ chức khác có chức năng hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh theo quy định của pháp luật.\n2. Tổ chức hòa giải theo quy định tại điểm a và điểm c khoản 1 Điều này có trách nhiệm công nhận, công bố Danh sách hòa giải viên đủ điều kiện theo quy định của Luật này và chỉ định các hòa giải viên tham gia thực hiện việc hòa giải theo yêu cầu của các bên.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 63,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-63",
+          "article": 63,
+          "article_title": "Tổ chức hòa giải",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 26,
+          "char_end": 706
+        },
+        "score": 0.5601458130728416,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:64:0",
+        "text": "Điều 64. Hòa giải viên\nHòa giải viên hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh bao gồm:\n1. Hòa giải viên theo quy định của pháp luật về hòa giải có liên quan;\n2. Hòa giải viên thuộc tổ chức quy định tại điểm a và điểm c khoản 1 Điều 63 của Luật này là công dân Việt Nam đáp ứng đủ các điều kiện sau đây:\na) Có năng lực hành vi dân sự đầy đủ;\nb) Có phẩm chất đạo đức tốt, trung thực, có uy tín;\nc) Có kỹ năng hòa giải, hiểu biết pháp luật về bảo vệ quyền lợi người tiêu dùng và pháp luật khác có liên quan;\nd) Không đang trong thời gian bị truy cứu trách nhiệm hình sự hoặc đã bị kết án mà chưa được xóa án tích.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 64,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-64",
+          "article": 64,
+          "article_title": "Hòa giải viên",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 23,
+          "char_end": 641
+        },
+        "score": 0.5416807164583465,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-19-2023-QH15:64:1 | https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi | page 64]\nĐiều 64. Hòa giải viên\n3. Trường hợp tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh mà có người dân tộc thiểu số thì phải có ít nhất 01 hòa giải viên là người dân tộc thiểu số hoặc là người sử dụng thông thạo tiếng của dân tộc thiểu số đó. Trường hợp không có hòa giải viên đáp ứng yêu cầu tại khoản này thì các bên tham gia hòa giải tự bố trí phiên dịch hoặc đề nghị hòa giải viên bố trí phiên dịch, trừ trường hợp các bên có thỏa thuận khác.",
+    "context_ids": [
+      "luat-19-2023-QH15:64:1"
+    ],
+    "context_chars": 623,
+    "elapsed_ms": 0.398874981328845,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d07",
+    "split": "dev",
+    "question": "Nhà cung cấp dịch vụ liên tục phải báo cho khách về việc nộp phí gia hạn trước bao lâu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 42,
+        "evidence": "Thông báo cho người tiêu dùng về việc nộp phí để tiếp tục sử dụng dịch vụ theo cách thức đã được thỏa thuận tối thiểu 07 ngày làm việc trước ngày hết hạn sử dụng dịch vụ"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:42:0",
+        "text": "Điều 42. Hợp đồng cung cấp dịch vụ liên tục\n1. Hợp đồng cung cấp dịch vụ liên tục phải được lập thành văn bản và cung cấp cho người tiêu dùng 01 bản.\n2. Hợp đồng theo mẫu về cung cấp dịch vụ liên tục phải có nội dung quy định tại khoản 3 Điều 23 của Luật này và các nội dung sau đây:\na) Tên, địa chỉ, số điện thoại, phương thức liên hệ khác (nếu có) của tổ chức, cá nhân kinh doanh hoặc đại diện của tổ chức, cá nhân kinh doanh tại Việt Nam (nếu có);\nb) Mô tả dịch vụ được cung cấp;\nc) Thời điểm và thời hạn cung cấp dịch vụ;\nd) Thông tin chính xác, đầy đủ về các khoản phí, chi phí, cách thức tính phí, chi phí có thể phát sinh và các điều kiện giao dịch chung được áp dụng trong quá trình cung cấp dịch vụ cho người tiêu dùng;\nđ) Thông báo cho người tiêu dùng về việc nộp phí để tiếp tục sử dụng dịch vụ theo cách thức đã được thỏa thuận tối thiểu 07 ngày làm việc trước ngày hết hạn sử dụng dịch vụ;",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 42,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-42",
+          "article": 42,
+          "article_title": "Hợp đồng cung cấp dịch vụ liên tục",
+          "chapter": "III",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG TRONG GIAO DỊCH ĐẶC THÙ",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 44,
+          "char_end": 902
+        },
+        "score": 0.41967821578939274,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:41:1",
+        "text": "Điều 41. Trách nhiệm của tổ chức, cá nhân kinh doanh cung cấp dịch vụ liên tục\n3. Không được đơn phương chấm dứt thực hiện hợp đồng, ngừng cung cấp dịch vụ không đúng hợp đồng hoặc trái quy định của pháp luật. Trường hợp cần sửa chữa, bảo trì hoặc vì lý do khác bắt buộc phải ngừng cung cấp dịch vụ, tổ chức, cá nhân kinh doanh cung cấp dịch vụ phải thông báo trước cho người tiêu dùng về thời gian ngừng cung cấp dịch vụ và thời gian cung cấp lại dịch vụ chậm nhất là 03 ngày làm việc trước ngày ngừng cung cấp dịch vụ, trừ trường hợp bất khả kháng.\n4. Thường xuyên kiểm tra chất lượng dịch vụ mà mình cung cấp, bảo đảm chất lượng dịch vụ như đã cam kết với người tiêu dùng.\n5. Thực hiện quy định tại Điều 37 và Điều 38 của Luật này trong trường hợp cung cấp dịch vụ liên tục thông qua giao dịch từ xa.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 41,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-41",
+          "article": 41,
+          "article_title": "Trách nhiệm của tổ chức, cá nhân kinh doanh cung cấp dịch vụ liên tục",
+          "chapter": "III",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG TRONG GIAO DỊCH ĐẶC THÙ",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 779,
+          "char_end": 1503
+        },
+        "score": 0.26513876725881896,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:71:0",
+        "text": "Điều 71. Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được thực hiện theo quy định của pháp luật về án phí, lệ phí Tòa án và quy định của Luật này.\n2. Người tiêu dùng khởi kiện vụ án dân sự bảo vệ quyền, lợi ích hợp pháp của mình, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng đại diện cho người tiêu dùng theo ủy quyền khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng không phải nộp tiền tạm ứng án phí.\n3. Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng không phải nộp tiền tạm ứng án phí, không phải chịu án phí.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 71,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-71",
+          "article": 71,
+          "article_title": "Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 73,
+          "char_end": 711
+        },
+        "score": 0.21690752096552204,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.3496247809380293,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d08",
+    "split": "dev",
+    "question": "Biên bản kết quả thương lượng giữa tôi và cửa hàng cần có chữ ký của ai?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 60,
+        "evidence": "văn bản phải có chữ ký hoặc điểm chỉ của các bên thương lượng"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:60:0",
+        "text": "Điều 60. Kết quả thương lượng\n1. Kết quả thương lượng của tổ chức, cá nhân kinh doanh với người tiêu dùng được lập thành văn bản, trừ trường hợp các bên có thỏa thuận khác.\n2. Trường hợp kết quả thương lượng được lập thành văn bản, văn bản về kết quả thương lượng bao gồm các nội dung sau đây:\na) Các bên tham gia thương lượng;\nb) Thời gian, địa điểm tiến hành thương lượng;\nc) Nội dung thương lượng;\nd) Kết quả thương lượng;\nđ) Nội dung khác theo thỏa thuận của các bên phù hợp với quy định của pháp luật.\n3. Trường hợp kết quả thương lượng được lập thành văn bản thì văn bản phải có chữ ký hoặc điểm chỉ của các bên thương lượng.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 60,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-60",
+          "article": 60,
+          "article_title": "Kết quả thương lượng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 30,
+          "char_end": 631
+        },
+        "score": 0.4559161232535615,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:32:0",
+        "text": "Điều 32. Kết quả thương lượng\nKết quả thương lượng thành của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ với người tiêu dùng được lập thành văn bản, trừ trường hợp các bên có thỏa thuận khác.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 32,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-32",
+          "article": 32,
+          "article_title": "Kết quả thương lượng",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 30,
+          "char_end": 193
+        },
+        "score": 0.3661500253438179,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:36:0",
+        "text": "Điều 36. Biên bản hòa giải\n1. Biên bản hòa giải phải có các nội dung chính sau đây:\na) Tổ chức, cá nhân tiến hành hòa giải;\nb) Các bên tham gia hòa giải;\nc) Nội dung hòa giải;\nd) Thời gian, địa điểm tiến hành hòa giải;\nđ) Ý kiến của các bên tham gia hòa giải;\ne) Kết quả hòa giải;\ng) Thời hạn thực hiện kết quả hòa giải thành.\n2. Biên bản hòa giải phải có chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 36,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-36",
+          "article": 36,
+          "article_title": "Biên bản hòa giải",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 27,
+          "char_end": 452
+        },
+        "score": 0.28825143980663365,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-19-2023-QH15:60:0 | https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi | page 60]\nĐiều 60. Kết quả thương lượng\n1. Kết quả thương lượng của tổ chức, cá nhân kinh doanh với người tiêu dùng được lập thành văn bản, trừ trường hợp các bên có thỏa thuận khác.\n2. Trường hợp kết quả thương lượng được lập thành văn bản, văn bản về kết quả thương lượng bao gồm các nội dung sau đây:\na) Các bên tham gia thương lượng;\nb) Thời gian, địa điểm tiến hành thương lượng;\nc) Nội dung thương lượng;\nd) Kết quả thương lượng;\nđ) Nội dung khác theo thỏa thuận của các bên phù hợp với quy định của pháp luật.\n3. Trường hợp kết quả thương lượng được lập thành văn bản thì văn bản phải có chữ ký hoặc điểm chỉ của các bên thương lượng.",
+    "context_ids": [
+      "luat-19-2023-QH15:60:0"
+    ],
+    "context_chars": 795,
+    "elapsed_ms": 0.2787918783724308,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d09",
+    "split": "dev",
+    "question": "Trong vụ kiện vì lợi ích công cộng, nếu không xác định được ai được hưởng tiền bồi thường thì tiền đó dùng vào việc gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 73,
+        "evidence": "được sử dụng để phục vụ cho các hoạt động chung vì quyền lợi người tiêu dùng theo quy định của Chính phủ"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:73:0",
+        "text": "Điều 73. Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện\n1. Tiền bồi thường thiệt hại và đối tượng thụ hưởng trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện được thực hiện theo bản án, quyết định của Tòa án.\n2. Trong trường hợp không xác định được đối tượng thụ hưởng, tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện được sử dụng để phục vụ cho các hoạt động chung vì quyền lợi người tiêu dùng theo quy định của Chính phủ.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 73,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-73",
+          "article": 73,
+          "article_title": "Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 181,
+          "char_end": 768
+        },
+        "score": 0.5121032851266081,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:46:0",
+        "text": "Điều 46. Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội khởi kiện vì lợi ích công cộng\nTiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện vì lợi ích công cộng được thực hiện theo bản án, quyết định của Tòa án.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 46,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-46",
+          "article": 46,
+          "article_title": "Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội khởi kiện vì lợi ích công cộng",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 139,
+          "char_end": 361
+        },
+        "score": 0.47727855498193406,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:50:2",
+        "text": "Điều 50. Hoạt động của tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng\n2. Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có quyền tự mình khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng khi có đủ các điều kiện sau đây:\na) Được thành lập hợp pháp theo quy định của pháp luật;\nb) Có tôn chỉ, mục đích hoạt động vì quyền lợi người tiêu dùng hoặc vì lợi ích công cộng liên quan đến quyền lợi người tiêu dùng;\nc) Có thời gian hoạt động tối thiểu 01 năm kể từ ngày tổ chức xã hội được thành lập đến ngày tổ chức xã hội thực hiện quyền tự khởi kiện;\nd) Có phạm vi hoạt động từ cấp huyện trở lên.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 50,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-50",
+          "article": 50,
+          "article_title": "Hoạt động của tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng",
+          "chapter": "IV",
+          "chapter_title": "HOẠT ĐỘNG BẢO VỆ QUYỀN LỢI NGƯỜI TIÊU DÙNG CỦA MẶT TRẬN TỔ QUỐC VIỆT NAM, TỔ CHỨC CHÍNH TRỊ - XÃ HỘI VÀ TỔ CHỨC XÃ HỘI",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 2,
+          "char_start": 1671,
+          "char_end": 2230
+        },
+        "score": 0.24857945572845513,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-59-2010-QH12:46:0 | https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi | page 46]\nĐiều 46. Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội khởi kiện vì lợi ích công cộng\nTiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện vì lợi ích công cộng được thực hiện theo bản án, quyết định của Tòa án.",
+    "context_ids": [
+      "luat-59-2010-QH12:46:0"
+    ],
+    "context_chars": 525,
+    "elapsed_ms": 0.3749160096049309,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d10",
+    "split": "dev",
+    "question": "Theo Luật 2010, khi thu hồi hàng hóa có khuyết tật phải thông báo trên báo ngày bao nhiêu số liên tiếp?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 22,
+        "evidence": "ít nhất 05 số liên tiếp trên báo ngày hoặc 05 ngày liên tiếp trên đài phát thanh, truyền hình tại địa phương"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:22:0",
+        "text": "Điều 22. Trách nhiệm thu hồi hàng hóa có khuyết tật\nKhi phát hiện hàng hóa có khuyết tật, tổ chức, cá nhân sản xuất, nhập khẩu hàng hóa có trách nhiệm:\n1. Kịp thời tiến hành mọi biện pháp cần thiết để ngừng việc cung cấp hàng hóa có khuyết tật trên thị trường;\n2. Thông báo công khai về hàng hóa có khuyết tật và việc thu hồi hàng hóa đó ít nhất 05 số liên tiếp trên báo ngày hoặc 05 ngày liên tiếp trên đài phát thanh, truyền hình tại địa phương mà hàng hóa đó được lưu thông với các nội dung sau đây:\na) Mô tả hàng hóa phải thu hồi;\nb) Lý do thu hồi hàng hóa và cảnh báo nguy cơ thiệt hại do khuyết tật của hàng hóa gây ra;\nc) Thời gian, địa điểm, phương thức thu hồi hàng hóa;\nd) Thời gian, phương thức khắc phục khuyết tật của hàng hóa;\nđ) Các biện pháp cần thiết để bảo vệ quyền lợi người tiêu dùng trong quá trình thu hồi hàng hóa;\n3. Thực hiện việc thu hồi hàng hóa có khuyết tật đúng nội dung đã thông báo công khai và chịu các chi phí phát sinh trong quá trình thu hồi;",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 22,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-22",
+          "article": 22,
+          "article_title": "Trách nhiệm thu hồi hàng hóa có khuyết tật",
+          "chapter": "2",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 52,
+          "char_end": 978
+        },
+        "score": 0.6078200403925952,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:32:0",
+        "text": "Điều 32. Trách nhiệm đối với sản phẩm, hàng hóa có khuyết tật\n1. Khi phát hiện sản phẩm, hàng hóa có khuyết tật, tổ chức, cá nhân kinh doanh có trách nhiệm sau đây:\na) Thu hồi và xử lý sản phẩm, hàng hóa có khuyết tật theo quy định tại Điều 33 của Luật này và quy định khác của pháp luật có liên quan;\nb) Thực hiện các biện pháp cần thiết để bảo vệ quyền lợi người tiêu dùng trong quá trình thu hồi và xử lý sản phẩm, hàng hóa có khuyết tật;\nc) Báo cáo cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng và cơ quan quản lý nhà nước có liên quan trước và sau khi thực hiện việc thu hồi; thực hiện việc thu hồi đúng nội dung đã báo cáo, thông báo và chịu các chi phí phát sinh trong quá trình thu hồi.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 32,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-32",
+          "article": 32,
+          "article_title": "Trách nhiệm đối với sản phẩm, hàng hóa có khuyết tật",
+          "chapter": "II",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 62,
+          "char_end": 709
+        },
+        "score": 0.5081256862101734,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:33:1",
+        "text": "Điều 33. Thu hồi sản phẩm, hàng hóa có khuyết tật\nb) Công khai về sản phẩm, hàng hóa có khuyết tật và việc thu hồi sản phẩm, hàng hóa đó theo hình thức niêm yết tại trụ sở, địa điểm kinh doanh và đăng tải trên trang thông tin điện tử, phần mềm ứng dụng (nếu có) của tổ chức, cá nhân kinh doanh cho đến khi kết thúc việc thu hồi;\nc) Thông báo công khai về sản phẩm, hàng hóa có khuyết tật và việc thu hồi sản phẩm, hàng hóa đó ít nhất 05 số liên tiếp hoặc 05 ngày liên tiếp trên đài phát thanh, đài truyền hình, báo in, báo điện tử ở trung ương và địa phương nơi sản phẩm, hàng hóa đó lưu thông.\n3. Trường hợp phát hiện sản phẩm, hàng hóa có khuyết tật nhóm B, tổ chức, cá nhân kinh doanh tự mình hoặc theo yêu cầu của cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng hoặc cơ quan quản lý nhà nước ngành, lĩnh vực liên quan có trách nhiệm thực hiện quy định tại điểm a và điểm b khoản 2 Điều này.\n4. Nội dung thông báo, công khai quy định tại khoản 2 và khoản 3 Điều này bao gồm:",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 33,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-33",
+          "article": 33,
+          "article_title": "Thu hồi sản phẩm, hàng hóa có khuyết tật",
+          "chapter": "II",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 938,
+          "char_end": 1878
+        },
+        "score": 0.4927199976148416,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.3370000049471855,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d11",
+    "split": "dev",
+    "question": "Theo Luật 2010, người tiêu dùng khởi kiện vụ án dân sự có phải nộp tạm ứng án phí không?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 43,
+        "evidence": "Người tiêu dùng khởi kiện vụ án dân sự để bảo vệ quyền, lợi ích hợp pháp của mình không phải nộp tạm ứng án phí, tạm ứng lệ phí Tòa án."
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:71:0",
+        "text": "Điều 71. Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được thực hiện theo quy định của pháp luật về án phí, lệ phí Tòa án và quy định của Luật này.\n2. Người tiêu dùng khởi kiện vụ án dân sự bảo vệ quyền, lợi ích hợp pháp của mình, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng đại diện cho người tiêu dùng theo ủy quyền khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng không phải nộp tiền tạm ứng án phí.\n3. Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng không phải nộp tiền tạm ứng án phí, không phải chịu án phí.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 71,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-71",
+          "article": 71,
+          "article_title": "Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 73,
+          "char_end": 711
+        },
+        "score": 0.7199334288818645,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:43:0",
+        "text": "Điều 43. Án phí, lệ phí Tòa án đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Án phí, lệ phí Tòa án đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được thực hiện theo quy định của pháp luật về án phí, lệ phí Tòa án.\n2. Người tiêu dùng khởi kiện vụ án dân sự để bảo vệ quyền, lợi ích hợp pháp của mình không phải nộp tạm ứng án phí, tạm ứng lệ phí Tòa án.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 43,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-43",
+          "article": 43,
+          "article_title": "Án phí, lệ phí Tòa án đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 88,
+          "char_end": 377
+        },
+        "score": 0.6483521498831986,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:41:0",
+        "text": "Điều 41. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng là vụ án mà bên khởi kiện là người tiêu dùng hoặc tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng theo quy định của Luật này.\n2. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được giải quyết theo thủ tục đơn giản quy định trong pháp luật về tố tụng dân sự khi có đủ các điều kiện sau đây:\na) Cá nhân là người tiêu dùng khởi kiện; tổ chức, cá nhân trực tiếp cung cấp hàng hóa, dịch vụ cho người tiêu dùng bị khởi kiện;\nb) Vụ án đơn giản, chứng cứ rõ ràng;\nc) Giá trị giao dịch dưới 100 triệu đồng.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 41,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-41",
+          "article": 41,
+          "article_title": "Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 58,
+          "char_end": 618
+        },
+        "score": 0.4533520797261783,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-59-2010-QH12:43:0 | https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi | page 43]\nĐiều 43. Án phí, lệ phí Tòa án đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Án phí, lệ phí Tòa án đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được thực hiện theo quy định của pháp luật về án phí, lệ phí Tòa án.\n2. Người tiêu dùng khởi kiện vụ án dân sự để bảo vệ quyền, lợi ích hợp pháp của mình không phải nộp tạm ứng án phí, tạm ứng lệ phí Tòa án.",
+    "context_ids": [
+      "luat-59-2010-QH12:43:0"
+    ],
+    "context_chars": 541,
+    "elapsed_ms": 0.32233307138085365,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d12",
+    "split": "dev",
+    "question": "Theo luật hiện hành năm 2023, những tổ chức nào được hòa giải tranh chấp giữa người tiêu dùng và doanh nghiệp?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 63,
+        "evidence": "Tổ chức hòa giải theo quy định của pháp luật về hòa giải thương mại, pháp luật về hòa giải tại cơ sở, pháp luật về hòa giải tại tòa án"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:63:0",
+        "text": "Điều 63. Tổ chức hòa giải\n1. Tổ chức hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh bao gồm:\na) Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng;\nb) Tổ chức hòa giải theo quy định của pháp luật về hòa giải thương mại, pháp luật về hòa giải tại cơ sở, pháp luật về hòa giải tại tòa án;\nc) Tổ chức khác có chức năng hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh theo quy định của pháp luật.\n2. Tổ chức hòa giải theo quy định tại điểm a và điểm c khoản 1 Điều này có trách nhiệm công nhận, công bố Danh sách hòa giải viên đủ điều kiện theo quy định của Luật này và chỉ định các hòa giải viên tham gia thực hiện việc hòa giải theo yêu cầu của các bên.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 63,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-63",
+          "article": 63,
+          "article_title": "Tổ chức hòa giải",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 26,
+          "char_end": 706
+        },
+        "score": 0.4393234129038836,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:35:0",
+        "text": "Điều 35. Tổ chức hòa giải\nTổ chức, cá nhân có đủ điều kiện theo quy định của Chính phủ được thành lập tổ chức hòa giải để giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 35,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-35",
+          "article": 35,
+          "article_title": "Tổ chức hòa giải",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 26,
+          "char_end": 214
+        },
+        "score": 0.42981419238652624,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:30:0",
+        "text": "Điều 30. Phương thức giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ\n1. Tranh chấp phát sinh giữa người tiêu dùng và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ được giải quyết thông qua:\na) Thương lượng;\nb) Hòa giải;\nc) Trọng tài;\nd) Tòa án.\n2. Không được thương lượng, hòa giải trong trường hợp tranh chấp gây thiệt hại đến lợi ích của Nhà nước, lợi ích của nhiều người tiêu dùng, lợi ích công cộng.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 30,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-30",
+          "article": 30,
+          "article_title": "Phương thức giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 113,
+          "char_end": 447
+        },
+        "score": 0.4079716161346321,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-59-2010-QH12:35:0 | https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi | page 35]\nĐiều 35. Tổ chức hòa giải\nTổ chức, cá nhân có đủ điều kiện theo quy định của Chính phủ được thành lập tổ chức hòa giải để giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ.",
+    "context_ids": [
+      "luat-59-2010-QH12:35:0"
+    ],
+    "context_chars": 378,
+    "elapsed_ms": 0.3532920964062214,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d13",
+    "split": "dev",
+    "question": "Theo Luật 2010, doanh nghiệp được miễn bồi thường thiệt hại do hàng hóa có khuyết tật trong trường hợp nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 24,
+        "evidence": "khuyết tật của hàng hóa không thể phát hiện được với trình độ khoa học, kỹ thuật tại thời điểm tổ chức, cá nhân kinh doanh hàng hóa cung cấp cho người tiêu dùng"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:24:0",
+        "text": "Điều 24. Miễn trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật gây ra\nTổ chức, cá nhân kinh doanh hàng hóa quy định tại Điều 23 của Luật này được miễn trách nhiệm bồi thường thiệt hại khi chứng minh được khuyết tật của hàng hóa không thể phát hiện được với trình độ khoa học, kỹ thuật tại thời điểm tổ chức, cá nhân kinh doanh hàng hóa cung cấp cho người tiêu dùng.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 24,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-24",
+          "article": 24,
+          "article_title": "Miễn trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật gây ra",
+          "chapter": "2",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 80,
+          "char_end": 375
+        },
+        "score": 0.5676347002975056,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:23:1",
+        "text": "Điều 23. Trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật gây ra\n3. Việc bồi thường thiệt hại được thực hiện theo quy định của pháp luật về dân sự.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 23,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-23",
+          "article": 23,
+          "article_title": "Trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật gây ra",
+          "chapter": "2",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 1,
+          "char_start": 958,
+          "char_end": 1040
+        },
+        "score": 0.5342160474111589,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:35:0",
+        "text": "Điều 35. Miễn trách nhiệm bồi thường thiệt hại do sản phẩm, hàng hóa có khuyết tật gây ra\nTổ chức, cá nhân kinh doanh quy định tại Điều 34 của Luật này được miễn trách nhiệm bồi thường thiệt hại trong các trường hợp sau đây:\n1. Khi chứng minh được khuyết tật của sản phẩm, hàng hóa không thể phát hiện được với trình độ khoa học, công nghệ của thế giới tính đến thời điểm sản phẩm, hàng hóa gây thiệt hại;\n2. Tổ chức, cá nhân kinh doanh đã áp dụng đầy đủ các biện pháp quy định tại Điều 32 và Điều 33 của Luật này, người tiêu dùng đã tiếp nhận đầy đủ thông tin nhưng vẫn cố ý sử dụng sản phẩm, hàng hóa có khuyết tật gây thiệt hại;\n3. Trường hợp khác theo quy định của pháp luật về dân sự và quy định khác của pháp luật có liên quan.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 35,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-35",
+          "article": 35,
+          "article_title": "Miễn trách nhiệm bồi thường thiệt hại do sản phẩm, hàng hóa có khuyết tật gây ra",
+          "chapter": "II",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 90,
+          "char_end": 733
+        },
+        "score": 0.505527413389356,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-59-2010-QH12:24:0 | https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi | page 24]\nĐiều 24. Miễn trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật gây ra\nTổ chức, cá nhân kinh doanh hàng hóa quy định tại Điều 23 của Luật này được miễn trách nhiệm bồi thường thiệt hại khi chứng minh được khuyết tật của hàng hóa không thể phát hiện được với trình độ khoa học, kỹ thuật tại thời điểm tổ chức, cá nhân kinh doanh hàng hóa cung cấp cho người tiêu dùng.",
+    "context_ids": [
+      "luat-59-2010-QH12:24:0"
+    ],
+    "context_chars": 539,
+    "elapsed_ms": 0.3625419922173023,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d14",
+    "split": "dev",
+    "question": "Luật bảo vệ quyền lợi người tiêu dùng bản năm 2010 bắt đầu có hiệu lực từ ngày nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 50,
+        "evidence": "Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011."
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:50:0",
+        "text": "Điều 50. Hiệu lực thi hành\nLuật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011.\nPháp lệnh bảo vệ quyền lợi người tiêu dùng số 13/1999/PL-UBTVQH10 hết hiệu lực kể từ ngày Luật này có hiệu lực.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 50,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-50",
+          "article": 50,
+          "article_title": "Hiệu lực thi hành",
+          "chapter": "6",
+          "chapter_title": "ĐIỀU KHOẢN THI HÀNH",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 27,
+          "char_end": 197
+        },
+        "score": 0.4239881870812403,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:79:0",
+        "text": "Điều 79. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.\n2. Luật Bảo vệ quyền lợi người tiêu dùng số 59/2010/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại điểm a khoản 1 và khoản 2 Điều 80 của Luật này.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 79,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-79",
+          "article": 79,
+          "article_title": "Hiệu lực thi hành",
+          "chapter": "VII",
+          "chapter_title": "ĐIỀU KHOẢN THI HÀNH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 27,
+          "char_end": 339
+        },
+        "score": 0.41764325989903117,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:80:0",
+        "text": "Điều 80. Điều khoản chuyển tiếp\n1. Đối với giao dịch giữa tổ chức, cá nhân kinh doanh và người tiêu dùng được xác lập trước ngày Luật này có hiệu lực thi hành thì việc áp dụng pháp luật được thực hiện như sau:\na) Giao dịch giữa tổ chức, cá nhân kinh doanh và người tiêu dùng chưa được thực hiện mà có nội dung, hình thức khác với quy định của Luật này thì các bên tiếp tục thực hiện theo quy định của Luật Bảo vệ quyền lợi người tiêu dùng số 59/2010/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14. Trường hợp các bên có thỏa thuận mới về việc sửa đổi, bổ sung nội dung, hình thức của giao dịch thì phải bảo đảm phù hợp với Luật này và áp dụng quy định của Luật này kể từ ngày Luật này có hiệu lực thi hành.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 80,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-80",
+          "article": 80,
+          "article_title": "Điều khoản chuyển tiếp",
+          "chapter": "VII",
+          "chapter_title": "ĐIỀU KHOẢN THI HÀNH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 32,
+          "char_end": 727
+        },
+        "score": 0.2548618879399822,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-59-2010-QH12:50:0 | https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi | page 50]\nĐiều 50. Hiệu lực thi hành\nLuật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011.\nPháp lệnh bảo vệ quyền lợi người tiêu dùng số 13/1999/PL-UBTVQH10 hết hiệu lực kể từ ngày Luật này có hiệu lực.",
+    "context_ids": [
+      "luat-59-2010-QH12:50:0"
+    ],
+    "context_chars": 361,
+    "elapsed_ms": 0.3252909518778324,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d15",
+    "split": "dev",
+    "question": "Luật Bảo vệ quyền lợi người tiêu dùng số 59/2010/QH12 hết hiệu lực khi nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 79,
+        "evidence": "hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại điểm a khoản 1 và khoản 2 Điều 80 của Luật này"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:79:0",
+        "text": "Điều 79. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.\n2. Luật Bảo vệ quyền lợi người tiêu dùng số 59/2010/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại điểm a khoản 1 và khoản 2 Điều 80 của Luật này.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 79,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-79",
+          "article": 79,
+          "article_title": "Hiệu lực thi hành",
+          "chapter": "VII",
+          "chapter_title": "ĐIỀU KHOẢN THI HÀNH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 27,
+          "char_end": 339
+        },
+        "score": 0.4877230947006192,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-59-2010-QH12:50:0",
+        "text": "Điều 50. Hiệu lực thi hành\nLuật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011.\nPháp lệnh bảo vệ quyền lợi người tiêu dùng số 13/1999/PL-UBTVQH10 hết hiệu lực kể từ ngày Luật này có hiệu lực.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 50,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-50",
+          "article": 50,
+          "article_title": "Hiệu lực thi hành",
+          "chapter": "6",
+          "chapter_title": "ĐIỀU KHOẢN THI HÀNH",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 27,
+          "char_end": 197
+        },
+        "score": 0.34928176376563125,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:80:0",
+        "text": "Điều 80. Điều khoản chuyển tiếp\n1. Đối với giao dịch giữa tổ chức, cá nhân kinh doanh và người tiêu dùng được xác lập trước ngày Luật này có hiệu lực thi hành thì việc áp dụng pháp luật được thực hiện như sau:\na) Giao dịch giữa tổ chức, cá nhân kinh doanh và người tiêu dùng chưa được thực hiện mà có nội dung, hình thức khác với quy định của Luật này thì các bên tiếp tục thực hiện theo quy định của Luật Bảo vệ quyền lợi người tiêu dùng số 59/2010/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14. Trường hợp các bên có thỏa thuận mới về việc sửa đổi, bổ sung nội dung, hình thức của giao dịch thì phải bảo đảm phù hợp với Luật này và áp dụng quy định của Luật này kể từ ngày Luật này có hiệu lực thi hành.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 80,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-80",
+          "article": 80,
+          "article_title": "Điều khoản chuyển tiếp",
+          "chapter": "VII",
+          "chapter_title": "ĐIỀU KHOẢN THI HÀNH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 32,
+          "char_end": 727
+        },
+        "score": 0.3212819900544556,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-19-2023-QH15:79:0 | https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi | page 79]\nĐiều 79. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.\n2. Luật Bảo vệ quyền lợi người tiêu dùng số 59/2010/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại điểm a khoản 1 và khoản 2 Điều 80 của Luật này.",
+    "context_ids": [
+      "luat-19-2023-QH15:79:0"
+    ],
+    "context_chars": 503,
+    "elapsed_ms": 0.30283303931355476,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d16",
+    "split": "dev",
+    "question": "Theo luật hiện hành năm 2023, người tiêu dùng được định nghĩa là ai?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 3,
+        "evidence": "Người tiêu dùng là người mua, sử dụng sản phẩm, hàng hóa, dịch vụ cho mục đích tiêu dùng, sinh hoạt của cá nhân, gia đình, cơ quan, tổ chức và không vì mục đích thương mại."
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:5:1",
+        "text": "Điều 5. Nghĩa vụ của người tiêu dùng\n5. Chịu trách nhiệm về việc cung cấp không chính xác hoặc không đầy đủ về thông tin liên quan đến giao dịch giữa người tiêu dùng và tổ chức, cá nhân kinh doanh theo quy định của pháp luật.\n6. Nghĩa vụ khác theo quy định của pháp luật.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 5,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-5",
+          "article": 5,
+          "article_title": "Nghĩa vụ của người tiêu dùng",
+          "chapter": "I",
+          "chapter_title": "NHỮNG QUY ĐỊNH CHUNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 994,
+          "char_end": 1228
+        },
+        "score": 0.31332808402634565,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:40:0",
+        "text": "Điều 40. Nghĩa vụ chứng minh\nNghĩa vụ chứng minh trong giải quyết tranh chấp tại trọng tài được thực hiện theo quy định tại Điều 42 của Luật này.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 40,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-40",
+          "article": 40,
+          "article_title": "Nghĩa vụ chứng minh",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 29,
+          "char_end": 145
+        },
+        "score": 0.25449977833938126,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:13:0",
+        "text": "Điều 13. Ngày Quyền của người tiêu dùng Việt Nam\n1. Ngày 15 tháng 3 hằng năm là Ngày Quyền của người tiêu dùng Việt Nam.\n2. Chính phủ quy định việc tổ chức thực hiện các hoạt động hưởng ứng Ngày Quyền của người tiêu dùng Việt Nam.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 13,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-13",
+          "article": 13,
+          "article_title": "Ngày Quyền của người tiêu dùng Việt Nam",
+          "chapter": "I",
+          "chapter_title": "NHỮNG QUY ĐỊNH CHUNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 49,
+          "char_end": 230
+        },
+        "score": 0.21622934677241162,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-19-2023-QH15:5:1 | https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi | page 5]\nĐiều 5. Nghĩa vụ của người tiêu dùng\n5. Chịu trách nhiệm về việc cung cấp không chính xác hoặc không đầy đủ về thông tin liên quan đến giao dịch giữa người tiêu dùng và tổ chức, cá nhân kinh doanh theo quy định của pháp luật.\n6. Nghĩa vụ khác theo quy định của pháp luật.\n\n[luat-59-2010-QH12:40:0 | https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi | page 40]\nĐiều 40. Nghĩa vụ chứng minh\nNghĩa vụ chứng minh trong giải quyết tranh chấp tại trọng tài được thực hiện theo quy định tại Điều 42 của Luật này.",
+    "context_ids": [
+      "luat-19-2023-QH15:5:1",
+      "luat-59-2010-QH12:40:0"
+    ],
+    "context_chars": 744,
+    "elapsed_ms": 0.25258283130824566,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d17",
+    "split": "dev",
+    "question": "Cửa hàng từ chối thương lượng với tôi mà không có lý do chính đáng thì tôi có thể làm gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 56,
+        "evidence": "người tiêu dùng có quyền yêu cầu cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng hỗ trợ thương lượng"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:56:0",
+        "text": "Điều 56. Yêu cầu và tiếp nhận thương lượng\n1. Người tiêu dùng có quyền yêu cầu tổ chức, cá nhân kinh doanh thương lượng.\n2. Tổ chức, cá nhân kinh doanh phải tiếp nhận yêu cầu thương lượng của người tiêu dùng theo quy định tại Điều 57 của Luật này.\n3. Trường hợp tổ chức, cá nhân kinh doanh không trả lời yêu cầu thương lượng của người tiêu dùng theo quy định tại Điều 57 của Luật này hoặc từ chối thương lượng mà không có lý do chính đáng, người tiêu dùng có quyền yêu cầu cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng hỗ trợ thương lượng khi quyền, lợi ích hợp pháp của mình bị xâm phạm.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 56,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-56",
+          "article": 56,
+          "article_title": "Yêu cầu và tiếp nhận thương lượng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 43,
+          "char_end": 661
+        },
+        "score": 0.35889602151731964,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:57:1",
+        "text": "Điều 57. Trình tự, thủ tục thương lượng\n4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu của người tiêu dùng, cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có trách nhiệm chuyển yêu cầu của người tiêu dùng đến tổ chức, cá nhân kinh doanh được yêu cầu thương lượng.\n5. Tổ chức, cá nhân kinh doanh có trách nhiệm tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu và thông báo bằng văn bản kết quả thương lượng đến cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng trong thời hạn 05 ngày làm việc kể từ ngày kết thúc thương lượng.\n6. Trường hợp từ chối yêu cầu thương lượng của người tiêu dùng, trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu thương lượng, tổ chức, cá nhân kinh doanh phải trả lời bằng văn bản và nêu rõ lý do.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 57,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-57",
+          "article": 57,
+          "article_title": "Trình tự, thủ tục thương lượng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 851,
+          "char_end": 1759
+        },
+        "score": 0.2909870769605567,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:59:0",
+        "text": "Điều 59. Quyền và trách nhiệm của các bên trong quá trình thương lượng\n1. Trong quá trình thương lượng, người tiêu dùng và tổ chức, cá nhân kinh doanh có quyền sau đây:\na) Đồng ý hoặc từ chối tham gia thương lượng theo quy định của Luật này;\nb) Lựa chọn thời gian, hình thức thương lượng;\nc) Yêu cầu tạm dừng hoặc chấm dứt thương lượng;\nd) Yêu cầu giữ bí mật về việc thương lượng;\nđ) Được tự do bày tỏ ý chí về nội dung thương lượng;\ne) Quyền khác theo quy định của Luật này và quy định khác của pháp luật có liên quan.\n2. Trong quá trình thương lượng, người tiêu dùng và tổ chức, cá nhân kinh doanh có trách nhiệm sau đây:\na) Tiến hành thương lượng theo quy định của pháp luật và phù hợp với đạo đức xã hội, quyền, trách nhiệm công dân, văn hóa kinh doanh;\nb) Trình bày đúng sự thật các tình tiết của tranh chấp, cung cấp thông tin, tài liệu có liên quan đến vụ tranh chấp;\nc) Thực hiện kết quả thương lượng thành trên nguyên tắc trung thực, thiện chí;",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 59,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-59",
+          "article": 59,
+          "article_title": "Quyền và trách nhiệm của các bên trong quá trình thương lượng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 71,
+          "char_end": 953
+        },
+        "score": 0.26925742596768076,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.30854204669594765,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d18",
+    "split": "dev",
+    "question": "Tổ chức xã hội khởi kiện vì lợi ích công cộng về quyền lợi người tiêu dùng có phải chịu án phí không?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 71,
+        "evidence": "vì lợi ích công cộng không phải nộp tiền tạm ứng án phí, không phải chịu án phí"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:46:0",
+        "text": "Điều 46. Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội khởi kiện vì lợi ích công cộng\nTiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện vì lợi ích công cộng được thực hiện theo bản án, quyết định của Tòa án.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 46,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-46",
+          "article": 46,
+          "article_title": "Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội khởi kiện vì lợi ích công cộng",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 139,
+          "char_end": 361
+        },
+        "score": 0.6286968942037078,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:71:0",
+        "text": "Điều 71. Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được thực hiện theo quy định của pháp luật về án phí, lệ phí Tòa án và quy định của Luật này.\n2. Người tiêu dùng khởi kiện vụ án dân sự bảo vệ quyền, lợi ích hợp pháp của mình, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng đại diện cho người tiêu dùng theo ủy quyền khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng không phải nộp tiền tạm ứng án phí.\n3. Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng không phải nộp tiền tạm ứng án phí, không phải chịu án phí.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 71,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-71",
+          "article": 71,
+          "article_title": "Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 73,
+          "char_end": 711
+        },
+        "score": 0.6272498431235038,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:73:0",
+        "text": "Điều 73. Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện\n1. Tiền bồi thường thiệt hại và đối tượng thụ hưởng trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện được thực hiện theo bản án, quyết định của Tòa án.\n2. Trong trường hợp không xác định được đối tượng thụ hưởng, tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện được sử dụng để phục vụ cho các hoạt động chung vì quyền lợi người tiêu dùng theo quy định của Chính phủ.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 73,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-73",
+          "article": 73,
+          "article_title": "Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 181,
+          "char_end": 768
+        },
+        "score": 0.6008327033878094,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-59-2010-QH12:46:0 | https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi | page 46]\nĐiều 46. Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội khởi kiện vì lợi ích công cộng\nTiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện vì lợi ích công cộng được thực hiện theo bản án, quyết định của Tòa án.",
+    "context_ids": [
+      "luat-59-2010-QH12:46:0"
+    ],
+    "context_chars": 525,
+    "elapsed_ms": 0.36470801569521427,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d19",
+    "split": "dev",
+    "question": "Thông tin cảnh báo về người bán online vi phạm được công khai gồm những danh sách nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 40,
+        "evidence": "Danh sách tổ chức, cá nhân kinh doanh trên không gian mạng có hành vi vi phạm quyền, lợi ích hợp pháp của người tiêu dùng bị xử lý"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:40:0",
+        "text": "Điều 40. Trách nhiệm công khai, gỡ bỏ thông tin cảnh báo người tiêu dùng trong giao dịch trên không gian mạng\n1. Nội dung công khai thông tin cảnh báo bao gồm:\na) Danh sách tổ chức, cá nhân kinh doanh trên không gian mạng có hành vi vi phạm quyền, lợi ích hợp pháp của người tiêu dùng bị xử lý theo quy định của Luật này và quy định khác của pháp luật có liên quan;\nb) Danh sách tổ chức, cá nhân kinh doanh trên không gian mạng có hành vi vi phạm pháp luật về bảo vệ quyền lợi người tiêu dùng bị xử lý bởi cơ quan nước ngoài có thẩm quyền và có ảnh hưởng đến quyền lợi người tiêu dùng Việt Nam.\n2. Trách nhiệm công khai các thông tin cảnh báo được quy định như sau:\na) Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh có trách nhiệm cung cấp, công khai thông tin cảnh báo người tiêu dùng trong giao dịch trên không gian mạng quy định tại khoản 1 Điều này thuộc thẩm quyền theo quy định của pháp luật;",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 40,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-40",
+          "article": 40,
+          "article_title": "Trách nhiệm công khai, gỡ bỏ thông tin cảnh báo người tiêu dùng trong giao dịch trên không gian mạng",
+          "chapter": "III",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG TRONG GIAO DỊCH ĐẶC THÙ",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 110,
+          "char_end": 898
+        },
+        "score": 0.4359817717257513,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:40:1",
+        "text": "Điều 40. Trách nhiệm công khai, gỡ bỏ thông tin cảnh báo người tiêu dùng trong giao dịch trên không gian mạng\nb) Tổ chức, cá nhân kinh doanh trên không gian mạng có hành vi vi phạm bị xử lý theo quy định của Luật này và quy định khác của pháp luật có liên quan có trách nhiệm cung cấp thông tin cho cơ quan quản lý nhà nước có thẩm quyền thông qua hệ thống thông tin, báo cáo theo quy định của pháp luật;\nc) Cơ quan báo chí, tổ chức chính trị - xã hội, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng công khai thông tin cảnh báo người tiêu dùng trong giao dịch trên không gian mạng bằng hình thức phù hợp, bảo đảm thuận tiện cho người tiêu dùng tiếp nhận thông tin. Việc công khai thông tin cảnh báo phải tuân thủ quy định của Luật này và quy định khác của pháp luật có liên quan.\n3. Chính phủ quy định chi tiết Điều này.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 40,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-40",
+          "article": 40,
+          "article_title": "Trách nhiệm công khai, gỡ bỏ thông tin cảnh báo người tiêu dùng trong giao dịch trên không gian mạng",
+          "chapter": "III",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG TRONG GIAO DỊCH ĐẶC THÙ",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 899,
+          "char_end": 1620
+        },
+        "score": 0.3205286824592115,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:18:0",
+        "text": "Điều 18. Sử dụng thông tin của người tiêu dùng\n1. Trước khi tổ chức, cá nhân kinh doanh thay đổi mục đích, phạm vi sử dụng thông tin đã thông báo cho người tiêu dùng thì phải thông báo lại và được người tiêu dùng đồng ý về việc thay đổi.\n2. Việc sử dụng thông tin của người tiêu dùng quy định trong Luật này bao gồm cả việc chia sẻ, tiết lộ và chuyển giao thông tin của người tiêu dùng cho bên thứ ba.\n3. Tổ chức, cá nhân kinh doanh phải sử dụng thông tin của người tiêu dùng chính xác, phù hợp với mục đích, phạm vi đã thông báo và phải được người tiêu dùng đồng ý, trừ các trường hợp sau đây:\na) Có thỏa thuận riêng với người tiêu dùng về mục đích, phạm vi sử dụng ngoài những mục đích, phạm vi đã thông báo;\nb) Để bán, cung cấp sản phẩm, hàng hóa, dịch vụ theo yêu cầu của người tiêu dùng và chỉ trong phạm vi thông tin do người tiêu dùng đã đồng ý;\nc) Để thực hiện nghĩa vụ theo quy định của pháp luật.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 18,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-18",
+          "article": 18,
+          "article_title": "Sử dụng thông tin của người tiêu dùng",
+          "chapter": "II",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 47,
+          "char_end": 906
+        },
+        "score": 0.30234943642930084,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.3050840459764004,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d20",
+    "split": "dev",
+    "question": "Theo luật năm 2023, doanh nghiệp phải tiến hành thương lượng với người tiêu dùng trong thời hạn bao lâu kể từ khi nhận yêu cầu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 57,
+        "evidence": "Tổ chức, cá nhân kinh doanh có trách nhiệm tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu."
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:57:1",
+        "text": "Điều 57. Trình tự, thủ tục thương lượng\n4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu của người tiêu dùng, cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có trách nhiệm chuyển yêu cầu của người tiêu dùng đến tổ chức, cá nhân kinh doanh được yêu cầu thương lượng.\n5. Tổ chức, cá nhân kinh doanh có trách nhiệm tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu và thông báo bằng văn bản kết quả thương lượng đến cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng trong thời hạn 05 ngày làm việc kể từ ngày kết thúc thương lượng.\n6. Trường hợp từ chối yêu cầu thương lượng của người tiêu dùng, trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu thương lượng, tổ chức, cá nhân kinh doanh phải trả lời bằng văn bản và nêu rõ lý do.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 57,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-57",
+          "article": 57,
+          "article_title": "Trình tự, thủ tục thương lượng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 851,
+          "char_end": 1759
+        },
+        "score": 0.43939324908209676,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:31:0",
+        "text": "Điều 31. Thương lượng\n1. Người tiêu dùng có quyền gửi yêu cầu đến tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ để thương lượng khi cho rằng quyền, lợi ích hợp pháp của mình bị xâm phạm.\n2. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được yêu cầu.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 31,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-31",
+          "article": 31,
+          "article_title": "Thương lượng",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 22,
+          "char_end": 377
+        },
+        "score": 0.4340130749471083,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-19-2023-QH15:56:0",
+        "text": "Điều 56. Yêu cầu và tiếp nhận thương lượng\n1. Người tiêu dùng có quyền yêu cầu tổ chức, cá nhân kinh doanh thương lượng.\n2. Tổ chức, cá nhân kinh doanh phải tiếp nhận yêu cầu thương lượng của người tiêu dùng theo quy định tại Điều 57 của Luật này.\n3. Trường hợp tổ chức, cá nhân kinh doanh không trả lời yêu cầu thương lượng của người tiêu dùng theo quy định tại Điều 57 của Luật này hoặc từ chối thương lượng mà không có lý do chính đáng, người tiêu dùng có quyền yêu cầu cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng hỗ trợ thương lượng khi quyền, lợi ích hợp pháp của mình bị xâm phạm.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 56,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-56",
+          "article": 56,
+          "article_title": "Yêu cầu và tiếp nhận thương lượng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 43,
+          "char_end": 661
+        },
+        "score": 0.3710017135013958,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-59-2010-QH12:31:0 | https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi | page 31]\nĐiều 31. Thương lượng\n1. Người tiêu dùng có quyền gửi yêu cầu đến tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ để thương lượng khi cho rằng quyền, lợi ích hợp pháp của mình bị xâm phạm.\n2. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được yêu cầu.",
+    "context_ids": [
+      "luat-59-2010-QH12:31:0"
+    ],
+    "context_chars": 541,
+    "elapsed_ms": 0.4024168010801077,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d21",
+    "split": "dev",
+    "question": "Theo Luật 2010, trong vụ án dân sự về bảo vệ người tiêu dùng, ai quyết định bên nào có lỗi?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 42,
+        "evidence": "Tòa án quyết định bên có lỗi trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng."
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-59-2010-QH12:42:0",
+        "text": "Điều 42. Nghĩa vụ chứng minh trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Người tiêu dùng có nghĩa vụ cung cấp chứng cứ và chứng minh trong vụ án dân sự để bảo vệ quyền, lợi ích hợp pháp của mình theo quy định của pháp luật về tố tụng dân sự, trừ việc chứng minh lỗi của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ.\n2. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có nghĩa vụ chứng minh mình không có lỗi gây ra thiệt hại.\n3. Tòa án quyết định bên có lỗi trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 42,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-42",
+          "article": 42,
+          "article_title": "Nghĩa vụ chứng minh trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 84,
+          "char_end": 526
+        },
+        "score": 0.5045380657022526,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:70:0",
+        "text": "Điều 70. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng là vụ án mà bên khởi kiện là người tiêu dùng hoặc tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng theo quy định tại Luật này. Tòa án giải quyết vụ án dân sự về bảo vệ quyền lợi người tiêu dùng theo trình tự, thủ tục quy định tại Bộ luật Tố tụng dân sự.\n2. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng có giá trị giao dịch dưới 100 triệu đồng thì được giải quyết theo thủ tục rút gọn mà không phải đáp ứng các điều kiện quy định tại khoản 1 Điều 317 của Bộ luật Tố tụng Dân sự.\n3. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng không thuộc trường hợp quy định tại khoản 2 Điều này được giải quyết theo thủ tục rút gọn khi đáp ứng đủ các điều kiện quy định tại khoản 1 Điều 317 của Bộ luật Tố tụng dân sự.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 70,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-70",
+          "article": 70,
+          "article_title": "Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng",
+          "chapter": "V",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 58,
+          "char_end": 828
+        },
+        "score": 0.4370470069061342,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:41:0",
+        "text": "Điều 41. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng là vụ án mà bên khởi kiện là người tiêu dùng hoặc tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng theo quy định của Luật này.\n2. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được giải quyết theo thủ tục đơn giản quy định trong pháp luật về tố tụng dân sự khi có đủ các điều kiện sau đây:\na) Cá nhân là người tiêu dùng khởi kiện; tổ chức, cá nhân trực tiếp cung cấp hàng hóa, dịch vụ cho người tiêu dùng bị khởi kiện;\nb) Vụ án đơn giản, chứng cứ rõ ràng;\nc) Giá trị giao dịch dưới 100 triệu đồng.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 41,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-41",
+          "article": 41,
+          "article_title": "Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng",
+          "chapter": "4",
+          "chapter_title": "GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VÀ TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 0,
+          "char_start": 58,
+          "char_end": 618
+        },
+        "score": 0.41797437086285705,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-59-2010-QH12:42:0 | https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi | page 42]\nĐiều 42. Nghĩa vụ chứng minh trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Người tiêu dùng có nghĩa vụ cung cấp chứng cứ và chứng minh trong vụ án dân sự để bảo vệ quyền, lợi ích hợp pháp của mình theo quy định của pháp luật về tố tụng dân sự, trừ việc chứng minh lỗi của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ.\n2. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có nghĩa vụ chứng minh mình không có lỗi gây ra thiệt hại.\n3. Tòa án quyết định bên có lỗi trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng.",
+    "context_ids": [
+      "luat-59-2010-QH12:42:0"
+    ],
+    "context_chars": 690,
+    "elapsed_ms": 0.3584998194128275,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d22",
+    "split": "dev",
+    "question": "Nếu tôi đã được cảnh báo đầy đủ mà vẫn cố tình dùng sản phẩm bị lỗi rồi bị thiệt hại, doanh nghiệp có phải bồi thường không?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 35,
+        "evidence": "người tiêu dùng đã tiếp nhận đầy đủ thông tin nhưng vẫn cố ý sử dụng sản phẩm, hàng hóa có khuyết tật gây thiệt hại"
+      }
+    ],
+    "results": [
+      {
+        "id": "luat-19-2023-QH15:35:0",
+        "text": "Điều 35. Miễn trách nhiệm bồi thường thiệt hại do sản phẩm, hàng hóa có khuyết tật gây ra\nTổ chức, cá nhân kinh doanh quy định tại Điều 34 của Luật này được miễn trách nhiệm bồi thường thiệt hại trong các trường hợp sau đây:\n1. Khi chứng minh được khuyết tật của sản phẩm, hàng hóa không thể phát hiện được với trình độ khoa học, công nghệ của thế giới tính đến thời điểm sản phẩm, hàng hóa gây thiệt hại;\n2. Tổ chức, cá nhân kinh doanh đã áp dụng đầy đủ các biện pháp quy định tại Điều 32 và Điều 33 của Luật này, người tiêu dùng đã tiếp nhận đầy đủ thông tin nhưng vẫn cố ý sử dụng sản phẩm, hàng hóa có khuyết tật gây thiệt hại;\n3. Trường hợp khác theo quy định của pháp luật về dân sự và quy định khác của pháp luật có liên quan.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 35,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-35",
+          "article": 35,
+          "article_title": "Miễn trách nhiệm bồi thường thiệt hại do sản phẩm, hàng hóa có khuyết tật gây ra",
+          "chapter": "II",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 0,
+          "char_start": 90,
+          "char_end": 733
+        },
+        "score": 0.3656042774169218,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "luat-19-2023-QH15:34:1",
+        "text": "Điều 34. Bồi thường thiệt hại do sản phẩm, hàng hóa có khuyết tật gây ra\ne) Tổ chức, cá nhân khác chịu trách nhiệm về sản phẩm, hàng hóa theo quy định khác của pháp luật có liên quan.\n3. Trường hợp không xác định được tổ chức, cá nhân kinh doanh tại các điểm a, b, c, d và e khoản 2 Điều này thì tổ chức, cá nhân kinh doanh quy định tại điểm đ khoản 2 Điều này có trách nhiệm bồi thường thiệt hại cho người tiêu dùng, trừ trường hợp pháp luật có quy định khác.\n4. Trường hợp nhiều tổ chức, cá nhân kinh doanh quy định tại khoản 2 Điều này cùng gây thiệt hại thì các tổ chức, cá nhân kinh doanh đó phải liên đới bồi thường thiệt hại cho người tiêu dùng.\n5. Việc bồi thường thiệt hại được thực hiện theo quy định của pháp luật về dân sự và quy định khác của pháp luật có liên quan.",
+        "source_id": "luat-19-2023-QH15",
+        "source": "https://caselaw.vn/van-ban-phap-luat/411464-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15-ngay-20-06-2023-cua-quoc-hoi",
+        "page": 34,
+        "metadata": {
+          "unit_id": "luat-19-2023-QH15#dieu-34",
+          "article": 34,
+          "article_title": "Bồi thường thiệt hại do sản phẩm, hàng hóa có khuyết tật gây ra",
+          "chapter": "II",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "19/2023/QH15",
+          "version_year": 2023,
+          "is_current": true,
+          "effective_date": "2024-07-01",
+          "chunk_index": 1,
+          "char_start": 983,
+          "char_end": 1689
+        },
+        "score": 0.2910442364668963,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "luat-59-2010-QH12:23:1",
+        "text": "Điều 23. Trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật gây ra\n3. Việc bồi thường thiệt hại được thực hiện theo quy định của pháp luật về dân sự.",
+        "source_id": "luat-59-2010-QH12",
+        "source": "https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi",
+        "page": 23,
+        "metadata": {
+          "unit_id": "luat-59-2010-QH12#dieu-23",
+          "article": 23,
+          "article_title": "Trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật gây ra",
+          "chapter": "2",
+          "chapter_title": "TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+          "law_number": "59/2010/QH12",
+          "version_year": 2010,
+          "is_current": false,
+          "effective_date": "2011-07-01",
+          "chunk_index": 1,
+          "char_start": 958,
+          "char_end": 1040
+        },
+        "score": 0.2899310544057642,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-59-2010-QH12:23:1 | https://caselaw.vn/van-ban-phap-luat/115802-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-59-2010-qh12-ngay-17-11-2010-cua-quoc-hoi | page 23]\nĐiều 23. Trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật gây ra\n3. Việc bồi thường thiệt hại được thực hiện theo quy định của pháp luật về dân sự.",
+    "context_ids": [
+      "luat-59-2010-QH12:23:1"
+    ],
+    "context_chars": 321,
+    "elapsed_ms": 0.4297499544918537,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  }
+]

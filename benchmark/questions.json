@@ -1,0 +1,462 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ngày Quyền của người tiêu dùng Việt Nam là ngày nào?",
+    "expected_answer": "Ngày 15 tháng 3 hằng năm.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 13,
+        "evidence": "Ngày 15 tháng 3 hằng năm là Ngày Quyền của người tiêu dùng Việt Nam."
+      }
+    ],
+    "origin": "Day 6 dev d01"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Mua hàng trên mạng thì người bán có phải cho tôi tải và in hóa đơn không?",
+    "expected_answer": "Có. Người bán phải tạo điều kiện cho người tiêu dùng truy cập, tải, lưu trữ và in hóa đơn, chứng từ, tài liệu liên quan.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 29,
+        "evidence": "Trường hợp giao dịch trên không gian mạng thì tổ chức, cá nhân kinh doanh có trách nhiệm tạo điều kiện cho người tiêu dùng truy cập, tải, lưu trữ và in hóa đơn, chứng từ, tài liệu"
+      },
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 20,
+        "evidence": "Trường hợp giao dịch bằng phương tiện điện tử thì tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm tạo điều kiện cho người tiêu dùng truy nhập, tải, lưu giữ và in hóa đơn, chứng từ, tài liệu"
+      }
+    ],
+    "origin": "Day 6 dev d02"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Nếu trong thời gian bảo hành tôi được đổi sang sản phẩm mới thì thời hạn bảo hành tính thế nào?",
+    "expected_answer": "Thời hạn bảo hành của sản phẩm mới được tính lại từ thời điểm đổi.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 30,
+        "evidence": "Trường hợp tổ chức, cá nhân kinh doanh đổi sản phẩm, hàng hóa mới thì thời hạn bảo hành sản phẩm, hàng hóa đó được tính lại từ thời điểm đổi mới sản phẩm, hàng hóa"
+      },
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 21,
+        "evidence": "thời hạn bảo hành linh kiện, phụ kiện hoặc hàng hóa đó được tính từ thời điểm thay thế linh kiện, phụ kiện hoặc đổi hàng hóa mới"
+      }
+    ],
+    "origin": "Day 6 dev d03"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Mua hàng của người bán đến tận nhà, tôi có bao nhiêu ngày để suy nghĩ lại và hủy hợp đồng?",
+    "expected_answer": "Tối thiểu 03 ngày làm việc kể từ ngày giao kết (khi hợp đồng lập thành văn bản); trong thời hạn này được đơn phương chấm dứt.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 44,
+        "evidence": "phải dành tối thiểu 03 ngày làm việc kể từ ngày giao kết hợp đồng để người tiêu dùng cân nhắc lại việc quyết định thực hiện hợp đồng"
+      }
+    ],
+    "origin": "Day 6 dev d04"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Thế nào là người tiêu dùng dễ bị tổn thương?",
+    "expected_answer": "Người tiêu dùng có khả năng chịu nhiều tác động bất lợi về tiếp cận thông tin, sức khỏe, tài sản, giải quyết tranh chấp; gồm người cao tuổi, người khuyết tật, trẻ em, người dân tộc thiểu số...",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 8,
+        "evidence": "Người tiêu dùng dễ bị tổn thương là người tiêu dùng có khả năng chịu nhiều tác động bất lợi về tiếp cận thông tin, sức khỏe, tài sản, giải quyết tranh chấp"
+      }
+    ],
+    "origin": "Day 6 dev d05"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Tranh chấp tiêu dùng có người dân tộc thiểu số thì việc hòa giải phải đáp ứng yêu cầu gì về hòa giải viên?",
+    "expected_answer": "Phải có ít nhất 01 hòa giải viên là người dân tộc thiểu số hoặc thông thạo tiếng dân tộc đó; nếu không có thì các bên tự bố trí hoặc đề nghị bố trí phiên dịch.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 64,
+        "evidence": "phải có ít nhất 01 hòa giải viên là người dân tộc thiểu số hoặc là người sử dụng thông thạo tiếng của dân tộc thiểu số đó"
+      }
+    ],
+    "origin": "Day 6 dev d06"
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Nhà cung cấp dịch vụ liên tục phải báo cho khách về việc nộp phí gia hạn trước bao lâu?",
+    "expected_answer": "Tối thiểu 07 ngày làm việc trước ngày hết hạn sử dụng dịch vụ.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 42,
+        "evidence": "Thông báo cho người tiêu dùng về việc nộp phí để tiếp tục sử dụng dịch vụ theo cách thức đã được thỏa thuận tối thiểu 07 ngày làm việc trước ngày hết hạn sử dụng dịch vụ"
+      }
+    ],
+    "origin": "Day 6 dev d07"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Biên bản kết quả thương lượng giữa tôi và cửa hàng cần có chữ ký của ai?",
+    "expected_answer": "Văn bản phải có chữ ký hoặc điểm chỉ của các bên thương lượng.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 60,
+        "evidence": "văn bản phải có chữ ký hoặc điểm chỉ của các bên thương lượng"
+      }
+    ],
+    "origin": "Day 6 dev d08"
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Trong vụ kiện vì lợi ích công cộng, nếu không xác định được ai được hưởng tiền bồi thường thì tiền đó dùng vào việc gì?",
+    "expected_answer": "Dùng phục vụ các hoạt động chung vì quyền lợi người tiêu dùng theo quy định của Chính phủ.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 73,
+        "evidence": "được sử dụng để phục vụ cho các hoạt động chung vì quyền lợi người tiêu dùng theo quy định của Chính phủ"
+      }
+    ],
+    "origin": "Day 6 dev d09"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo Luật 2010, khi thu hồi hàng hóa có khuyết tật phải thông báo trên báo ngày bao nhiêu số liên tiếp?",
+    "expected_answer": "Ít nhất 05 số liên tiếp trên báo ngày hoặc 05 ngày liên tiếp trên đài phát thanh, truyền hình địa phương.",
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 22,
+        "evidence": "ít nhất 05 số liên tiếp trên báo ngày hoặc 05 ngày liên tiếp trên đài phát thanh, truyền hình tại địa phương"
+      }
+    ],
+    "origin": "Day 6 dev d10"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo Luật 2010, người tiêu dùng khởi kiện vụ án dân sự có phải nộp tạm ứng án phí không?",
+    "expected_answer": "Không phải nộp tạm ứng án phí, tạm ứng lệ phí Tòa án.",
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 43,
+        "evidence": "Người tiêu dùng khởi kiện vụ án dân sự để bảo vệ quyền, lợi ích hợp pháp của mình không phải nộp tạm ứng án phí, tạm ứng lệ phí Tòa án."
+      }
+    ],
+    "origin": "Day 6 dev d11"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo luật hiện hành năm 2023, những tổ chức nào được hòa giải tranh chấp giữa người tiêu dùng và doanh nghiệp?",
+    "expected_answer": "Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng; tổ chức hòa giải theo pháp luật về hòa giải thương mại, hòa giải ở cơ sở, hòa giải tại tòa án; tổ chức khác có chức năng hòa giải.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 63,
+        "evidence": "Tổ chức hòa giải theo quy định của pháp luật về hòa giải thương mại, pháp luật về hòa giải tại cơ sở, pháp luật về hòa giải tại tòa án"
+      }
+    ],
+    "origin": "Day 6 dev d12"
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo Luật 2010, doanh nghiệp được miễn bồi thường thiệt hại do hàng hóa có khuyết tật trong trường hợp nào?",
+    "expected_answer": "Khi chứng minh được khuyết tật không thể phát hiện được với trình độ khoa học, kỹ thuật tại thời điểm cung cấp hàng hóa.",
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 24,
+        "evidence": "khuyết tật của hàng hóa không thể phát hiện được với trình độ khoa học, kỹ thuật tại thời điểm tổ chức, cá nhân kinh doanh hàng hóa cung cấp cho người tiêu dùng"
+      }
+    ],
+    "origin": "Day 6 dev d13"
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Luật bảo vệ quyền lợi người tiêu dùng bản năm 2010 bắt đầu có hiệu lực từ ngày nào?",
+    "expected_answer": "Từ ngày 01 tháng 7 năm 2011.",
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 50,
+        "evidence": "Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011."
+      }
+    ],
+    "origin": "Day 6 dev d14"
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Luật Bảo vệ quyền lợi người tiêu dùng số 59/2010/QH12 hết hiệu lực khi nào?",
+    "expected_answer": "Hết hiệu lực kể từ ngày Luật 19/2023/QH15 có hiệu lực (01/7/2024), trừ các trường hợp chuyển tiếp tại điểm a khoản 1 và khoản 2 Điều 80.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 79,
+        "evidence": "hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại điểm a khoản 1 và khoản 2 Điều 80 của Luật này"
+      }
+    ],
+    "origin": "Day 6 dev d15"
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo luật hiện hành năm 2023, người tiêu dùng được định nghĩa là ai?",
+    "expected_answer": "Người mua, sử dụng sản phẩm, hàng hóa, dịch vụ cho mục đích tiêu dùng, sinh hoạt của cá nhân, gia đình, cơ quan, tổ chức và không vì mục đích thương mại.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 3,
+        "evidence": "Người tiêu dùng là người mua, sử dụng sản phẩm, hàng hóa, dịch vụ cho mục đích tiêu dùng, sinh hoạt của cá nhân, gia đình, cơ quan, tổ chức và không vì mục đích thương mại."
+      }
+    ],
+    "origin": "Day 6 dev d16"
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Cửa hàng từ chối thương lượng với tôi mà không có lý do chính đáng thì tôi có thể làm gì?",
+    "expected_answer": "Yêu cầu cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng hoặc tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng hỗ trợ thương lượng.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 56,
+        "evidence": "người tiêu dùng có quyền yêu cầu cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng hỗ trợ thương lượng"
+      }
+    ],
+    "origin": "Day 6 test t01 (đã chạy ở Day 6 nên chuyển sang dev)"
+  },
+  {
+    "id": "d18",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Tổ chức xã hội khởi kiện vì lợi ích công cộng về quyền lợi người tiêu dùng có phải chịu án phí không?",
+    "expected_answer": "Không phải nộp tiền tạm ứng án phí và không phải chịu án phí.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 71,
+        "evidence": "vì lợi ích công cộng không phải nộp tiền tạm ứng án phí, không phải chịu án phí"
+      }
+    ],
+    "origin": "Day 6 test t02 (đã chạy ở Day 6 nên chuyển sang dev)"
+  },
+  {
+    "id": "d19",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Thông tin cảnh báo về người bán online vi phạm được công khai gồm những danh sách nào?",
+    "expected_answer": "Danh sách tổ chức, cá nhân kinh doanh trên không gian mạng vi phạm quyền lợi người tiêu dùng bị xử lý theo luật VN; và danh sách bị cơ quan nước ngoài có thẩm quyền xử lý có ảnh hưởng tới người tiêu dùng VN.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 40,
+        "evidence": "Danh sách tổ chức, cá nhân kinh doanh trên không gian mạng có hành vi vi phạm quyền, lợi ích hợp pháp của người tiêu dùng bị xử lý"
+      }
+    ],
+    "origin": "Day 6 test t03 (đã chạy ở Day 6 nên chuyển sang dev)"
+  },
+  {
+    "id": "d20",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo luật năm 2023, doanh nghiệp phải tiến hành thương lượng với người tiêu dùng trong thời hạn bao lâu kể từ khi nhận yêu cầu?",
+    "expected_answer": "Trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 57,
+        "evidence": "Tổ chức, cá nhân kinh doanh có trách nhiệm tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu."
+      }
+    ],
+    "origin": "Day 6 test t04 (đã chạy ở Day 6 nên chuyển sang dev)"
+  },
+  {
+    "id": "d21",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo Luật 2010, trong vụ án dân sự về bảo vệ người tiêu dùng, ai quyết định bên nào có lỗi?",
+    "expected_answer": "Tòa án quyết định bên có lỗi.",
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 42,
+        "evidence": "Tòa án quyết định bên có lỗi trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng."
+      }
+    ],
+    "origin": "Day 6 test t05 (đã chạy ở Day 6 nên chuyển sang dev)"
+  },
+  {
+    "id": "d22",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Nếu tôi đã được cảnh báo đầy đủ mà vẫn cố tình dùng sản phẩm bị lỗi rồi bị thiệt hại, doanh nghiệp có phải bồi thường không?",
+    "expected_answer": "Không, nếu doanh nghiệp đã áp dụng đủ biện pháp tại Điều 32, 33 và người tiêu dùng đã nhận đủ thông tin nhưng vẫn cố ý sử dụng thì doanh nghiệp được miễn trách nhiệm bồi thường.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 35,
+        "evidence": "người tiêu dùng đã tiếp nhận đầy đủ thông tin nhưng vẫn cố ý sử dụng sản phẩm, hàng hóa có khuyết tật gây thiệt hại"
+      }
+    ],
+    "origin": "Day 6 test t06 (đã chạy ở Day 6 nên chuyển sang dev)"
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Sau khi nhận được khiếu nại của người tiêu dùng, doanh nghiệp phải thông báo việc tiếp nhận trong thời hạn bao lâu?",
+    "expected_answer": "Trong thời hạn 03 ngày làm việc kể từ ngày nhận được phản ánh, yêu cầu, khiếu nại.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 31,
+        "evidence": "thông báo cho người tiêu dùng về việc tiếp nhận phản ánh, yêu cầu, khiếu nại của người tiêu dùng trong thời hạn 03 ngày làm việc kể từ ngày nhận được phản ánh, yêu cầu, khiếu nại đó"
+      }
+    ],
+    "origin": "Day 7, viết mới từ Điều chưa dùng ở Day 6"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "type": "ngoai_le",
+    "question": "Doanh nghiệp siêu nhỏ có bắt buộc phải niêm yết, công khai quy trình tiếp nhận và giải quyết khiếu nại của người tiêu dùng không?",
+    "expected_answer": "Không bắt buộc: quy định công khai quy trình không bắt buộc áp dụng với cá nhân hoạt động thương mại độc lập, thường xuyên, không phải đăng ký kinh doanh và tất cả doanh nghiệp siêu nhỏ.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 31,
+        "evidence": "Quy định tại khoản này không bắt buộc áp dụng đối với cá nhân hoạt động thương mại độc lập, thường xuyên, không phải đăng ký kinh doanh, tất cả doanh nghiệp siêu nhỏ"
+      }
+    ],
+    "origin": "Day 7, viết mới từ Điều chưa dùng ở Day 6"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Một người chưa thành niên tự gửi yêu cầu hỗ trợ thương lượng mà không có người đại diện hợp pháp thì yêu cầu đó có được tiếp nhận không?",
+    "expected_answer": "Không. Đây là trường hợp không tiếp nhận và giải quyết yêu cầu hỗ trợ thương lượng (người tiêu dùng chưa thành niên mà không có người đại diện hợp pháp).",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 58,
+        "evidence": "Người tiêu dùng là người chưa thành niên, người mất năng lực hành vi dân sự hoặc hạn chế năng lực hành vi dân sự hoặc có khó khăn trong nhận thức, làm chủ hành vi mà không có người đại diện hợp pháp"
+      }
+    ],
+    "origin": "Day 7, viết mới từ Điều chưa dùng ở Day 6"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Theo Luật 2010, biên bản hòa giải phải có chữ ký của những ai?",
+    "expected_answer": "Chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải.",
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 36,
+        "evidence": "Biên bản hòa giải phải có chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải"
+      }
+    ],
+    "origin": "Day 7, viết mới từ Điều chưa dùng ở Day 6"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Theo luật năm 2023, khi tranh chấp với doanh nghiệp, người tiêu dùng có phải tự chứng minh lỗi của doanh nghiệp không?",
+    "expected_answer": "Không. Người tiêu dùng cung cấp chứng cứ, chứng minh để bảo vệ quyền lợi của mình, trừ việc chứng minh lỗi của tổ chức, cá nhân kinh doanh; doanh nghiệp phải chứng minh mình không có lỗi.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 69,
+        "evidence": "trừ việc chứng minh lỗi của tổ chức, cá nhân kinh doanh"
+      }
+    ],
+    "origin": "Day 7, viết mới từ Điều chưa dùng ở Day 6"
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Hai bên đã hòa giải thành, một bên muốn kết quả đó được công nhận chính thức thì có thể yêu cầu cơ quan nào?",
+    "expected_answer": "Yêu cầu Tòa án ra quyết định công nhận kết quả hòa giải thành (theo pháp luật về tố tụng dân sự).",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 66,
+        "evidence": "Một trong các bên tham gia hòa giải có quyền yêu cầu Tòa án ra quyết định công nhận kết quả hòa giải thành"
+      }
+    ],
+    "origin": "Day 7, viết mới từ Điều chưa dùng ở Day 6"
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Theo Luật 2010, nếu một bên không tự nguyện thực hiện kết quả hòa giải thành thì bên kia có quyền làm gì?",
+    "expected_answer": "Có quyền khởi kiện ra Tòa án để yêu cầu giải quyết theo quy định của pháp luật.",
+    "gold": [
+      {
+        "source_id": "luat-59-2010-QH12",
+        "page": 37,
+        "evidence": "trường hợp một bên không tự nguyện thực hiện thì bên kia có quyền khởi kiện ra Tòa án để yêu cầu giải quyết theo quy định của pháp luật"
+      }
+    ],
+    "origin": "Day 7, viết mới từ Điều chưa dùng ở Day 6"
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Hợp đồng tham gia bán hàng đa cấp phải được giao kết dưới hình thức nào?",
+    "expected_answer": "Phải giao kết bằng văn bản.",
+    "gold": [
+      {
+        "source_id": "luat-19-2023-QH15",
+        "page": 46,
+        "evidence": "Tổ chức bán hàng đa cấp và cá nhân tham gia bán hàng đa cấp phải giao kết hợp đồng tham gia bán hàng đa cấp bằng văn bản"
+      }
+    ],
+    "origin": "Day 7, viết mới từ Điều chưa dùng ở Day 6"
+  }
+]
