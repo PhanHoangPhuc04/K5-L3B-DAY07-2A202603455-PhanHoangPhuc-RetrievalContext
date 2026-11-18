@@ -1,6 +1,6 @@
 # Báo cáo Day 7
 
-Học viên: Phan Hoàng Phúc · MSSV 2A202603455 · L3A
+Học viên: Phan Hoàng Phúc · MSSV 2A202603455 · L3B
 Thời điểm chạy agent: dev 2026-11-14 13:17–13:18 UTC, test 13:21 UTC · macOS arm64, Python 3.13.15, CPU
 
 ## Dữ liệu và benchmark

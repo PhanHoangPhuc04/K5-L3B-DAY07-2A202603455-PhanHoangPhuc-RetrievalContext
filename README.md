@@ -1,4 +1,4 @@
-# Bài làm Day 07 — Phan Hoàng Phúc (2A202603455, L3A)
+# Bài làm Day 07 — Phan Hoàng Phúc (2A202603455, L3B)
 
 Agentic RAG trên kho Day 6: Luật Bảo vệ quyền lợi người tiêu dùng 2010 (59/2010/QH12) và 2023 (19/2023/QH15), 131 Điều, 213 chunk theo khoản (cấu hình B của Day 6). Embedding `intfloat/multilingual-e5-base` (768 chiều) chạy local, vector store Chroma. Agent dùng model DeepSeek `deepseek-flash` qua tool calling thật. Chỉ làm phần cơ bản, không làm thử thách nâng cao.
 
